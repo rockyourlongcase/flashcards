@@ -56,13 +56,14 @@ body {
 .spec-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
 .spec-card.empty { opacity: 0.5; cursor: default; }
 .spec-card.empty:hover { transform: none; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
-.spec-icon { width: 52px; height: 52px; border-radius: 14px; background: var(--teal); display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; }
+.spec-icon { width: 52px; height: 52px; border-radius: 14px; background: var(--teal); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.spec-grid .spec-icon { margin: 0 auto 10px; }
 .spec-name { font-size: 13px; font-weight: 600; color: #333; line-height: 1.3; }
 .coming-soon { font-size: 10px; color: #aaa; margin-top: 4px; }
 
 /* SPECIALTY PAGE */
 .back-link { color: var(--teal); font-size: 14px; cursor: pointer; font-weight: 600; margin-bottom: 16px; padding-top: 20px; }
-.spec-header { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; }
+.spec-header { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; justify-content: flex-start; }
 .spec-header h2 { font-size: 24px; font-weight: 700; color: #1a1a1a; }
 .cond-list { display: flex; flex-direction: column; gap: 2px; padding-bottom: 100px; }
 .cond-item {
@@ -75,13 +76,13 @@ body {
 
 /* CONDITION PAGE */
 .cond-title { margin: 0 0 14px; font-size: 24px; font-weight: 700; color: #1a1a1a; }
-.btn-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
-.btn { border-radius: 20px; padding: 7px 16px; font-size: 13px; font-weight: 600; cursor: pointer; border: 1.5px solid; font-family: inherit; }
+.btn-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; align-items: center; }
+.btn { border-radius: 20px; padding: 7px 16px; font-size: 13px; font-weight: 600; cursor: pointer; border: 1.5px solid; font-family: inherit; white-space: nowrap; }
 .btn-teal-outline { background: transparent; border-color: var(--teal); color: var(--teal); }
 .btn-teal { background: var(--teal); border-color: var(--teal); color: #fff; }
 .btn-gold-outline { background: transparent; border-color: var(--gold); color: var(--gold); }
 .btn-grey-outline { background: transparent; border-color: #ccc; color: #666; }
-.btn-practice { background: transparent; border-color: #888; color: #666; margin-left: auto; }
+.btn-practice { background: transparent; border-color: #888; color: #666; }
 
 /* SECTIONS */
 .sections { display: flex; flex-direction: column; gap: 3px; padding-bottom: 100px; }
@@ -367,7 +368,7 @@ function renderHome() {
       <div class="home-title">Long Case Flashcards</div>
       <div class="home-subtitle">DARNFASTIF Framework</div>
       <p class="home-tagline">Take the history the way you will present the history</p>
-      <p class="home-credit">A companion resource to the <a href="#">Rock Your Long Case</a> tutorials by Kristeen Barker.</p>
+      <p class="home-credit">A companion resource to the <a href="https://tutorials.kristeenbarker.com/bundles/rock-your-long-case" target="_blank">Rock Your Long Case</a> tutorials by Kristeen Barker.</p>
     </div>
     <div class="key-bar">
       <div class="key-label">KEY</div>
