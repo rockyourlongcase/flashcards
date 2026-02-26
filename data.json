@@ -8919,7 +8919,11 @@
           "Deforming"
         ],
         "tips": null,
-        "resources": [],
+        "resources": [
+          "RYLC Week 7: Live Practise Session \"Multifactorial Pain Syndromes\"",
+          "RYLC Week 7: \"Assessing Function\"",
+          "RYLC Week 7: \"Assessing Disease Activity\""
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -9360,7 +9364,10 @@
           "With / without axial involvement"
         ],
         "tips": null,
-        "resources": [],
+        "resources": [
+          "RYLC Week 7: Assessing Function\"",
+          "RYLC Week 7: Assessing Disease Activity"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
