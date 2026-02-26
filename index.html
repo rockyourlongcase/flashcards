@@ -333,6 +333,7 @@ function navigate(view, spec, cond) {
 function render() {
   const app = document.getElementById('app');
   let html = '';
+  window._tooltipData = {};
 
   if (state.view === 'home') html = renderHome();
   else if (state.view === 'specialty') html = renderSpecialty();
@@ -431,10 +432,9 @@ function renderCondition() {
       sectionIconsHtml = sd.sectionIcons.map((ic, ii) => {
         const emoji = ic.type === 'synthesis' ? '🔗' : ic.type === 'course' ? '📚' : '💡';
         const content = ic.tip || ic.ref || '';
-        const safeId = `sec-${condId}-${cfg.key}-icon-${ii}`;
-        if (!window._tooltipData) window._tooltipData = {};
+        const safeId = `sec-${c.id}-${cfg.key}-icon-${ii}`;
         window._tooltipData[safeId] = { type: ic.type, content: content };
-        return `<span class="section-icon" data-tip-id="${safeId}" onmouseenter="showTipById(event,this)" onmouseleave="hideTooltip()" ontouchstart="toggleTipById(event,this)">${emoji}</span>`;
+        return `<span class="section-icon" data-tip-id="${safeId}" onclick="event.stopPropagation();toggleTipById(event,this)" onmouseenter="showTipById(event,this)" onmouseleave="hideTooltip()">${emoji}</span>`;
       }).join('');
     }
 
@@ -489,10 +489,8 @@ function renderItems(condId, sectionKey, items) {
         const emoji = ic.type === 'synthesis' ? '🔗' : ic.type === 'course' ? '📚' : '💡';
         const content = ic.tip || ic.ref || '';
         const safeId = `${condId}-${sectionKey}-${idx}-icon-${ii}`;
-        // Store tooltip data in a global map to avoid escaping issues
-        if (!window._tooltipData) window._tooltipData = {};
         window._tooltipData[safeId] = { type: ic.type, content: content };
-        return `<span class="inline-icon" data-tip-id="${safeId}" onclick="event.stopPropagation()" onmouseenter="showTipById(event,this)" onmouseleave="hideTooltip()" ontouchstart="toggleTipById(event,this)">${emoji}</span>`;
+        return `<span class="inline-icon" data-tip-id="${safeId}" onclick="event.stopPropagation();toggleTipById(event,this)" onmouseenter="showTipById(event,this)" onmouseleave="hideTooltip()">${emoji}</span>`;
       }).join('');
     }
 
@@ -628,7 +626,6 @@ function resetPractice() {
 }
 
 // Tooltips
-window._tooltipData = {};
 function showTipById(e, el) {
   e.stopPropagation();
   const id = el.getAttribute('data-tip-id');
@@ -639,9 +636,17 @@ function showTipById(e, el) {
   renderTooltip();
 }
 function toggleTipById(e, el) {
-  e.stopPropagation(); e.preventDefault();
-  if (state.tooltip) { hideTooltip(); return; }
-  showTipById(e, el);
+  e.stopPropagation(); e.stopImmediatePropagation(); e.preventDefault();
+  const id = el.getAttribute('data-tip-id');
+  const data = window._tooltipData[id];
+  if (!data) return;
+  if (state.tooltip && state.tooltip._id === id) {
+    hideTooltip();
+    return;
+  }
+  const r = el.getBoundingClientRect();
+  state.tooltip = { type: data.type, content: data.content, x: r.left, y: r.bottom + 8, _id: id };
+  renderTooltip();
 }
 function showItemTooltip(e, type, content) {
   e.stopPropagation();
