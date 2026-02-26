@@ -430,7 +430,11 @@ function renderCondition() {
     if (sd.sectionIcons?.length) {
       sectionIconsHtml = sd.sectionIcons.map((ic, ii) => {
         const emoji = ic.type === 'synthesis' ? '🔗' : ic.type === 'course' ? '📚' : '💡';
-        return `<span class="section-icon" onmouseenter="showSectionTooltip(event,'${ic.type}',${JSON.stringify(ic.tip || ic.ref || '').replace(/'/g, "\\'")})" onmouseleave="hideTooltip()" ontouchstart="toggleSectionTooltip(event,'${ic.type}',${JSON.stringify(ic.tip || ic.ref || '').replace(/'/g, "\\'")})">${emoji}</span>`;
+        const content = ic.tip || ic.ref || '';
+        const safeId = `sec-${condId}-${cfg.key}-icon-${ii}`;
+        if (!window._tooltipData) window._tooltipData = {};
+        window._tooltipData[safeId] = { type: ic.type, content: content };
+        return `<span class="section-icon" data-tip-id="${safeId}" onmouseenter="showTipById(event,this)" onmouseleave="hideTooltip()" ontouchstart="toggleTipById(event,this)">${emoji}</span>`;
       }).join('');
     }
 
@@ -481,11 +485,14 @@ function renderItems(condId, sectionKey, items) {
 
     let iconsHtml = '';
     if (item.icons?.length) {
-      iconsHtml = item.icons.map(ic => {
+      iconsHtml = item.icons.map((ic, ii) => {
         const emoji = ic.type === 'synthesis' ? '🔗' : ic.type === 'course' ? '📚' : '💡';
         const content = ic.tip || ic.ref || '';
-        const safeContent = content.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n/g,'\\n');
-        return `<span class="inline-icon" onclick="event.stopPropagation()" onmouseenter="showItemTooltip(event,'${ic.type}','${safeContent}')" onmouseleave="hideTooltip()" ontouchstart="toggleItemTooltip(event,'${ic.type}','${safeContent}')">${emoji}</span>`;
+        const safeId = `${condId}-${sectionKey}-${idx}-icon-${ii}`;
+        // Store tooltip data in a global map to avoid escaping issues
+        if (!window._tooltipData) window._tooltipData = {};
+        window._tooltipData[safeId] = { type: ic.type, content: content };
+        return `<span class="inline-icon" data-tip-id="${safeId}" onclick="event.stopPropagation()" onmouseenter="showTipById(event,this)" onmouseleave="hideTooltip()" ontouchstart="toggleTipById(event,this)">${emoji}</span>`;
       }).join('');
     }
 
@@ -621,6 +628,21 @@ function resetPractice() {
 }
 
 // Tooltips
+window._tooltipData = {};
+function showTipById(e, el) {
+  e.stopPropagation();
+  const id = el.getAttribute('data-tip-id');
+  const data = window._tooltipData[id];
+  if (!data) return;
+  const r = el.getBoundingClientRect();
+  state.tooltip = { type: data.type, content: data.content, x: r.left, y: r.bottom + 8 };
+  renderTooltip();
+}
+function toggleTipById(e, el) {
+  e.stopPropagation(); e.preventDefault();
+  if (state.tooltip) { hideTooltip(); return; }
+  showTipById(e, el);
+}
 function showItemTooltip(e, type, content) {
   e.stopPropagation();
   const r = e.currentTarget.getBoundingClientRect();
@@ -631,16 +653,6 @@ function toggleItemTooltip(e, type, content) {
   e.stopPropagation(); e.preventDefault();
   if (state.tooltip) { hideTooltip(); return; }
   showItemTooltip(e, type, content);
-}
-function showSectionTooltip(e, type, content) {
-  const r = e.currentTarget.getBoundingClientRect();
-  state.tooltip = { type, content, x: r.left, y: r.bottom + 8 };
-  renderTooltip();
-}
-function toggleSectionTooltip(e, type, content) {
-  e.stopPropagation(); e.preventDefault();
-  if (state.tooltip) { hideTooltip(); return; }
-  showSectionTooltip(e, type, content);
 }
 function hideTooltip() {
   state.tooltip = null;
