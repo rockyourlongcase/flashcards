@@ -340,9 +340,10 @@ function render() {
   else if (state.view === 'condition') html = renderCondition();
 
   // Floating tracker button
-  const allConds = DATA.flatMap(s => s.conditions);
-  const totalMasteredFab = allConds.filter(c => (state.practice[c.id]?.count || 0) >= 10).length;
-  const totalCondsFab = allConds.length;
+  const allCondsRaw = DATA.flatMap(s => s.conditions);
+  const uniqueCondIds = [...new Set(allCondsRaw.map(c => c.id))];
+  const totalMasteredFab = uniqueCondIds.filter(id => (state.practice[id]?.count || 0) >= 10).length;
+  const totalCondsFab = uniqueCondIds.length;
   html += `<button class="fab" onclick="showModal('tracker')">📊<span class="fab-badge">${totalMasteredFab}/${totalCondsFab}</span></button>`;
 
   app.innerHTML = html;
@@ -551,25 +552,31 @@ function renderModal() {
 }
 
 function renderTracker() {
-  const allConds = DATA.flatMap(s => s.conditions.map(c => ({...c, specName: s.name, specId: s.id})));
+  const allCondsRaw = DATA.flatMap(s => s.conditions.map(c => ({...c, specName: s.name, specId: s.id})));
+  const uniqueCondIds = [...new Set(allCondsRaw.map(c => c.id))];
   const totalSessions = Object.values(state.practice).reduce((s,d) => s + (d.count||0), 0);
-  const totalMastered = allConds.filter(c => (state.practice[c.id]?.count||0) >= 10).length;
-  const totalPracticed = allConds.filter(c => (state.practice[c.id]?.count||0) > 0).length;
-  const totalConds = allConds.length;
+  const totalMastered = uniqueCondIds.filter(id => (state.practice[id]?.count||0) >= 10).length;
+  const totalPracticed = uniqueCondIds.filter(id => (state.practice[id]?.count||0) > 0).length;
+  const totalConds = uniqueCondIds.length;
   const pct = totalConds > 0 ? Math.round((totalMastered / totalConds) * 100) : 0;
   const remaining = totalConds - totalMastered;
 
-  // Build clickable condition list
+  // Build clickable condition list (deduplicated)
   let condList = '';
-  let specIdx = 0;
+  const seenIds = new Set();
   DATA.forEach((s, si) => {
     if (s.conditions.length === 0) return;
-    let items = s.conditions.map((c, ci) => {
+    let items = s.conditions.filter(c => {
+      if (seenIds.has(c.id)) return false;
+      seenIds.add(c.id);
+      return true;
+    }).map((c, ci) => {
+      const origCi = s.conditions.indexOf(c);
       const count = state.practice[c.id]?.count || 0;
       const mastered = count >= 10;
       const color = mastered ? '#2D5A4E' : count > 0 ? '#C4960C' : '#E74C3C';
       const status = mastered ? '✓ Mastered' : count > 0 ? `${count}/10` : 'Not yet';
-      return `<div class="tracker-cond" onclick="closeModal();navigate('condition',${si},${ci})" style="cursor:pointer">
+      return `<div class="tracker-cond" onclick="closeModal();navigate('condition',${si},${origCi})" style="cursor:pointer">
         <div class="tracker-circle" style="border-color:${color};color:${color}">${count}</div>
         <div class="tracker-cond-info">
           <div class="tracker-cond-name">${esc(c.name)}</div>
@@ -578,7 +585,7 @@ function renderTracker() {
         <div class="tracker-dot" style="background:${color}"></div>
       </div>`;
     }).join('');
-    condList += `<div class="tracker-spec-label">${s.name.toUpperCase()}</div>${items}`;
+    if (items) condList += `<div class="tracker-spec-label">${s.name.toUpperCase()}</div>${items}`;
   });
 
   // Tiered motivational messages
