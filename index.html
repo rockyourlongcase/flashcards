@@ -167,8 +167,8 @@ body {
 }
 .fab:hover { transform: scale(1.1); }
 .fab-badge {
-  position: absolute; top: -4px; right: -4px; background: #E74C3C; color: #fff;
-  border-radius: 50%; width: 20px; height: 20px; font-size: 11px; font-weight: 700;
+  position: absolute; top: -6px; right: -10px; background: #E74C3C; color: #fff;
+  border-radius: 10px; min-width: 20px; height: 20px; padding: 0 5px; font-size: 10px; font-weight: 700;
   display: flex; align-items: center; justify-content: center;
 }
 
@@ -341,8 +341,9 @@ function render() {
 
   // Floating tracker button
   const allConds = DATA.flatMap(s => s.conditions);
-  const practiced = allConds.filter(c => (state.practice[c.id]?.count || 0) > 0).length;
-  html += `<button class="fab" onclick="showModal('tracker')">📊${practiced > 0 ? `<span class="fab-badge">${practiced}</span>` : ''}</button>`;
+  const totalMasteredFab = allConds.filter(c => (state.practice[c.id]?.count || 0) >= 10).length;
+  const totalCondsFab = allConds.length;
+  html += `<button class="fab" onclick="showModal('tracker')">📊<span class="fab-badge">${totalMasteredFab}/${totalCondsFab}</span></button>`;
 
   app.innerHTML = html;
 
@@ -554,15 +555,21 @@ function renderTracker() {
   const totalSessions = Object.values(state.practice).reduce((s,d) => s + (d.count||0), 0);
   const totalMastered = allConds.filter(c => (state.practice[c.id]?.count||0) >= 10).length;
   const totalPracticed = allConds.filter(c => (state.practice[c.id]?.count||0) > 0).length;
-  const pct = allConds.length > 0 ? Math.round((totalMastered / allConds.length) * 100) : 0;
+  const totalConds = allConds.length;
+  const pct = totalConds > 0 ? Math.round((totalMastered / totalConds) * 100) : 0;
+  const remaining = totalConds - totalMastered;
 
-  let condList = DATA.filter(s => s.conditions.length > 0).map(s => {
-    let items = s.conditions.map(c => {
+  // Build clickable condition list
+  let condList = '';
+  let specIdx = 0;
+  DATA.forEach((s, si) => {
+    if (s.conditions.length === 0) return;
+    let items = s.conditions.map((c, ci) => {
       const count = state.practice[c.id]?.count || 0;
       const mastered = count >= 10;
       const color = mastered ? '#2D5A4E' : count > 0 ? '#C4960C' : '#E74C3C';
       const status = mastered ? '✓ Mastered' : count > 0 ? `${count}/10` : 'Not yet';
-      return `<div class="tracker-cond">
+      return `<div class="tracker-cond" onclick="closeModal();navigate('condition',${si},${ci})" style="cursor:pointer">
         <div class="tracker-circle" style="border-color:${color};color:${color}">${count}</div>
         <div class="tracker-cond-info">
           <div class="tracker-cond-name">${esc(c.name)}</div>
@@ -571,26 +578,43 @@ function renderTracker() {
         <div class="tracker-dot" style="background:${color}"></div>
       </div>`;
     }).join('');
-    return `<div class="tracker-spec-label">${s.name.toUpperCase()}</div>${items}`;
-  }).join('');
+    condList += `<div class="tracker-spec-label">${s.name.toUpperCase()}</div>${items}`;
+  });
 
+  // Tiered motivational messages
   let msg = '';
-  if (totalSessions > 0) {
-    msg = totalMastered > 0
-      ? `💪 Great progress! You've mastered ${totalMastered} condition${totalMastered>1?'s':''} and practised ${totalPracticed}. Keep going!`
-      : `💪 You've started practising ${totalPracticed} condition${totalPracticed>1?'s':''}. Aim for 10 each to master them!`;
+  if (totalMastered >= totalConds) {
+    msg = "🏆 You've mastered every condition. You're ready to rock your long case!";
+  } else if (totalMastered >= 31) {
+    msg = `🔥 Almost there! Just ${remaining} more to go!`;
+  } else if (totalMastered >= 21) {
+    msg = `🚀 ${totalMastered} mastered — the finish line is in sight!`;
+  } else if (totalMastered >= 11) {
+    msg = `⭐ Over a third mastered! Your long case skills are really taking shape.`;
+  } else if (totalMastered >= 6) {
+    msg = `🔥 ${totalMastered} down, ${remaining} to go — you're well on your way to exam-ready!`;
+  } else if (totalMastered >= 2) {
+    msg = `💪 ${totalMastered} conditions mastered! You're building a solid foundation.`;
+  } else if (totalMastered === 1) {
+    msg = `🎉 You've mastered your first condition! That's real progress.`;
+  } else if (totalPracticed >= 4) {
+    msg = `💪 Great momentum! You've started practising ${totalPracticed} conditions. Aim for 10 each to master them!`;
+  } else if (totalPracticed >= 1) {
+    msg = `🌱 You're on your way! Keep building the habit — consistency is key.`;
+  } else {
+    msg = `Start practising any condition to track your progress here!`;
   }
 
   return `
     <div class="tracker-header"><h3>Practice Tracker</h3><button class="tracker-close" onclick="closeModal()">✕</button></div>
     <div class="tracker-stats">
-      <div class="tracker-stat"><div class="tracker-stat-num">${totalSessions}</div><div class="tracker-stat-label">SESSIONS</div></div>
+      <div class="tracker-stat"><div class="tracker-stat-num">${totalPracticed}</div><div class="tracker-stat-label">CONDITIONS PRACTISED</div></div>
       <div class="tracker-stat"><div class="tracker-stat-num">${totalMastered}</div><div class="tracker-stat-label">MASTERED</div></div>
       <div class="tracker-progress"><div class="tracker-progress-label">Overall ${pct}%</div><div class="tracker-progress-bar"><div class="tracker-progress-fill" style="width:${pct}%"></div></div></div>
     </div>
-    ${msg ? `<div class="tracker-msg">${msg}</div>` : ''}
+    <div class="tracker-msg">${msg}</div>
     <div class="tracker-list">${condList}</div>
-    ${totalSessions > 0 ? '<button class="tracker-reset" onclick="resetPractice()">Reset Progress</button>' : ''}`;
+    ${totalSessions > 0 ? '<button class="tracker-reset" onclick="resetPractice()">Reset Progress</button>' : ''}`; 
 }
 
 // ============================================================
