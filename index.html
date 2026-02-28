@@ -418,7 +418,9 @@ function renderCondition() {
   
   const pc = state.practice[c.id]?.count || 0;
   btns += `<button class="btn btn-practice" onclick="logPractice('${c.id}')">✓ Practised${pc ? ` (${pc})` : ''}</button>`;
-  btns += `<button class="btn btn-grey-outline" onclick="expandAll()">⊞ Expand All</button>`;
+  const allActive = SECTION_CONFIG.filter(cfg => c.sections[cfg.key]?.active);
+  const allExpanded = allActive.length > 0 && allActive.every(cfg => state.expanded[cfg.key]);
+  btns += `<button class="btn btn-grey-outline" onclick="expandAll()">${allExpanded ? '⊟ Collapse All' : '⊞ Expand All'}</button>`;
 
   let sections = SECTION_CONFIG.map(cfg => {
     const sd = c.sections[cfg.key] || { active: false, items: [] };
