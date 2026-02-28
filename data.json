@@ -11,7 +11,9 @@
           "HFpEF",
           "HFmrEF"
         ],
-        "tips": "State the aetiology in the title if known.",
+        "tips": [
+          "State the aetiology in the title if known."
+        ],
         "resources": [
           "RYLC Week 8:  Heart Failure Clarified with Dr Ingrid Hopper"
         ],
@@ -29,7 +31,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Dyspnoea and NYHA symptoms"
+                "text": "Dyspnoea and NYHA class exercise tolerance"
               },
               {
                 "type": "checkbox",
@@ -192,7 +194,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "Vaccinations"
+                "text": "Vaccinations",
+                "icons": [
+                  {
+                    "type": "synthesis",
+                    "tip": "Link vaccination status here"
+                  }
+                ]
               },
               {
                 "type": "category",
@@ -224,7 +232,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "Iron replacement"
+                "text": "Iron replacement",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Aim to restore TSAT \u226520% and ferritin >100 \u00b5g/L using IV iron, to improve symptoms, function, and reduce hospitalisations."
+                  }
+                ]
               },
               {
                 "type": "category",
@@ -318,6 +332,10 @@
             "items": [
               {
                 "type": "checkbox",
+                "text": "Exercise tolerance and current NYHA class"
+              },
+              {
+                "type": "checkbox",
                 "text": "pADLs"
               },
               {
@@ -404,7 +422,10 @@
         "id": "cvd_rf",
         "name": "Elevated Cardiovascular Risk",
         "headingModifiers": [],
-        "tips": "This is a neat way to package a number of related medical problems in a meaninful way.",
+        "tips": [
+          "This is a neat way to package a number of related medical problems in a meaninful way",
+          "This could be introuced as \"\"The next problem I would like to discuss is Mr X's elevate cardiovascular risk. In terms of his risk factors\u2026\"\""
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -452,7 +473,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "HT"
+                "text": "Hypertension"
               },
               {
                 "type": "checkbox",
@@ -468,7 +489,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "PVD"
+                "text": "Peripheral vascular disease"
               },
               {
                 "type": "checkbox",
@@ -534,14 +555,6 @@
               {
                 "type": "checkbox",
                 "text": "GLP-1 agonists"
-              },
-              {
-                "type": "category",
-                "text": "Surgical management"
-              },
-              {
-                "type": "checkbox",
-                "text": "Bariatric surgery"
               }
             ]
           },
@@ -583,7 +596,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "impact of illness"
+                "text": "Impact of illness"
               }
             ]
           },
@@ -1849,7 +1862,9 @@
         "id": "metabolic_syndrome",
         "name": "Metabolic Syndrome",
         "headingModifiers": [],
-        "tips": "This is a neat way to package a number of related medical problems in a meaninful way.",
+        "tips": [
+          "This is a neat way to package a number of related medical problems in a meaninful way."
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -2806,7 +2821,9 @@
           "With Cirrhosis",
           "Without Cirrhosis"
         ],
-        "tips": "List aetiology upfront if known.",
+        "tips": [
+          "List aetiology upfront if known."
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -3507,7 +3524,9 @@
           "Allogeneic",
           "Autologous"
         ],
-        "tips": "Only Allogeneic HSCT  convey risk of Graft vs Host Disease",
+        "tips": [
+          "Only Allogeneic HSCT  convey risk of Graft vs Host Disease"
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -3756,7 +3775,9 @@
         "id": "sickle_cell",
         "name": "Sickle Cell Disease",
         "headingModifiers": [],
-        "tips": "This is a haemoglobinopathy causing chronic haemolysis and recurrent vaso-occlusion, leading to pain crises, infection risk from functional asplenia, and progressive, multi-system end-organ damage.",
+        "tips": [
+          "This is a haemoglobinopathy causing chronic haemolysis and recurrent vaso-occlusion, leading to pain crises, infection risk from functional asplenia, and progressive, multi-system end-organ damage."
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -4128,7 +4149,9 @@
           "B-thalassaemia major",
           "Transfusion Dependent Thalassaemia"
         ],
-        "tips": "If the patient has a mild anaemia and minor carrier state thalassaemia only list this as a brief less active problem",
+        "tips": [
+          "If the patient has a mild anaemia and minor carrier state thalassaemia only list this as a brief less active problem"
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -4431,7 +4454,9 @@
           "Haemophilia A (low factor 8)",
           "Haemophilia B (low factor 9)"
         ],
-        "tips": "Severity, Factor Level & Presentation - \nSevere: <1% (spontaneous joint/muscle bleeds)\nModerate: 1\u20135% (bleeds after minor trauma or procedures)\nMild: >5% (bleeds only after major trauma/surgery)",
+        "tips": [
+          "Severity, Factor Level & Presentation - \nSevere: <1% (spontaneous joint/muscle bleeds)\nModerate: 1\u20135% (bleeds after minor trauma or procedures)\nMild: >5% (bleeds only after major trauma/surgery)"
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -5578,7 +5603,9 @@
           "Non-Proteinuric",
           "Being considered for transplant"
         ],
-        "tips": "CKD Stage 1: eGFR \u226590 mL/min/1.73 m\u00b2,\nCKD Stage 2: eGFR 60\u201389 mL/min/1.73 m\u00b2,\nCKD Stage 3a: eGFR 45\u201359 mL/min/1.73 m\u00b2,\nCKD Stage 3b: eGFR 30\u201344 mL/min/1.73 m\u00b2,\nCKD Stage 4: eGFR 15\u201329 mL/min/1.73 m\u00b2,\nCKD Stage 5: eGFR <15 mL/min/1.73 m\u00b2,",
+        "tips": [
+          "CKD Stage 1: eGFR \u226590 mL/min/1.73 m\u00b2,\nCKD Stage 2: eGFR 60\u201389 mL/min/1.73 m\u00b2,\nCKD Stage 3a: eGFR 45\u201359 mL/min/1.73 m\u00b2,\nCKD Stage 3b: eGFR 30\u201344 mL/min/1.73 m\u00b2,\nCKD Stage 4: eGFR 15\u201329 mL/min/1.73 m\u00b2,\nCKD Stage 5: eGFR <15 mL/min/1.73 m\u00b2,"
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -6352,7 +6379,9 @@
         "id": "neuro",
         "name": "General Neurology",
         "headingModifiers": [],
-        "tips": "Of course, title with the patient\u2019s diagnosed neurological condition! But this card details what is most important to elucidate in any neurological long case.",
+        "tips": [
+          "Of course, title with the patient\u2019s diagnosed neurological condition! But this card details what is most important to elucidate in any neurological long case."
+        ],
         "resources": [
           "YouTube Video - Neurological History in a Jiffy!",
           "https://www.youtube.com/watch?v=RMDRNlMxg0M&list=PLKXxI1ykAbeq5uesbvziJd4kt_Sc_spmz&index=12"
@@ -7005,7 +7034,9 @@
           "Haemorrhagic",
           "Territory"
         ],
-        "tips": "If the patient has significant, persistent functional impact (eg. Hemiparesis) consider stating this upfront within the heading",
+        "tips": [
+          "If the patient has significant, persistent functional impact (eg. Hemiparesis) consider stating this upfront within the heading"
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -10536,7 +10567,9 @@
         "id": "sle",
         "name": "Systemic Lupus Erythematosus",
         "headingModifiers": [],
-        "tips": "Consider listing the main manifestations upfront.\nIf the patient has lupus nephritis then use this as this  heading and discuss as you would a renal problem - touching on the less serious manifestations within complications or symptoms.",
+        "tips": [
+          "Consider listing the main manifestations upfront.\nIf the patient has lupus nephritis then use this as this  heading and discuss as you would a renal problem - touching on the less serious manifestations within complications or symptoms."
+        ],
         "resources": [
           "RYLC Week 7: Lupus, Scleroderma & More with Professor Michelle Leech"
         ],
@@ -10943,7 +10976,9 @@
           "Limited / Diffuse",
           "Overlap Syndrome (eg with SLE or myositis)"
         ],
-        "tips": "Consider listing the manifestations upfront.",
+        "tips": [
+          "Consider listing the manifestations upfront."
+        ],
         "resources": [
           "RYLC Week 7: Lupus, Scleroderma & More with Professor Michelle Leech"
         ],
@@ -11759,7 +11794,9 @@
           "Cardiac (Orthotopic or Heterotopic)",
           "Renal (Deceased or Live Donor)"
         ],
-        "tips": "Orthotopic Heart Transplant = swap old heart for new heart, Heterotopic Heart Transplant = deceased heart in situ and 'piggy back' heart added in",
+        "tips": [
+          "Orthotopic Heart Transplant = swap old heart for new heart, Heterotopic Heart Transplant = deceased heart in situ and 'piggy back' heart added in"
+        ],
         "resources": [
           "RYLC Week 3 & 4: Renal Transplant, RYLC Week 6: Heart and Lung Transplant"
         ],
@@ -12340,7 +12377,9 @@
           "Allogeneic",
           "Autologous"
         ],
-        "tips": "Only Allogeneic HSCT  convey risk of Graft vs Host Disease",
+        "tips": [
+          "Only Allogeneic HSCT  convey risk of Graft vs Host Disease"
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -12599,7 +12638,9 @@
           "Complicated by previous injury",
           "On a background of untreated osteoporsis"
         ],
-        "tips": "This is a neat way to package a number of related medical problems in a meaninful way.",
+        "tips": [
+          "This is a neat way to package a number of related medical problems in a meaninful way."
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
@@ -12875,7 +12916,9 @@
         "id": "pain",
         "name": "Multifactorial Pain",
         "headingModifiers": [],
-        "tips": "This is a neat way to package medical problems which could cause pain when there is not one, single obvious cause of the pain syndrome.",
+        "tips": [
+          "This is a neat way to package medical problems which could cause pain when there is not one, single obvious cause of the pain syndrome."
+        ],
         "resources": [],
         "sections": {
           "diagnosis": {
