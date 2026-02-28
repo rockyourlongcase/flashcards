@@ -158,7 +158,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -518,7 +518,7 @@
             "items": []
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -720,7 +720,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -997,7 +997,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -1317,7 +1317,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -1678,7 +1678,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -1848,7 +1848,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Importance of prevention in this patient"
+                "text": "Importance of fracture prevention in this patient"
               }
             ]
           },
@@ -1877,15 +1877,25 @@
             "items": [
               {
                 "type": "italic",
-                "text": "\"Mrs X has metabolic syndrome as evidenced by\u2026\""
+                "text": "\"Mrs X has metabolic syndrome as evidenced by\u2026\"",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Must have > 3/5 of these criteria"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
-                "text": "Hypertension: on antihypertensive therapy or SBP \u2265130 mmHg or DBP \u226585 mmHg"
+                "text": "On antihypertensive therapy or SBP \u2265130 mmHg or DBP \u226585 mmHg"
               },
               {
                 "type": "checkbox",
-                "text": "Hyperlipidaemia: on treatment or HDL <1.0 mmol/L (men), <1.3 mmol/L (women), or triglycerides >1.7 mmol/L"
+                "text": "On hyperlipidaemia treatment or HDL <1.0 mmol/L (men), <1.3 mmol/L (women)"
+              },
+              {
+                "type": "checkbox",
+                "text": "On hypertriglycerideaemia treatment or triglycerides >1.7 mmol/L"
               },
               {
                 "type": "checkbox",
@@ -1971,7 +1981,7 @@
             "items": []
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -2139,7 +2149,7 @@
         "name": "Obesity",
         "headingModifiers": [
           "Obesity Class I BMI = 30.0 - 34.9",
-          "Obesity Class I BMI = 35.0 - 39.9",
+          "Obesity Class II BMI = 35.0 - 39.9",
           "Severe Obesity Class III = BMI > 40.0"
         ],
         "tips": null,
@@ -2168,11 +2178,11 @@
                 "text": "Non-modifiable"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Family history"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Genetic syndromes (eg Prader-Willi)"
               },
               {
@@ -2180,23 +2190,23 @@
                 "text": "Modifiable / associated"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Medications (eg steroids, atypical antipsychotics, insulin, mirtazapine, valproate, lithium)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypothyroidism"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "PCOS"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Acromegaly"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cushing\u2019s"
               }
             ]
@@ -2223,7 +2233,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -2234,11 +2244,11 @@
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Diet"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Physical activity"
               },
               {
@@ -2246,15 +2256,15 @@
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "GLP-1 agonists"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Naltrexone / Bupropion (Contrave)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Orlistat (Xenical)"
               },
               {
@@ -2262,7 +2272,7 @@
                 "text": "Surgical management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Bariatric surgery"
               }
             ]
@@ -2275,15 +2285,15 @@
                 "text": "Complications of medications"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "GLP-1 \u2013 gastrointestinal side effects, thyroid cancers"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Contrave \u2013 headache, seizures, hypertension, dizziness"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Orlistat \u2013 gastrointestinal side effects, malabsorption of vitamins A, D, E, K"
               },
               {
@@ -2291,39 +2301,39 @@
                 "text": "Complications of obesity"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pressure areas"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypertension, dyslipidaemia, ischaemic heart disease, atrial fibrillation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Type 2 diabetes"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "GORD"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "MAFLD"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Osteoarthritis, gout"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Obstructive sleep apnoea, obesity hypoventilation syndrome"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Low mood"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Idiopathic intracranial hypertension"
               }
             ]
@@ -2522,7 +2532,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -2954,7 +2964,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -3299,7 +3309,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -3584,7 +3594,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -3853,7 +3863,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -4231,7 +4241,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -4517,7 +4527,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -4840,7 +4850,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -5328,7 +5338,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -5736,7 +5746,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -6071,7 +6081,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -6420,7 +6430,7 @@
             "items": []
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -6747,7 +6757,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -7263,7 +7273,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -7645,7 +7655,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -7994,7 +8004,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -8399,7 +8409,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -8719,7 +8729,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -9053,7 +9063,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -9509,7 +9519,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -9957,7 +9967,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -10338,7 +10348,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -10690,7 +10700,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -11087,7 +11097,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -11488,7 +11498,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -11902,7 +11912,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -12437,7 +12447,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -12785,7 +12795,7 @@
             "items": []
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -12975,7 +12985,7 @@
             "items": []
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
@@ -13278,7 +13288,7 @@
             ]
           },
           "now": {
-            "active": false,
+            "active": true,
             "items": []
           },
           "management": {
