@@ -1352,7 +1352,7 @@
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Non-insulin medications"
               },
               {
@@ -1376,7 +1376,7 @@
                 "text": "Sulfonylureas"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Insulin"
               },
               {
@@ -1620,7 +1620,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Female sex"
+                "text": "Post-menopausal female"
               },
               {
                 "type": "checkbox",
@@ -1689,27 +1689,27 @@
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Dietary calcium intake"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Weight bearing exercise"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Physiotherapy, OT, falls and balance classes"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vision optimisation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Footwear optimisation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Dental review prior to antiresorptive therapy"
               },
               {
@@ -1718,23 +1718,22 @@
               },
               {
                 "type": "checkbox",
-                "text": "Vitamin D supplementation",
-                "bold": true
+                "text": "Vitamin D supplementation"
               },
               {
                 "type": "subheading",
                 "text": "Antiresorptive therapies"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Bisphosphonates (alendronate, risedronate, zoledronic acid)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Denosumab"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Raloxifene"
               },
               {
@@ -1742,11 +1741,11 @@
                 "text": "Anabolic therapies"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Teriparatide"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Romosozumab"
               }
             ]
@@ -1759,23 +1758,23 @@
                 "text": "Complications of medications"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Bisphosphonates \u2013 oesophagitis, GORD, dysphagia, dyspepsia, hypocalcaemia, osteonecrosis of the jaw, atypical femoral fractures"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Denosumab \u2013 hypocalcaemia, cellulitis, UTIs, osteonecrosis of the jaw, atypical femoral fractures, rebound vertebral fractures"
+                "type": "checkbox",
+                "text": "Denosumab \u2013 hypocalcaemia, UTIs, osteonecrosis of the jaw, atypical femoral fractures, rebound vertebral fractures"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Raloxifene \u2013 VTE, hot flushes, leg cramps"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Teriparatide \u2013 hypercalcaemia, dizziness, nausea, leg cramps"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Romosozumab \u2013 arthralgias, headaches, hypocalcaemia, cardiovascular risk"
               },
               {
@@ -1783,11 +1782,11 @@
                 "text": "Complications of osteoporosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Non-vertebral fractures"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vertebral fractures \u2013 kyphosis, chronic pain, radicular pain"
               }
             ]
@@ -1802,10 +1801,6 @@
               {
                 "type": "checkbox",
                 "text": "Falls"
-              },
-              {
-                "type": "checkbox",
-                "text": "ADLs"
               }
             ]
           },
@@ -1849,7 +1844,11 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Fracture risk"
+                "text": "Impact of prior fractures on this patient"
+              },
+              {
+                "type": "checkbox",
+                "text": "Importance of prevention in this patient"
               }
             ]
           },
@@ -2139,8 +2138,6 @@
         "id": "obesity",
         "name": "Obesity",
         "headingModifiers": [
-          "Normal Weight BMI = 18.5 - 24.9",
-          "Overweight (Pre-obese) BMI = 25.0 - 29.9",
           "Obesity Class I BMI = 30.0 - 34.9",
           "Obesity Class I BMI = 35.0 - 39.9",
           "Severe Obesity Class III = BMI > 40.0"
@@ -2366,11 +2363,11 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Pain from osteoarthritis, gout, IIH"
+                "text": "Pain from osteoarthritis, gout, idiopathic intracranial hypertension"
               },
               {
                 "type": "checkbox",
-                "text": "Fatigue from OSA, OHS"
+                "text": "Fatigue from OSA"
               }
             ]
           },
