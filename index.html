@@ -479,7 +479,17 @@ function renderItems(condId, sectionKey, items) {
       return `<div class="content-subheading">${esc(item.text)}</div>`;
     }
     if (item.type === 'italic') {
-      return `<div class="content-italic">${esc(item.text)}</div>`;
+      let italicIcons = '';
+      if (item.icons?.length) {
+        italicIcons = item.icons.map((ic, ii) => {
+          const emoji = ic.type === 'synthesis' ? '🔗' : ic.type === 'course' ? '📚' : '💡';
+          const content = ic.tip || ic.ref || '';
+          const safeId = `${condId}-${sectionKey}-${idx}-icon-${ii}`;
+          window._tooltipData[safeId] = { type: ic.type, content: content };
+          return `<span class="inline-icon" data-tip-id="${safeId}" onclick="event.stopPropagation();toggleTipById(event,this)" onmouseenter="showTipById(event,this)" onmouseleave="hideTooltip()">${emoji}</span>`;
+        }).join('');
+      }
+      return `<div class="content-italic">${esc(item.text)} ${italicIcons}</div>`;
     }
 
     const checkKey = `${condId}-${sectionKey}-${idx}`;
