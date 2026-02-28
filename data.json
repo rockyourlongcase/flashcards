@@ -902,10 +902,8 @@
         "id": "brady",
         "name": "Bradyarrhythmias",
         "headingModifiers": [
-          "Sinus node dysfunction \u2013 sinus bradycardia; sinus pause; sinus arrest; sick sinus syndrome (tachy\u2013brady)",
-          "AV conduction disease \u2013 first-degree AV block; second-degree AV block (Mobitz I; Mobitz II); third-degree AV block",
-          "Medication-related bradycardia \u2013 \u03b2-blockers; non-DHP calcium channel blockers; digoxin; anti-arrhythmics",
-          "Endocrine / metabolic \u2013 hypothyroidism; electrolyte disturbance"
+          "Sinus node dysfunction",
+          "AV conduction disease"
         ],
         "tips": null,
         "resources": [],
@@ -924,6 +922,10 @@
               {
                 "type": "checkbox",
                 "text": "Context of diagnosis (eg in the context of acute illness)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Investigations at diagnosis (UEC, CMP, troponin, TFTs, ECG, holter, loop recorder, TTE)"
               }
             ]
           },
@@ -974,6 +976,10 @@
               {
                 "type": "checkbox",
                 "text": "Hospital admissions"
+              },
+              {
+                "type": "checkbox",
+                "text": "Previous management since diagnosis"
               }
             ]
           },
@@ -986,6 +992,22 @@
             "items": [
               {
                 "type": "category",
+                "text": "Acute management"
+              },
+              {
+                "type": "checkbox",
+                "text": "Atropine"
+              },
+              {
+                "type": "checkbox",
+                "text": "Temporary Pacing"
+              },
+              {
+                "type": "category",
+                "text": "Long-Term Management"
+              },
+              {
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
@@ -993,7 +1015,7 @@
                 "text": "Falls alarm"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
@@ -1005,12 +1027,12 @@
                 "text": "Electrolyte optimisation"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Procedural management"
               },
               {
                 "type": "checkbox",
-                "text": "Permanent pacemaker (PPM)"
+                "text": "Permanent pacemaker"
               }
             ]
           },
@@ -1048,7 +1070,19 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Working and driving implications"
+                "text": "Exercise tolerance (NYHA class) & falls"
+              },
+              {
+                "type": "checkbox",
+                "text": "pADLs"
+              },
+              {
+                "type": "checkbox",
+                "text": "dADLs"
+              },
+              {
+                "type": "checkbox",
+                "text": "cADLs (including driving)"
               }
             ]
           },
@@ -1074,7 +1108,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Exercise tolerance"
+                "text": "Exercise tolerance (NYHA class)"
               },
               {
                 "type": "checkbox",
@@ -1091,7 +1125,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Impact of illness"
+                "text": "Impact of illness (including working and driving implications)",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Private licence: no driving for 2 weeks after pacemaker insertion, then resume if asymptomatic and medically cleared.\nSymptomatic bradyarrhythmia: no driving until treated and symptoms controlled.\nCommercial drivers have stricter rules and require specialist review."
+                  }
+                ]
               }
             ]
           },
