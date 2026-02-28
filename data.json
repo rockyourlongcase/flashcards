@@ -395,7 +395,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "impact of illness"
+                "text": "Impact of illness"
               }
             ]
           },
@@ -424,7 +424,7 @@
         "headingModifiers": [],
         "tips": [
           "This is a neat way to package a number of related medical problems in a meaninful way",
-          "This could be introuced as \"\"The next problem I would like to discuss is Mr X's elevate cardiovascular risk. In terms of his risk factors\u2026\"\""
+          "This could be introuced as \"\"The next problem I would like to discuss is Mr X's elevated risk of cardiovascular events. In terms of his risk factors\u2026\"\""
         ],
         "resources": [],
         "sections": {
@@ -615,11 +615,11 @@
         "id": "ta",
         "name": "Tachyarrhythmias",
         "headingModifiers": [
-          "AF (paroxysmal; persistent; permanent and valvular;non-valvulvar)",
-          "Aflutter",
-          "SVT",
-          "VT",
-          "VF"
+          "Atrial Fibrillation (paroxysmal, persistent, permanent and valvular, non-valvulvar)",
+          "Atrial Flutter",
+          "Supraventricular Tachycardia",
+          "Ventricular Tachycardia",
+          "Ventricular Fibrillation"
         ],
         "tips": null,
         "resources": [],
@@ -629,7 +629,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Specify type (if known): AF (paroxysmal, persistent, permanent; valvular vs non-valvular), atrial flutter, SVT, VT, VF"
+                "text": "Specify type (if known)"
               },
               {
                 "type": "checkbox",
@@ -674,7 +674,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "HT"
+                "text": "Hypertension"
               },
               {
                 "type": "checkbox",
@@ -699,7 +699,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Frequency of episodes (eg paroxysmal AF, SVT)"
+                "text": "Frequency of episodes (eg in paroxysmal AF, SVT)"
               },
               {
                 "type": "checkbox",
@@ -711,7 +711,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "Escalation in rhythm persistence"
+                "text": "Requirement for acute termination agents (eg adenosine, amiodarone)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Severity of disease over time"
               }
             ]
           },
@@ -764,15 +768,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "Antiarrhythmics \u2013 Class I / III (AF, SVT)"
+                "text": "Antiarrhythmics (AF, SVT)"
               },
               {
                 "type": "checkbox",
                 "text": "Anticoagulation for stroke prevention (AF)"
-              },
-              {
-                "type": "checkbox",
-                "text": "Acute termination agents (adenosine, amiodarone) (SVT, VT)"
               },
               {
                 "type": "category",
