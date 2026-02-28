@@ -413,7 +413,7 @@ function renderCondition() {
 
   let btns = '';
   if (c.headingModifiers?.length) btns += `<button class="btn btn-teal-outline" onclick="showModal('modifiers')">Heading Modifiers</button>`;
-  if (c.tips) btns += `<button class="btn btn-gold-outline" onclick="showModal('tips')">💡 Tips</button>`;
+  if (c.tips?.length) btns += `<button class="btn btn-gold-outline" onclick="showModal('tips')">💡 Tips</button>`;
   if (c.resources?.length) btns += `<button class="btn btn-teal" onclick="showModal('resources')">📚 Resources</button>`;
   
   const pc = state.practice[c.id]?.count || 0;
@@ -521,7 +521,7 @@ function renderModal() {
   if (state.modal === 'modifiers') {
     const c = DATA[state.specialty].conditions[state.condition];
     modal.innerHTML = `<h3 class="teal" style="font-style:italic">Heading Modifiers</h3>
-      ${c.headingModifiers.map(m => `<div class="modal-item">${esc(m)}</div>`).join('')}
+      ${c.headingModifiers.map(m => `<div class="modal-item">${esc(m).replace(/\\n/g, '<br>').replace(/&lt;br&gt;/g, '<br>')}</div>`).join('')}
       <button class="modal-close teal" onclick="closeModal()">Close</button>`;
   }
   else if (state.modal === 'resources') {
@@ -541,8 +541,15 @@ function renderModal() {
   }
   else if (state.modal === 'tips') {
     const c = DATA[state.specialty].conditions[state.condition];
+    const tipsArr = Array.isArray(c.tips) ? c.tips : (c.tips ? [c.tips] : []);
+    const tipsHtml = tipsArr.map(t => {
+      let html = esc(t).replace(/\\n/g, '<br>');
+      // Render ""quoted text"" as italic
+      html = html.replace(/&quot;&quot;(.*?)&quot;&quot;/g, '<em>$1</em>');
+      return `<div class="modal-item gold">${html}</div>`;
+    }).join('');
     modal.innerHTML = `<h3 class="gold">💡 Tips</h3>
-      <div class="modal-item gold">${esc(c.tips).replace(/\\n/g, '<br>')}</div>
+      ${tipsHtml}
       <button class="modal-close gold" onclick="closeModal()">Close</button>`;
   }
   else if (state.modal === 'tracker') {
