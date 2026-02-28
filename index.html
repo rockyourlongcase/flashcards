@@ -544,8 +544,10 @@ function renderModal() {
     const tipsArr = Array.isArray(c.tips) ? c.tips : (c.tips ? [c.tips] : []);
     const tipsHtml = tipsArr.map(t => {
       let html = esc(t).replace(/\\n/g, '<br>');
-      // Render ""quoted text"" as italic
-      html = html.replace(/&quot;&quot;(.*?)&quot;&quot;/g, '<em>$1</em>');
+      // ""double quotes"" = italic WITH visible quotes
+      html = html.replace(/&quot;&quot;(.*?)&quot;&quot;/g, '<em>&ldquo;$1&rdquo;</em>');
+      // "single quotes" = italic only, no visible quotes
+      html = html.replace(/&quot;(.*?)&quot;/g, '<em>$1</em>');
       return `<div class="modal-item gold">${html}</div>`;
     }).join('');
     modal.innerHTML = `<h3 class="gold">💡 Tips</h3>
