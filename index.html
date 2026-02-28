@@ -140,7 +140,7 @@ body {
 }
 .checkbox.checked { border-color: var(--teal); background: var(--teal); }
 .checkbox.checked::after { content: '✓'; color: #fff; font-size: 14px; font-weight: 700; }
-.content-text { font-size: 14px; color: #333; line-height: 1.5; flex: 1; }
+.content-text { font-size: 14px; color: #333; line-height: 1.5; }
 .content-text.bold { font-weight: 700; }
 .content-text.checked { font-weight: 600; }
 .inline-icon { cursor: pointer; font-size: 16px; flex-shrink: 0; margin-top: 1px; position: relative; }
@@ -413,8 +413,8 @@ function renderCondition() {
 
   let btns = '';
   if (c.headingModifiers?.length) btns += `<button class="btn btn-teal-outline" onclick="showModal('modifiers')">Heading Modifiers</button>`;
-  if (c.resources?.length) btns += `<button class="btn btn-teal" onclick="showModal('resources')">📚 Resources</button>`;
   if (c.tips) btns += `<button class="btn btn-gold-outline" onclick="showModal('tips')">💡 Tips</button>`;
+  if (c.resources?.length) btns += `<button class="btn btn-teal" onclick="showModal('resources')">📚 Resources</button>`;
   
   const pc = state.practice[c.id]?.count || 0;
   btns += `<button class="btn btn-practice" onclick="logPractice('${c.id}')">✓ Practised${pc ? ` (${pc})` : ''}</button>`;
@@ -700,7 +700,7 @@ function renderTooltip() {
   const t = state.tooltip;
   const el = document.createElement('div');
   el.className = 'tooltip';
-  const label = t.type === 'synthesis' ? '💡 Synthesis' : t.type === 'info' ? '💡 Info' : '📚 Course';
+  const label = t.type === 'synthesis' ? '🔗 Synthesis' : t.type === 'info' ? '💡 Tip' : '📚 Course';
   const labelClass = t.type === 'course' ? 'course' : 'synthesis';
   
   let contentHtml = esc(t.content).replace(/\\n/g, '<br>');
