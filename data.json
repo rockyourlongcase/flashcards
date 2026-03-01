@@ -4839,7 +4839,7 @@
             "sectionIcons": [
               {
                 "type": "info",
-                "tip": "Terminology which could be used here is:\n- low-level viraemia\n- virological  suppression\n- incomplete virological response\n- virological suppression\n- virological treatment failure\n- virological rebound"
+                "tip": "Terminology which could be used to describe progress is: \\n - low-level viraemia \\n - virological  suppression \\n - incomplete virological response \\n -  virological suppression \\n - virological treatment failure \\n -  virological rebound"
               }
             ]
           },
@@ -4989,7 +4989,7 @@
                 "text": "Itraconazole for histoplasmosis if CD4 <150"
               },
               {
-                "type": "checkbox",
+                "type": "checkbox-bullet",
                 "text": "Vaccinations (non-live where appropriate)"
               }
             ]
@@ -12921,7 +12921,8 @@
           "This is a neat way to package medical problems which could cause pain when there is not one, single obvious cause of the pain syndrome."
         ],
         "resources": [
-          "RYLC Week 7 Live Event: Multifactorial Pain Syndromes \\ RYLC Week 8: Chronic Pain"
+          "RYLC Week 7 Live Event: Multifactorial Pain Syndromes",
+          "RYLC Week 8: Chronic Pain"
         ],
         "sections": {
           "diagnosis": {
