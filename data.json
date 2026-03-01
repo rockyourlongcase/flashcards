@@ -2419,15 +2419,8 @@
         "id": "ibd",
         "name": "Inflammatory Bowel Disease",
         "headingModifiers": [
-          "Ulcerative colitis",
-          "Proctitis",
-          "Left-Sided",
-          "Pancolitis",
-          "With associated PSC",
-          "Crohn's Disease",
-          "Structuring",
-          "Pentrating",
-          "Fistulising"
+          "Ulcerative colitis\\n- Proctitis\\n- Left-Sided\\n- Pancolitis\\n- With associated PSC",
+          "Crohn's Disease\\n- Structuring\\n- Penetrating\\n- Fistulising"
         ],
         "tips": null,
         "resources": [],
@@ -2444,23 +2437,23 @@
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Diarrhoea"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Abdominal pain"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Haematochezia"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Weight loss"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Tenesmus"
               },
               {
@@ -2468,11 +2461,11 @@
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Faecal calprotectin"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Colonoscopy \u00b1 biopsy"
               }
             ]
@@ -2543,55 +2536,55 @@
                 "text": "Crohn\u2019s disease"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Smoking cessation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Exclusive enteral nutrition"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Steroids"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Azathioprine, methotrexate, mycophenolate"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Anti-TNF agents"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vedolizumab"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Ustekinumab"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Surgical management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Fistulae"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Strictures or obstruction"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Not curative"
               },
               {
@@ -2599,47 +2592,47 @@
                 "text": "Ulcerative colitis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Exclusive enteral nutrition (selected)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "5-ASA (mesalazine, sulfasalazine)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Steroids"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Azathioprine, mycophenolate"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Anti-TNF agents"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vedolizumab"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cyclosporine (acute severe UC)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "subheading",
                 "text": "Surgical management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Colectomy \u2013 curative"
               }
             ]
@@ -2652,27 +2645,27 @@
                 "text": "Complications of management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Infection"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Malignancy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Osteoporosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cytopenias"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hepatotoxicity"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Infusion or injection reactions"
               },
               {
@@ -2680,31 +2673,31 @@
                 "text": "Complications of disease"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Crohn\u2019s \u2013 fistulae, strictures, abscesses"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Perianal disease"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Colorectal cancer"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Malabsorption, anaemia, osteoporosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Ulcerative colitis \u2013 acute severe UC"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Toxic megacolon"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Colorectal cancer"
               },
               {
@@ -2712,15 +2705,15 @@
                 "text": "Extra-intestinal manifestations"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Joint involvement (peripheral, sacroiliitis)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Erythema nodosum, pyoderma gangrenosum"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Episcleritis, anterior uveitis"
               }
             ]
@@ -7913,9 +7906,8 @@
                 "text": "Incidental finding"
               },
               {
-                "type": "checkbox",
-                "text": "TNM stage at diagnosis",
-                "bold": true
+                "type": "subheading",
+                "text": "TNM stage at diagnosis"
               },
               {
                 "type": "checkbox",
@@ -7927,13 +7919,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Molecular markers if known (EGFR, BRAF, HER2, PD-L1)",
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "Package EGFR, ALK, KRAS, BRAF, HER2, PD-L1 here"
-                  }
-                ]
+                "text": "Molecular markers if known (EGFR, BRAF, HER2, PD-L1)"
               },
               {
                 "type": "checkbox",
@@ -12647,14 +12633,15 @@
         "id": "falls",
         "name": "Falls",
         "headingModifiers": [
-          "Non-injurious",
           "Complicated by previous injury",
           "On a background of untreated osteoporsis"
         ],
         "tips": [
-          "This is a neat way to package a number of related medical problems in a meaninful way."
+          "This is a neat way to package a number of related medical problems in a meaningful way."
         ],
-        "resources": [],
+        "resources": [
+          "RYLC Week 7: Falls for The Long Case"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
