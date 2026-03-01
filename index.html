@@ -531,7 +531,17 @@ function renderModal() {
   if (state.modal === 'modifiers') {
     const c = DATA[state.specialty].conditions[state.condition];
     modal.innerHTML = `<h3 class="teal" style="font-style:italic">Heading Modifiers</h3>
-      ${c.headingModifiers.map(m => `<div class="modal-item">${esc(m).replace(/\\n/g, '<br>').replace(/&lt;br&gt;/g, '<br>')}</div>`).join('')}
+      ${c.headingModifiers.map(m => {
+        let html = esc(m);
+        // Check if this modifier has sub-items (contains \n-)
+        if (html.includes('\\n-')) {
+          const lines = html.split('\\n');
+          const header = lines[0];
+          const items = lines.slice(1).map(l => l.trim()).filter(l => l);
+          return '<div class="modal-item"><strong>' + header + '</strong>' + items.map(i => '<br>' + i).join('') + '</div>';
+        }
+        return '<div class="modal-item">' + html.replace(/\\n/g, '<br>') + '</div>';
+      }).join('')}
       <button class="modal-close teal" onclick="closeModal()">Close</button>`;
   }
   else if (state.modal === 'resources') {
