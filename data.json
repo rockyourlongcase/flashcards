@@ -1587,7 +1587,8 @@
         "headingModifiers": [],
         "tips": null,
         "resources": [
-          "RYLC Week 7: Osteoporosis for the Long Case"
+          "RYLC Week 7: Osteoporosis for the Long Case",
+          "RYLC Week 7: Osteoporosis For The Long Case"
         ],
         "sections": {
           "diagnosis": {
@@ -2536,7 +2537,7 @@
                 "text": "Crohn\u2019s disease"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
@@ -2548,7 +2549,7 @@
                 "text": "Exclusive enteral nutrition"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
