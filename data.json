@@ -12920,7 +12920,9 @@
         "tips": [
           "This is a neat way to package medical problems which could cause pain when there is not one, single obvious cause of the pain syndrome."
         ],
-        "resources": [],
+        "resources": [
+          "RYLC Week 7 Live Event: Multifactorial Pain Syndromes \\ RYLC Week 8: Chronic Pain"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -12931,7 +12933,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Sentinel event? (eg. injury, signiifcant stress)"
+                "text": "Sentinel event? (eg. injury, significant stress)"
               }
             ]
           },
@@ -13033,7 +13035,12 @@
               },
               {
                 "type": "checkbox",
-                "text": "Non-prescribed therapies (eg. CBD)"
+                "text": "Non-prescribed therapies",
+                "bold": true
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "CBD"
               }
             ]
           },
@@ -13162,7 +13169,9 @@
           "With previous suicide attempts"
         ],
         "tips": null,
-        "resources": [],
+        "resources": [
+          "RYLC Week 8: Depression Audio Lesson & Walk"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -13173,7 +13182,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Circumstances at onset (Sentinel event, bereavement, illness, divorce, burnout)"
+                "text": "Circumstances at onset (sentinel event, bereavement, illness, divorce, burnout)"
               }
             ]
           },
@@ -13324,27 +13333,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Selective serotonin reuptake inhibitor"
-              },
-              {
-                "type": "checkbox",
-                "text": "Serotonin noradrenaline reuptake inhibitor",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "often used if there is pain as a comorbidity"
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
-                "text": "Mirtazapine if insomnia or weight loss",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "often used if concurrent insomnia or weight loss"
-                  }
-                ]
+                "text": "Anti-depressants"
               }
             ]
           },
@@ -13369,7 +13358,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Socialisation"
+                "text": "Socialising"
               },
               {
                 "type": "checkbox",
@@ -13452,7 +13441,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Impact on relationships or on otehrs"
+                "text": "Impact on relationships or on others"
               }
             ]
           },
