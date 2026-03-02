@@ -3672,8 +3672,9 @@
                 "text": "Endocrine dysfunction"
               },
               {
-                "type": "checkbox",
-                "text": "Graft versus host disease (allogeneic only)"
+                "type": "subheading",
+                "text": "Graft versus host disease (allogeneic only)",
+                "bold": true
               },
               {
                 "type": "checkbox-bullet",
@@ -3803,8 +3804,9 @@
                 "text": "Symptoms at diagnosis (if relevant)"
               },
               {
-                "type": "checkbox",
-                "text": "Investigations at diagnosis"
+                "type": "subheading",
+                "text": "Investigations at diagnosis",
+                "bold": true
               },
               {
                 "type": "checkbox-bullet",
@@ -4177,8 +4179,9 @@
                 "text": "Symptoms at diagnosis (if relevant)"
               },
               {
-                "type": "checkbox",
-                "text": "Investigations at diagnosis"
+                "type": "subheading",
+                "text": "Investigations at diagnosis",
+                "bold": true
               },
               {
                 "type": "checkbox-bullet",
@@ -4478,8 +4481,9 @@
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox",
-                "text": "Investigations at diagnosis"
+                "type": "subheading",
+                "text": "Investigations at diagnosis",
+                "bold": true
               },
               {
                 "type": "checkbox-bullet",
@@ -4532,8 +4536,9 @@
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox",
-                "text": "Haemophilia action plan"
+                "type": "subheading",
+                "text": "Haemophilia action plan",
+                "bold": true
               },
               {
                 "type": "checkbox-bullet",
@@ -4875,8 +4880,9 @@
                 "text": "Combination antiretroviral therapy"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Nucleoside / nucleotide reverse transcriptase inhibitors",
+                "bold": true,
                 "icons": [
                   {
                     "type": "info",
@@ -4889,16 +4895,18 @@
                 "text": "Tenofovir disoproxil fumarate, Tenofovir alafenamide, Emtricitabine, Lamivudine, Abacavir, Zidovudine"
               },
               {
-                "type": "checkbox",
-                "text": "Non-nucleoside reverse transcriptase inhibitors"
+                "type": "subheading",
+                "text": "Non-nucleoside reverse transcriptase inhibitors",
+                "bold": true
               },
               {
                 "type": "checkbox-bullet",
                 "text": "Efavirenz, Nevirapine, Rilpivirine, Etravirine, Doravirine"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Integrase strand transfer inhibitors",
+                "bold": true,
                 "icons": [
                   {
                     "type": "info",
@@ -4911,8 +4919,9 @@
                 "text": "Dolutegravir, Bictegravir, Raltegravir, Elvitegravir"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Protease inhibitors",
+                "bold": true,
                 "icons": [
                   {
                     "type": "info",
@@ -4925,8 +4934,9 @@
                 "text": "Atazanavir, Darunavir, Lopinavir, Saquinavir"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Pharmacokinetic boosters",
+                "bold": true,
                 "icons": [
                   {
                     "type": "info",
@@ -4939,8 +4949,9 @@
                 "text": "Ritonavir, Cobicistat"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Entry / fusion inhibitors",
+                "bold": true,
                 "icons": [
                   {
                     "type": "info",
@@ -4953,16 +4964,18 @@
                 "text": "Enfuvirtide, Maraviroc"
               },
               {
-                "type": "checkbox",
-                "text": "Post-attachment monoclonal antibody"
+                "type": "subheading",
+                "text": "Post-attachment monoclonal antibody",
+                "bold": true
               },
               {
                 "type": "checkbox-bullet",
                 "text": "Ibalizumab"
               },
               {
-                "type": "checkbox",
-                "text": "Capsid inhibitor"
+                "type": "subheading",
+                "text": "Capsid inhibitor",
+                "bold": true
               },
               {
                 "type": "checkbox-bullet",
@@ -5002,9 +5015,8 @@
                 "text": "Complications of management"
               },
               {
-                "type": "checkbox",
-                "text": "Antiretroviral therapy adverse effects",
-                "bold": true
+                "type": "subheading",
+                "text": "Antiretroviral therapy adverse effects"
               },
               {
                 "type": "checkbox",
@@ -5543,8 +5555,9 @@
             "active": true,
             "items": [
               {
-                "type": "checkbox",
-                "text": "Uraemic symptoms"
+                "type": "subheading",
+                "text": "Uraemic symptoms",
+                "bold": true
               },
               {
                 "type": "checkbox-bullet",
@@ -7042,7 +7055,7 @@
           "Territory"
         ],
         "tips": [
-          "If the patient has significant, persistent functional impact (eg. Hemiparesis) consider stating this upfront within the heading"
+          "If the patient has significant, persistent functional impact (eg. hemiparesis) consider stating this upfront within the heading"
         ],
         "resources": [],
         "sections": {
@@ -7401,85 +7414,88 @@
               {
                 "type": "checkbox",
                 "text": "Fatigue and cognition",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: alarms, strategies, reminders"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, for example alarms and reminders"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Mood",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: psychology, medications"
-              },
-              {
-                "type": "checkbox",
-                "text": "Headaches",
-                "bold": true
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, for example medications or psychology"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
-                "text": "Seizures / epilepsy",
-                "bold": true
+                "text": "Headaches"
+              },
+              {
+                "type": "checkbox",
+                "text": "Seizures / epilepsy"
               },
               {
                 "type": "checkbox",
                 "text": "Vision",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: glasses, eye patch, guide dog"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg glasses, eye patch, services animal or white cane"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
-                "text": "Hearing",
-                "bold": true
+                "text": "Hearing"
               },
               {
                 "type": "checkbox",
                 "text": "Speech and swallowing",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: speech pathology, communication boards"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg speech pathology or communication boards"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Nutrition",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: dietician, thickened feeds, NG feeds, PEG feeds"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg dietician, thickened feeds, NG feeds, PEG feeds"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Motor deficits (weakness, spasticity, contractures)",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: braces, splints, orthoses, OT, physio, exercises, home modifications"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg braces, splints, orthoses, OT, physio, exercises, home modifications"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
-                "text": "Sensory deficits",
-                "bold": true
+                "text": "Sensory deficits"
               },
               {
                 "type": "checkbox",
                 "text": "Bowel and bladder deficits (urinary retention or incontinence, constipation, faecal incontinence)",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: urinary catheter, bowel or bladder regimen"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg urinary catheter, bowel or bladder regimen"
+                  }
+                ]
               }
             ]
           },
@@ -12518,8 +12534,9 @@
                 "text": "Endocrine dysfunction"
               },
               {
-                "type": "checkbox",
-                "text": "Graft versus host disease (allogeneic only)"
+                "type": "subheading",
+                "text": "Graft versus host disease (allogeneic only)",
+                "bold": true
               },
               {
                 "type": "checkbox-bullet",
