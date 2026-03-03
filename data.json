@@ -31,7 +31,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "Dyspnoea and NYHA class exercise tolerance"
+                "text": "Dyspnoea and NYHA class exercise tolerance",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -145,7 +151,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "Change in exercise tolerance since diagnosis (NYHA grading)"
+                "text": "Change in exercise tolerance since diagnosis (NYHA grading)",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -332,7 +344,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Exercise tolerance and current NYHA class"
+                "text": "Exercise tolerance and current NYHA class",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -370,7 +388,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Exercise tolerance and NYHA dyspnoea"
+                "text": "Exercise tolerance and NYHA dyspnoea",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -1083,7 +1107,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Exercise tolerance (NYHA class) & falls"
+                "text": "Exercise tolerance (NYHA class) & falls",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -1121,7 +1151,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Exercise tolerance (NYHA class)"
+                "text": "Exercise tolerance (NYHA class)",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -6881,7 +6917,13 @@
               },
               {
                 "type": "category",
-                "text": "Complications of disease"
+                "text": "Complications of disease",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "This could also be nested under symptoms.\\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -6984,12 +7026,6 @@
                     "tip": "State specific management strategies here, eg oral fluids, midodrine, fludocortisone"
                   }
                 ]
-              }
-            ],
-            "sectionIcons": [
-              {
-                "type": "info",
-                "tip": "This could also be nested under symptoms.\\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
               }
             ]
           },
@@ -8230,7 +8266,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Performance status (ECOG)"
+                "text": "Performance status (ECOG)",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "ECOG Performance Status\\tGrade 0\\nFully active, able to carry on all pre-disease activities without restriction\\tGrade 1\\nRestricted in physically strenuous activity but ambulatory and able to carry out light work\\tGrade 2\\nAmbulatory and capable of all self-care but unable to carry out any work activities\\nUp and about more than 50% of waking hours\\tGrade 3\\nCapable of only limited self-care\\nConfined to bed or chair more than 50% of waking hours\\tGrade 4\\nCompletely disabled\\nCannot carry on any self-care\\nTotally confined to bed or chair\\tGrade 5\\nDead"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -8379,8 +8421,7 @@
         "id": "copd",
         "name": "Chronic Obstructve Pulmonary Disease",
         "headingModifiers": [
-          "Severity\n- Mild FEV\u2081 \u2265 80% predicted\n- Moderate FEV\u2081 50\u201379% predicted\n- Severe FEV\u2081 30\u201349% predicted\n- Very severe FEV\u2081 < 30% predicted",
-          "Phenotype\n- Emphysema-predominant COPD\n- Chronic bronchitis phenotype\n- Asthma\u2013COPD overlap"
+          "Severity\\n- Mild FEV\u2081 \u2265 80% predicted\\n- Moderate FEV\u2081 50\u201379% predicted\\n- Severe FEV\u2081 30\u201349% predicted\\n- Very severe FEV\u2081 < 30% predicted\\nPhenotype\\n- Emphysema-predominant COPD\\n- Chronic bronchitis phenotype\\n- Asthma\u2013COPD overlap"
         ],
         "tips": null,
         "resources": [],
@@ -8398,7 +8439,13 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Dyspnoea (mMRC grade)"
+                "text": "Dyspnoea (mMRC grade)",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "mMRC Dyspnoea Grading System\\tGrade 0\\nBreathless only with strenuous exercise\\tGrade 1\\nShort of breath when hurrying on level ground or walking up a slight hill\\tGrade 2\\nWalks slower than people of the same age on level ground due to breathlessness\\nOr has to stop for breath when walking at own pace\\tGrade 3\\nStops for breath after walking about 100 metres or after a few minutes on level ground\\tGrade 4\\nToo breathless to leave the house\\nBreathless when dressing or undressing"
+                  }
+                ]
               },
               {
                 "type": "checkbox-bullet",
@@ -8448,7 +8495,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Change in exercise tolerance since diagnosis (mMRC grading)"
+                "text": "Change in exercise tolerance since diagnosis (mMRC grading)",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "mMRC Dyspnoea Grading System\\tGrade 0\\nBreathless only with strenuous exercise\\tGrade 1\\nShort of breath when hurrying on level ground or walking up a slight hill\\tGrade 2\\nWalks slower than people of the same age on level ground due to breathlessness\\nOr has to stop for breath when walking at own pace\\tGrade 3\\nStops for breath after walking about 100 metres or after a few minutes on level ground\\tGrade 4\\nToo breathless to leave the house\\nBreathless when dressing or undressing"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -8616,15 +8669,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Non-pharmacological adherence"
-              },
-              {
-                "type": "checkbox",
-                "text": "Pulmonary rehabilitation"
-              },
-              {
-                "type": "checkbox",
-                "text": "Smoking cessation"
+                "text": "Non-pharmacological adherence (pulmonary rehabilitation, smoking cessation)"
               },
               {
                 "type": "checkbox",
@@ -8637,7 +8682,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Exercise tolerance / mMRC dyspnoea grade"
+                "text": "Exercise tolerance / mMRC dyspnoea grade",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "mMRC Dyspnoea Grading System\\tGrade 0\\nBreathless only with strenuous exercise\\tGrade 1\\nShort of breath when hurrying on level ground or walking up a slight hill\\tGrade 2\\nWalks slower than people of the same age on level ground due to breathlessness\\nOr has to stop for breath when walking at own pace\\tGrade 3\\nStops for breath after walking about 100 metres or after a few minutes on level ground\\tGrade 4\\nToo breathless to leave the house\\nBreathless when dressing or undressing"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -8710,7 +8761,13 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Dyspnoea (mMRC grade)"
+                "text": "Dyspnoea (mMRC grade)",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "mMRC Dyspnoea Grading System\\tGrade 0\\nBreathless only with strenuous exercise\\tGrade 1\\nShort of breath when hurrying on level ground or walking up a slight hill\\tGrade 2\\nWalks slower than people of the same age on level ground due to breathlessness\\nOr has to stop for breath when walking at own pace\\tGrade 3\\nStops for breath after walking about 100 metres or after a few minutes on level ground\\tGrade 4\\nToo breathless to leave the house\\nBreathless when dressing or undressing"
+                  }
+                ]
               },
               {
                 "type": "checkbox-bullet",
@@ -12348,7 +12405,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "Heart \u2013 ejection fraction or NYHA class"
+                "text": "Heart \u2013 ejection fraction or NYHA class",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
