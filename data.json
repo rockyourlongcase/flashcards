@@ -3672,9 +3672,8 @@
                 "text": "Endocrine dysfunction"
               },
               {
-                "type": "subheading",
-                "text": "Graft versus host disease (allogeneic only)",
-                "bold": true
+                "type": "plain",
+                "text": "Graft versus host disease (allogeneic only)"
               },
               {
                 "type": "checkbox-bullet",
@@ -3804,9 +3803,8 @@
                 "text": "Symptoms at diagnosis (if relevant)"
               },
               {
-                "type": "subheading",
-                "text": "Investigations at diagnosis",
-                "bold": true
+                "type": "plain",
+                "text": "Investigations at diagnosis"
               },
               {
                 "type": "checkbox-bullet",
@@ -4179,9 +4177,8 @@
                 "text": "Symptoms at diagnosis (if relevant)"
               },
               {
-                "type": "subheading",
-                "text": "Investigations at diagnosis",
-                "bold": true
+                "type": "plain",
+                "text": "Investigations at diagnosis"
               },
               {
                 "type": "checkbox-bullet",
@@ -4481,9 +4478,8 @@
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "subheading",
-                "text": "Investigations at diagnosis",
-                "bold": true
+                "type": "plain",
+                "text": "Investigations at diagnosis"
               },
               {
                 "type": "checkbox-bullet",
@@ -4536,9 +4532,8 @@
                 "text": "Non-pharmacological"
               },
               {
-                "type": "subheading",
-                "text": "Haemophilia action plan",
-                "bold": true
+                "type": "plain",
+                "text": "Haemophilia action plan"
               },
               {
                 "type": "checkbox-bullet",
@@ -4880,9 +4875,8 @@
                 "text": "Combination antiretroviral therapy"
               },
               {
-                "type": "subheading",
+                "type": "plain",
                 "text": "Nucleoside / nucleotide reverse transcriptase inhibitors",
-                "bold": true,
                 "icons": [
                   {
                     "type": "info",
@@ -4895,18 +4889,16 @@
                 "text": "Tenofovir disoproxil fumarate, Tenofovir alafenamide, Emtricitabine, Lamivudine, Abacavir, Zidovudine"
               },
               {
-                "type": "subheading",
-                "text": "Non-nucleoside reverse transcriptase inhibitors",
-                "bold": true
+                "type": "plain",
+                "text": "Non-nucleoside reverse transcriptase inhibitors"
               },
               {
                 "type": "checkbox-bullet",
                 "text": "Efavirenz, Nevirapine, Rilpivirine, Etravirine, Doravirine"
               },
               {
-                "type": "subheading",
+                "type": "plain",
                 "text": "Integrase strand transfer inhibitors",
-                "bold": true,
                 "icons": [
                   {
                     "type": "info",
@@ -4919,9 +4911,8 @@
                 "text": "Dolutegravir, Bictegravir, Raltegravir, Elvitegravir"
               },
               {
-                "type": "subheading",
+                "type": "plain",
                 "text": "Protease inhibitors",
-                "bold": true,
                 "icons": [
                   {
                     "type": "info",
@@ -4934,9 +4925,8 @@
                 "text": "Atazanavir, Darunavir, Lopinavir, Saquinavir"
               },
               {
-                "type": "subheading",
+                "type": "plain",
                 "text": "Pharmacokinetic boosters",
-                "bold": true,
                 "icons": [
                   {
                     "type": "info",
@@ -4949,9 +4939,8 @@
                 "text": "Ritonavir, Cobicistat"
               },
               {
-                "type": "subheading",
+                "type": "plain",
                 "text": "Entry / fusion inhibitors",
-                "bold": true,
                 "icons": [
                   {
                     "type": "info",
@@ -4964,18 +4953,16 @@
                 "text": "Enfuvirtide, Maraviroc"
               },
               {
-                "type": "subheading",
-                "text": "Post-attachment monoclonal antibody",
-                "bold": true
+                "type": "plain",
+                "text": "Post-attachment monoclonal antibody"
               },
               {
                 "type": "checkbox-bullet",
                 "text": "Ibalizumab"
               },
               {
-                "type": "subheading",
-                "text": "Capsid inhibitor",
-                "bold": true
+                "type": "plain",
+                "text": "Capsid inhibitor"
               },
               {
                 "type": "checkbox-bullet",
@@ -5555,9 +5542,8 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
-                "text": "Uraemic symptoms",
-                "bold": true
+                "type": "plain",
+                "text": "Uraemic symptoms"
               },
               {
                 "type": "checkbox-bullet",
@@ -6403,8 +6389,7 @@
           "Of course, title with the patient\u2019s diagnosed neurological condition! But this card details what is most important to elucidate in any neurological long case."
         ],
         "resources": [
-          "YouTube Video - Neurological History in a Jiffy!",
-          "https://www.youtube.com/watch?v=RMDRNlMxg0M&list=PLKXxI1ykAbeq5uesbvziJd4kt_Sc_spmz&index=12"
+          "Neurological History in a Jiffy! >> https://www.youtube.com/watch?v=RMDRNlMxg0M&list=PLKXxI1ykAbeq5uesbvziJd4kt_Sc_spmz&index=12"
         ],
         "sections": {
           "diagnosis": {
@@ -6449,11 +6434,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "eg. immunosuppression for MS"
+                "text": "eg. Immunosuppression for MS"
               },
               {
                 "type": "checkbox",
-                "text": "eg. anticoagulation and statin for previous stroke"
+                "text": "eg. Anticoagulation and statin for previous stroke"
               },
               {
                 "type": "category",
@@ -6467,97 +6452,110 @@
               {
                 "type": "checkbox",
                 "text": "Fatigue and cognition",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: alarms, strategies, reminders"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, for example alarms and reminders"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Mood",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: psychology, medications"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, for example medications or psychology"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
-                "text": "Headaches",
-                "bold": true
+                "text": "Headaches"
+              },
+              {
+                "type": "checkbox",
+                "text": "Seizures / epilepsy"
               },
               {
                 "type": "checkbox",
                 "text": "Vision",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: glasses, eye patch, guide dog"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg glasses, eye patch, services animal or white cane"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Hearing",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: hearing aids"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg hearing aids"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Speech and swallowing",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: speech pathology, communication boards"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg speech pathology or communication boards"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Nutrition",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: dietician, thickened feeds, NG feeds, PEG feeds"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg dietician, thickened feeds, NG feeds, PEG feeds"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Motor deficits (weakness, spasticity, contractures)",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: braces, splints, orthoses, OT, physio, exercises, home modifications"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg braces, splints, orthoses, OT, physio, exercises, home modifications"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
-                "text": "Sensory deficits (sensory deficits, neuropathic pain)",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: neuropathic agents"
+                "text": "Sensory deficits"
               },
               {
                 "type": "checkbox",
                 "text": "Bowel and bladder deficits (urinary retention or incontinence, constipation, faecal incontinence)",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: urinary catheter, bowel or bladder regimen"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg urinary catheter, bowel or bladder regimen"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Autonomic (postural hypotension, orthostatic intolerance)",
-                "bold": true
-              },
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg oral fluids, midodrine, fludocortisone"
+                  }
+                ]
+              }
+            ],
+            "sectionIcons": [
               {
-                "type": "checkbox-bullet",
-                "text": "Management: oral fluids, midodrine"
+                "type": "synthesis",
+                "tip": "This could also be nested under symptoms. \\ We recommend using a 'top-down approach' as described in the YouTube video (see resources)"
               }
             ]
           },
@@ -7409,7 +7407,13 @@
               },
               {
                 "type": "category",
-                "text": "Complications of disease"
+                "text": "Complications of disease",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "This could also be nested under symptoms. \\ We recommend using a 'top-down approach' as described in the YouTube video (see resources)"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -12534,9 +12538,8 @@
                 "text": "Endocrine dysfunction"
               },
               {
-                "type": "subheading",
-                "text": "Graft versus host disease (allogeneic only)",
-                "bold": true
+                "type": "plain",
+                "text": "Graft versus host disease (allogeneic only)"
               },
               {
                 "type": "checkbox-bullet",
