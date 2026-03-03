@@ -6554,8 +6554,8 @@
             ],
             "sectionIcons": [
               {
-                "type": "synthesis",
-                "tip": "This could also be nested under symptoms. \\ We recommend using a 'top-down approach' as described in the YouTube video (see resources)"
+                "type": "info",
+                "tip": "This could also be nested under symptoms.\\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
               }
             ]
           },
@@ -7411,7 +7411,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "This could also be nested under symptoms. \\ We recommend using a 'top-down approach' as described in the YouTube video (see resources)"
+                    "tip": "This could also be nested under symptoms. \\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
                   }
                 ]
               },
