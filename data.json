@@ -6644,7 +6644,9 @@
           "Radiologically Isolated Syndrome"
         ],
         "tips": null,
-        "resources": [],
+        "resources": [
+          "Neurological History in a Jiffy! >> https://www.youtube.com/watch?v=RMDRNlMxg0M&list=PLKXxI1ykAbeq5uesbvziJd4kt_Sc_spmz&index=12"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -6839,35 +6841,43 @@
               },
               {
                 "type": "checkbox",
-                "text": "Interferon beta \u2013 fever, myalgia, headache, fatigue, injection-site reactions, mood disturbance, hepatotoxicity, bone marrow suppression, thyroid dysfunction"
+                "text": "Hepatotoxicity (interferon beta, fingolimod, dimethyl fumarate, teriflunomide)"
               },
               {
                 "type": "checkbox",
-                "text": "Glatiramer acetate \u2013 injection-site reactions, immediate post-injection reaction (chest tightness, flushing, dyspnoea, palpitations)"
+                "text": "Infections (fingolimod, natalizumab, ocrelizumab, alemtuzumab)"
               },
               {
                 "type": "checkbox",
-                "text": "Fingolimod \u2013 headache, fatigue, bradycardia and AV block (first dose), macular oedema, lymphopenia, infection risk (especially herpes viruses), rebound disease activity on cessation, hypertension, hepatotoxicity"
+                "text": "Progressive multifocal leukoencephalopathy [PML] (dimethyl fumarate, natalizumab)"
               },
               {
                 "type": "checkbox",
-                "text": "Dimethyl fumarate \u2013 flushing, gastrointestinal upset, lymphopenia, progressive multifocal leukoencephalopathy, hepatotoxicity"
+                "text": "Injection/infusion reactions (interferon beta, glatiramer acetate, ocrelizumab, alemtuzumab)"
               },
               {
                 "type": "checkbox",
-                "text": "Teriflunomide \u2013 gastrointestinal upset, alopecia, teratogenicity (requires prolonged washout), hepatotoxicity, peripheral neuropathy, hypertension, bone marrow suppression"
+                "text": "Headache / fatigue (interferon beta, fingolimod, natalizumab)"
               },
               {
                 "type": "checkbox",
-                "text": "Natalizumab \u2013 headache, fatigue, progressive multifocal leukoencephalopathy (JC virus\u2013positive), serious infections, hypersensitivity reactions, rebound disease activity on withdrawal"
+                "text": "Cytopaenias \u2013 lymphopenia, bone marrow suppression (fingolimod, dimethyl fumarate, interferon beta, teriflunomide)"
               },
               {
                 "type": "checkbox",
-                "text": "Ocrelizumab \u2013 infusion-related reactions, upper respiratory tract infections, serious infections, hypogammaglobulinaemia, possible increased malignancy risk"
+                "text": "Hypertension (fingolimod, teriflunomide)"
               },
               {
                 "type": "checkbox",
-                "text": "Alemtuzumab \u2013 infusion reactions, infections, secondary autoimmune disease (thyroid disease, immune-mediated thrombocytopenia, anti\u2013GBM disease), increased malignancy risk"
+                "text": "Malignancy (ocrelizumab, alemtuzumab)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Hypogammaglobulinaemia (ocrelizumab)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Secondary autoimmune disease \u2013 ITP, anti-GBM disease (alemtuzumab)"
               },
               {
                 "type": "category",
@@ -6876,97 +6886,110 @@
               {
                 "type": "checkbox",
                 "text": "Fatigue and cognition",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: alarms, strategies, reminders"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, for example alarms and reminders"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Mood",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: psychology, medications"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, for example medications or psychology"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
-                "text": "Headaches",
-                "bold": true
+                "text": "Headaches"
+              },
+              {
+                "type": "checkbox",
+                "text": "Seizures / epilepsy"
               },
               {
                 "type": "checkbox",
                 "text": "Vision",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: glasses, eye patch, guide dog"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg glasses, eye patch, services animal or white cane"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Hearing",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: hearing aids"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg hearing aids"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Speech and swallowing",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: speech pathology, communication boards"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg speech pathology or communication boards"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Nutrition",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: dietician, thickened feeds, NG feeds, PEG feeds"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg dietician, thickened feeds, NG feeds, PEG feeds"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Motor deficits (weakness, spasticity, contractures)",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: braces, splints, orthoses, OT, physio, exercises, home modifications"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg braces, splints, orthoses, OT, physio, exercises, home modifications"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
-                "text": "Sensory deficits (sensory deficits, neuropathic pain)",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: neuropathic agents"
+                "text": "Sensory deficits"
               },
               {
                 "type": "checkbox",
                 "text": "Bowel and bladder deficits (urinary retention or incontinence, constipation, faecal incontinence)",
-                "bold": true
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Management: urinary catheter, bowel or bladder regimen"
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg urinary catheter, bowel or bladder regimen"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
                 "text": "Autonomic (postural hypotension, orthostatic intolerance)",
-                "bold": true
-              },
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "State specific management strategies here, eg oral fluids, midodrine, fludocortisone"
+                  }
+                ]
+              }
+            ],
+            "sectionIcons": [
               {
-                "type": "checkbox-bullet",
-                "text": "Management: oral fluids, midodrine"
+                "type": "info",
+                "tip": "This could also be nested under symptoms.\\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
               }
             ]
           },
@@ -7055,7 +7078,9 @@
         "tips": [
           "If the patient has significant, persistent functional impact (eg. hemiparesis) consider stating this upfront within the heading"
         ],
-        "resources": [],
+        "resources": [
+          "Neurological History in a Jiffy! >> https://www.youtube.com/watch?v=RMDRNlMxg0M&list=PLKXxI1ykAbeq5uesbvziJd4kt_Sc_spmz&index=12"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -7689,7 +7714,39 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Alarm / bracelet"
+                "text": "Alarm / bracelet",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Wearable seizure monitors or smartwatches can detect seizures and alert pre-set contacts"
+                  }
+                ]
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Supervision for bathing/showering/swimming"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Avoiding cooking with open flames (microwave)"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Avoiding ladders/heights"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Carer input for high-risk tasks"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Home safety modifications",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Padding sharp corners, non-slip rugs, avoiding internal locks (eg in bathrooms)"
+                  }
+                ]
               },
               {
                 "type": "category",
@@ -7778,39 +7835,31 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Sodium valproate \u2013 nausea/vomiting, weight gain, tremor, sedation, hepatotoxicity, pancreatitis, thrombocytopenia, hyperammonaemia, alopecia"
+                "text": "Hepatotoxicity (sodium valproate, carbamazepine, oxcarbazepine)"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Levetiracetam / brivaracetam \u2013 fatigue/dizziness, behavioural disturbance (irritability, agitation, aggression), mood changes/depression"
+                "text": "Stevens\u2013Johnson syndrome / toxic epidermal necrolysis (lamotrigine, carbamazepine, oxcarbazepine, phenytoin, ethosuximide)"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Lamotrigine \u2013 dizziness/headache, nausea, rash, Stevens\u2013Johnson syndrome/toxic epidermal necrolysis (especially rapid titration), aseptic meningitis"
+                "text": "Cytopaenias (sodium valproate, carbamazepine, oxcarbazepine, ethosuximide, phenytoin)"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Topiramate \u2013 cognitive slowing (word-finding difficulties), paraesthesia, weight loss, renal calculi, metabolic acidosis, angle-closure glaucoma"
+                "text": "Hyponatraemia (carbamazepine, oxcarbazepine)"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Carbamazepine / oxcarbazepine \u2013 dizziness/diplopia/ataxia/nausea, hyponatraemia, bone marrow suppression, Stevens\u2013Johnson syndrome, hepatotoxicity"
+                "text": "Cognitive impairment / slowing (topiramate, benzodiazepines)"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Lacosamide \u2013 dizziness/ataxia/nausea, cardiac conduction abnormalities"
+                "text": "Behavioural disturbance / mood changes (levetiracetam, brivaracetam, ethosuximide)"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Phenytoin \u2013 nystagmus/ataxia/diplopia, gingival hyperplasia, peripheral neuropathy, osteopenia/osteoporosis, megaloblastic anaemia, Stevens\u2013Johnson syndrome"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Ethosuximide \u2013 gastrointestinal upset, fatigue/headache, behavioural changes, bone marrow suppression, Stevens\u2013Johnson syndrome"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Benzodiazepines \u2013 sedation/drowsiness/dizziness, cognitive impairment, respiratory depression, tolerance and dependence, withdrawal seizures, falls risk"
+                "text": "Weight gain (sodium valproate)"
               }
             ]
           },
@@ -7855,6 +7904,14 @@
           "impact": {
             "active": true,
             "items": [
+              {
+                "type": "checkbox",
+                "text": "Loss of independence"
+              },
+              {
+                "type": "checkbox",
+                "text": "Impact on carers / relationships"
+              },
               {
                 "type": "checkbox",
                 "text": "Teratogenicity of medication"
