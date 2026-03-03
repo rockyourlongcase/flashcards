@@ -770,7 +770,9 @@ function renderTooltip() {
   const label = t.type === 'synthesis' ? '🔗 Synthesis' : t.type === 'info' ? '💡 Tip' : '📚 Course';
   const labelClass = t.type === 'course' ? 'course' : 'synthesis';
   
-  let contentHtml = esc(t.content).replace(/\\n/g, '<br>');
+  let contentHtml = esc(t.content).replace(/\\t/g, '<br><strong>').replace(/\\n/g, '<br>');
+  // Fix: close the strong tags properly - each \t starts a bold grade header, ended by next \n
+  contentHtml = contentHtml.replace(/<strong>([^<]*?)<br>/g, '<strong>$1</strong><br>');
   // Make URLs clickable
   contentHtml = contentHtml.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank">$1</a>');
   
