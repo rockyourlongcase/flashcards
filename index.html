@@ -491,6 +491,19 @@ function renderItems(condId, sectionKey, items) {
       }
       return `<div class="content-italic">${esc(item.text)} ${italicIcons}</div>`;
     }
+    if (item.type === 'plain') {
+      let plainIcons = '';
+      if (item.icons?.length) {
+        plainIcons = item.icons.map((ic, ii) => {
+          const emoji = ic.type === 'synthesis' ? '🔗' : ic.type === 'course' ? '📚' : '💡';
+          const content = ic.tip || ic.ref || '';
+          const safeId = `${condId}-${sectionKey}-${idx}-icon-${ii}`;
+          window._tooltipData[safeId] = { type: ic.type, content: content };
+          return `<span class="inline-icon" data-tip-id="${safeId}" onclick="event.stopPropagation();toggleTipById(event,this)" onmouseenter="showTipById(event,this)" onmouseleave="hideTooltip()">${emoji}</span>`;
+        }).join('');
+      }
+      return `<div class="content-text" style="padding:6px 0 6px 8px">${esc(item.text)} ${plainIcons}</div>`;
+    }
 
     const checkKey = `${condId}-${sectionKey}-${idx}`;
     const isChecked = state.checked[checkKey];
@@ -549,11 +562,14 @@ function renderModal() {
     modal.innerHTML = `<h3 class="teal">📚 Resources</h3>
       <div style="font-size:13px;font-weight:600;color:#666;margin-bottom:14px">Course References</div>
       ${c.resources.map(r => {
+        if (r.includes(' >> ')) {
+          const parts = r.split(' >> ');
+          const title = parts[0].trim();
+          const url = parts[1].trim();
+          return `<a href="${esc(url)}" target="_blank" style="text-decoration:none"><div class="modal-item teal">🔗 ${esc(title)}</div></a>`;
+        }
         if (r.includes('http')) {
-          const parts = r.split('|');
-          const title = parts.length > 1 ? parts[0] : r;
-          const url = parts.length > 1 ? parts[1] : r;
-          return `<a href="${esc(url)}" target="_blank" style="text-decoration:none"><div class="modal-item teal">📚 ${esc(title)}</div></a>`;
+          return `<a href="${esc(r)}" target="_blank" style="text-decoration:none"><div class="modal-item teal">🔗 ${esc(r)}</div></a>`;
         }
         return `<div class="modal-item teal">📚 ${esc(r)}</div>`;
       }).join('')}
