@@ -148,8 +148,10 @@ body {
 /* TOOLTIP */
 .tooltip {
   position: fixed; background: #2a2a2a; color: #fff; border-radius: 10px;
-  padding: 10px 14px; max-width: 280px; font-size: 13px; line-height: 1.5;
-  z-index: 200; box-shadow: 0 4px 20px rgba(0,0,0,0.3); pointer-events: none;
+  padding: 10px 14px; max-width: 300px; max-height: 60vh; overflow-y: auto;
+  font-size: 13px; line-height: 1.5;
+  z-index: 200; box-shadow: 0 4px 20px rgba(0,0,0,0.3); pointer-events: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .tooltip-label { font-size: 12px; font-weight: 700; margin-bottom: 4px; }
 .tooltip-label.synthesis { color: var(--gold); }
@@ -770,9 +772,22 @@ function renderTooltip() {
   const label = t.type === 'synthesis' ? '🔗 Synthesis' : t.type === 'info' ? '💡 Tip' : '📚 Course';
   const labelClass = t.type === 'course' ? 'course' : 'synthesis';
   
-  let contentHtml = esc(t.content).replace(/\\t/g, '<br><strong>').replace(/\\n/g, '<br>');
-  // Fix: close the strong tags properly - each \t starts a bold grade header, ended by next \n
-  contentHtml = contentHtml.replace(/<strong>([^<]*?)<br>/g, '<strong>$1</strong><br>');
+  let contentHtml = esc(t.content);
+  // Handle grading scales: \t separates grades, \n is line break within grade
+  if (contentHtml.includes('\\t')) {
+    const parts = contentHtml.split('\\t');
+    const title = parts[0].replace(/\\n/g, '<br>');
+    const grades = parts.slice(1).map(g => {
+      const lines = g.split('\\n').filter(l => l.trim());
+      if (lines.length === 0) return '';
+      const header = lines[0].trim();
+      const desc = lines.slice(1).map(l => l.trim()).join('<br>');
+      return `<div style="margin:8px 0 4px 0"><strong>${header}</strong></div><div style="margin-left:8px;opacity:0.9">${desc}</div>`;
+    }).join('');
+    contentHtml = `<div style="margin-bottom:6px;font-weight:600;border-bottom:1px solid rgba(255,255,255,0.2);padding-bottom:4px">${title}</div>${grades}`;
+  } else {
+    contentHtml = contentHtml.replace(/\\n/g, '<br>');
+  }
   // Make URLs clickable
   contentHtml = contentHtml.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank">$1</a>');
   
