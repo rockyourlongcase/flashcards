@@ -8421,7 +8421,8 @@
         "id": "copd",
         "name": "Chronic Obstructve Pulmonary Disease",
         "headingModifiers": [
-          "Severity\\n- Mild FEV\u2081 \u2265 80% predicted\\n- Moderate FEV\u2081 50\u201379% predicted\\n- Severe FEV\u2081 30\u201349% predicted\\n- Very severe FEV\u2081 < 30% predicted\\nPhenotype\\n- Emphysema-predominant COPD\\n- Chronic bronchitis phenotype\\n- Asthma\u2013COPD overlap"
+          "Severity\\n- Mild FEV\u2081 \u2265 80% predicted\\n- Moderate FEV\u2081 50\u201379% predicted\\n- Severe FEV\u2081 30\u201349% predicted\\n- Very severe FEV\u2081 < 30% predicted",
+          "Phenotype\\n- Emphysema-predominant COPD\\n- Chronic bronchitis phenotype\\n- Asthma\u2013COPD overlap"
         ],
         "tips": null,
         "resources": [],
@@ -8740,8 +8741,8 @@
         "id": "ild",
         "name": "Interstital Lung Disease",
         "headingModifiers": [
-          "Pattern\n- Usual interstitial pneumonia pattern\n- Nonspecific interstitial pneumonia\n- Organising pneumonia\n- Hypersensitivity pneumonitis",
-          "Cause\n- Idiopathic pulmonary fibrosis \n- Connective tissue disease\u2013associated ILD\n- Drug-induced ILD\n- Occupational ILD",
+          "Pattern\\n- Usual interstitial pneumonia pattern\\n- Nonspecific interstitial pneumonia\\n- Organising pneumonia\\n- Hypersensitivity pneumonitis",
+          "Cause\\n- Idiopathic pulmonary fibrosis\\n- Connective tissue disease\u2013associated ILD\\n- Drug-induced ILD\\n- Occupational ILD",
           "Oxygen Requiring",
           "Under Transplant Assessment"
         ],
