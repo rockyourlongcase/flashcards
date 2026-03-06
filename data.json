@@ -8947,7 +8947,13 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Lung transplantation"
+                "text": "Lung transplantation",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "But if the patient has had a lung transplant this should be the heading with ILD as the aetiology (see solid organ transplant flashcard)"
+                  }
+                ]
               }
             ]
           },
@@ -9107,11 +9113,9 @@
         "id": "cf",
         "name": "Cystic Fibrosis",
         "headingModifiers": [
-          "Chronic Pseudomonas colonisation",
-          "Major extrapulmonary complications",
-          "Disease Control / Trajectory (stable",
-          "progressive",
-          "awaiting transplant)"
+          "With Pseudomonas colonisation",
+          "With major extrapulmonary complications [list them]",
+          "Disease Control / Trajectory (stable, progressive, awaiting transplant)"
         ],
         "tips": null,
         "resources": [],
@@ -9151,7 +9155,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "Family history of cystic fibrosis"
+                "text": "Family history of cystic fibrosis",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "CF is an autosomal recessive disorder and approximately 1 in 25 Caucasians are carriers. It is caused by mutations in the CFTR gene.The most common mutation is \u0394F508, although more than 1,500 CFTR mutations have been identified."
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -9293,7 +9303,13 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Lung transplantation"
+                "text": "Lung transplantation",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "But If the patient has had a lung transplant this becomes the heading and CF becomes the aetiology (see Solid Organ Transplant flashcard)"
+                  }
+                ]
               }
             ]
           },
@@ -9303,10 +9319,6 @@
               {
                 "type": "category",
                 "text": "Complications of management"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Airway clearance and physiotherapy \u2013 fatigue, musculoskeletal strain"
               },
               {
                 "type": "checkbox-bullet",
@@ -9341,10 +9353,6 @@
                 "text": "CFTR modulators \u2013 transaminitis, rash, cataracts (paediatric), drug\u2013drug interactions"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Lung transplantation \u2013 rejection, infection, malignancy"
-              },
-              {
                 "type": "category",
                 "text": "Complications of disease"
               },
@@ -9370,7 +9378,7 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Allergic bronchopulmonary aspergillosis"
+                "text": "Allergic bronchopulmonary aspergillosis (ABPA)"
               },
               {
                 "type": "checkbox-bullet",
@@ -9422,19 +9430,17 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Nephrolithiasis"
+                "text": "Nephrolithiasis / nephrocalcinosis"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Nephrocalcinosis"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Male infertility"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Female infertility"
+                "text": "Infertility (both males and females)",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Male infertility is common, usually due to congenital bilateral absence of the vas deferens, although spermatogenesis is typically normal, allowing sperm retrieval with IVF or Intracytoplasmic Sperm Injection (ICSI). Female fertility is reduced but not absent, due to thick cervical mucus, chronic illness, and nutritional factors, and pregnancy is high risk, requiring specialist CF and obstetric care."
+                  }
+                ]
               }
             ]
           },
@@ -9506,7 +9512,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "Genetic counselling / family planning"
+                "text": "Genetic counselling / family planning",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Male infertility is common, usually due to congenital bilateral absence of the vas deferens, although spermatogenesis is typically normal, allowing sperm retrieval with IVF or Intracytoplasmic Sperm Injection (ICSI). Female fertility is reduced but not absent, due to thick cervical mucus, chronic illness, and nutritional factors, and pregnancy is high risk, requiring specialist CF and obstetric care."
+                  }
+                ]
               }
             ]
           },
