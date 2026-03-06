@@ -792,14 +792,24 @@ function renderTooltip() {
   contentHtml = contentHtml.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank">$1</a>');
   
   el.innerHTML = `<div class="tooltip-label ${labelClass}">${label}</div>${contentHtml}`;
-  el.style.left = Math.min(t.x, window.innerWidth - 296) + 'px';
-  el.style.top = t.y + 'px';
   document.body.appendChild(el);
   
-  // Ensure tooltip stays on screen
-  const rect = el.getBoundingClientRect();
-  if (rect.bottom > window.innerHeight) {
-    el.style.top = (t.y - rect.height - 40) + 'px';
+  const isLong = contentHtml.includes('<strong>') && contentHtml.length > 300;
+  if (isLong) {
+    // Centre long tooltips (grading scales) as a modal overlay
+    el.style.left = '50%';
+    el.style.top = '50%';
+    el.style.transform = 'translate(-50%, -50%)';
+    el.style.maxHeight = '70vh';
+    el.style.maxWidth = 'min(340px, 85vw)';
+  } else {
+    el.style.left = Math.min(t.x, window.innerWidth - 316) + 'px';
+    el.style.top = t.y + 'px';
+    // Ensure tooltip stays on screen
+    const rect = el.getBoundingClientRect();
+    if (rect.bottom > window.innerHeight) {
+      el.style.top = (t.y - rect.height - 40) + 'px';
+    }
   }
 }
 
