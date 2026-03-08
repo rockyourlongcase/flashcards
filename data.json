@@ -5218,11 +5218,12 @@
         "id": "ckd_dialysis",
         "name": "End Stage Renal Failure On Dialysis",
         "headingModifiers": [
-          "Peritoneal Dialysis",
-          "Haemodyalsis"
+          "Peritoneal Dialysis, Haemodyalsis"
         ],
         "tips": null,
-        "resources": [],
+        "resources": [
+          "RYLC Week 1 & 2: Renal & Dialysis Long Case Module"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -5441,7 +5442,7 @@
                 "text": "Complications of management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "subheading",
                 "text": "Haemodialysis-related"
               },
               {
@@ -5465,7 +5466,7 @@
                 "text": "Vascular access complications"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "subheading",
                 "text": "Peritoneal dialysis-related"
               },
               {
@@ -5664,9 +5665,11 @@
           "Being considered for transplant"
         ],
         "tips": [
-          "CKD Stage 1: eGFR \u226590 mL/min/1.73 m\u00b2,\nCKD Stage 2: eGFR 60\u201389 mL/min/1.73 m\u00b2,\nCKD Stage 3a: eGFR 45\u201359 mL/min/1.73 m\u00b2,\nCKD Stage 3b: eGFR 30\u201344 mL/min/1.73 m\u00b2,\nCKD Stage 4: eGFR 15\u201329 mL/min/1.73 m\u00b2,\nCKD Stage 5: eGFR <15 mL/min/1.73 m\u00b2,"
+          "CKD Stage 1: eGFR \u226590 mL/min \\n CKD Stage 2: eGFR 60\u201389 mL/min \\n CKD Stage 3a: eGFR 45\u201359 mL/min \\n CKD Stage 3b: eGFR 30\u201344 mL/min \\n CKD Stage 4: eGFR 15\u201329 mL/min \\n CKD Stage 5: eGFR <15 mL/min"
         ],
-        "resources": [],
+        "resources": [
+          "RYLC Week 2: The CKD History & Examination"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -6000,11 +6003,11 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 nephrology and frequency"
+                "text": "Follow up and frequency"
               },
               {
                 "type": "checkbox",
-                "text": "Renal replacement therapy planning if progressive"
+                "text": "Future Care Planning if CKD 4-5 (dialysis vs transplant vs supportive care)"
               }
             ]
           }
@@ -6018,7 +6021,9 @@
           "Living Donor"
         ],
         "tips": null,
-        "resources": [],
+        "resources": [
+          "RYLC Week 3 & 4: The Renal Transplant Module"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -6060,6 +6065,14 @@
                 "text": "Time of Transplant"
               },
               {
+                "type": "category",
+                "text": "Complications since transplant"
+              },
+              {
+                "type": "checkbox",
+                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
+              },
+              {
                 "type": "subheading",
                 "text": "Anatomical Considerations & Source"
               },
@@ -6069,39 +6082,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "Living donor \u2013 related or unrelated"
-              },
-              {
-                "type": "subheading",
-                "text": "Immunological considerations"
-              },
-              {
-                "type": "checkbox",
-                "text": "HLA matching"
-              },
-              {
-                "type": "checkbox",
-                "text": "Donor-specific antibodies"
-              },
-              {
-                "type": "checkbox",
-                "text": "Risk factors for sensitisation (pregnancy, transfusion, prior transplant)"
-              },
-              {
-                "type": "checkbox",
-                "text": "CMV donor and recipient serostatus"
-              },
-              {
-                "type": "category",
-                "text": "Complications since transplant"
-              },
-              {
-                "type": "checkbox",
-                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
-              },
-              {
-                "type": "checkbox",
                 "text": "Rejection episodes and management"
+              },
+              {
+                "type": "checkbox",
+                "text": "Living donor \u2013 related or unrelated"
               },
               {
                 "type": "checkbox",
@@ -6114,6 +6099,10 @@
                 ]
               },
               {
+                "type": "subheading",
+                "text": "Immunological considerations"
+              },
+              {
                 "type": "checkbox",
                 "text": "Cytopenias (e.g MMF, AZA, mTORi, Valcyte, Bactrim, CMV, parvovirus)"
               },
@@ -6123,7 +6112,23 @@
               },
               {
                 "type": "checkbox",
+                "text": "HLA matching"
+              },
+              {
+                "type": "checkbox",
+                "text": "Donor-specific antibodies"
+              },
+              {
+                "type": "checkbox",
                 "text": "Changes in immunosuppression and reasons"
+              },
+              {
+                "type": "checkbox",
+                "text": "Risk factors for sensitisation (pregnancy, transfusion, prior transplant)"
+              },
+              {
+                "type": "checkbox",
+                "text": "CMV donor and recipient serostatus"
               }
             ]
           },
@@ -6166,7 +6171,13 @@
               },
               {
                 "type": "subheading",
-                "text": "Antimicrobials"
+                "text": "Antimicrobials",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "If a transplant patient is on an antimicrobial, know the reason. Is it routine prophylaxis? Prior infection? Or increased immunosuppression for rejection?"
+                  }
+                ]
               },
               {
                 "type": "checkbox-bullet",
@@ -6174,13 +6185,7 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Current antimicrobial prophylaxis",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "If a transplant patient is receiving an antimicrobial, make sure you know why. Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection, necessitating re-introduction of antimicrobials?"
-                  }
-                ]
+                "text": "Current antimicrobial prophylaxis"
               },
               {
                 "type": "checkbox-bullet",
@@ -6209,7 +6214,7 @@
               },
               {
                 "type": "subheading",
-                "text": "Calcineurin inhibitor toxicity"
+                "text": "Calcineurin inhibitor toxicities"
               },
               {
                 "type": "checkbox",
@@ -6229,7 +6234,7 @@
               },
               {
                 "type": "subheading",
-                "text": "Steroid-related complications"
+                "text": "Corticosteroid toxicities"
               },
               {
                 "type": "checkbox",
@@ -6267,7 +6272,7 @@
               },
               {
                 "type": "subheading",
-                "text": "Anti-proliferative side effects"
+                "text": "Anti-proliferative toxicities"
               },
               {
                 "type": "checkbox",
@@ -6279,7 +6284,7 @@
               },
               {
                 "type": "subheading",
-                "text": "mTOR inhibitor complications"
+                "text": "mTOR inhibitor toxicities"
               },
               {
                 "type": "checkbox",
@@ -9572,7 +9577,11 @@
           "Seropositive / seronegative, Erosive, Deforming"
         ],
         "tips": null,
-        "resources": [],
+        "resources": [
+          "RYLC Week 7: Live Practise Session \"Multifactorial Pain Syndromes\"",
+          "RYLC Week 7: \"Assessing Function\"",
+          "RYLC Week 7: \"Assessing Disease Activity\""
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -9832,8 +9841,8 @@
                 "text": "Central sensitisation",
                 "icons": [
                   {
-                    "type": "resource",
-                    "text": "RYLC Week 7: Live Practise Session \"Multifactorial Pain Syndromes\""
+                    "type": "course",
+                    "ref": "RYLC Week 7: Live Practise Session \"Multifactorial Pain Syndromes\""
                   }
                 ]
               },
@@ -9875,8 +9884,8 @@
             ],
             "sectionIcons": [
               {
-                "type": "resource",
-                "text": "RYLC Week 7: \"Assessing Function\""
+                "type": "course",
+                "ref": "RYLC Week 7: \"Assessing Function\""
               }
             ]
           },
@@ -9968,8 +9977,8 @@
             ],
             "sectionIcons": [
               {
-                "type": "resource",
-                "text": "RYLC Week 7: \"Assessing Disease Activity\""
+                "type": "course",
+                "ref": "RYLC Week 7: \"Assessing Disease Activity\""
               }
             ]
           },
@@ -10008,7 +10017,10 @@
           "Erosive, Deforming, With / without axial involvement"
         ],
         "tips": null,
-        "resources": [],
+        "resources": [
+          "RYLC Week 7: Assessing Function",
+          "RYLC Week 7: Assessing Disease Activity"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -10269,8 +10281,8 @@
             ],
             "sectionIcons": [
               {
-                "type": "resource",
-                "text": "RYLC Week 7: Assessing Function"
+                "type": "course",
+                "ref": "RYLC Week 7: Assessing Function"
               }
             ]
           },
@@ -10356,8 +10368,8 @@
                 "text": "Assess current disease activity (swollen / tender joint count)",
                 "icons": [
                   {
-                    "type": "resource",
-                    "text": "RYLC Week 7: Assessing Disease Activity"
+                    "type": "course",
+                    "ref": "RYLC Week 7: Assessing Disease Activity"
                   }
                 ]
               }
@@ -11455,13 +11467,8 @@
             ]
           },
           "targets": {
-            "active": true,
-            "items": [
-              {
-                "type": "checkbox",
-                "text": "Assess organ involvement and disease activity"
-              }
-            ]
+            "active": false,
+            "items": []
           },
           "impact": {
             "active": true,
@@ -11477,6 +11484,14 @@
               {
                 "type": "checkbox",
                 "text": "Contraception"
+              },
+              {
+                "type": "checkbox",
+                "text": "Cosmetic concerns"
+              },
+              {
+                "type": "checkbox",
+                "text": "Impact on life, work, relationships"
               }
             ]
           },
@@ -11498,427 +11513,10 @@
     "name": "Transplant",
     "conditions": [
       {
-        "id": "renal_transplant",
-        "name": "Renal Transplant",
-        "headingModifiers": [
-          "Deceased Donor",
-          "Living Donor"
-        ],
-        "tips": null,
-        "resources": [],
-        "sections": {
-          "diagnosis": {
-            "active": true,
-            "items": [
-              {
-                "type": "checkbox",
-                "text": "When transplant performed"
-              }
-            ]
-          },
-          "aetiology": {
-            "active": true,
-            "items": [
-              {
-                "type": "checkbox",
-                "text": "Cause of ESKD and when diagnosed"
-              },
-              {
-                "type": "checkbox",
-                "text": "Symptoms and investigations at diagnosis of ESKD",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "Keep this brief - just make sure you know why they needed a transplant and agree with the diagnosis. Avoid a long drawn out chronological history of time of CKD diagnosis to transplant."
-                  }
-                ]
-              }
-            ]
-          },
-          "riskFactors": {
-            "active": false,
-            "items": []
-          },
-          "progress": {
-            "active": true,
-            "items": [
-              {
-                "type": "category",
-                "text": "Time of Transplant"
-              },
-              {
-                "type": "subheading",
-                "text": "Anatomical Considerations & Source"
-              },
-              {
-                "type": "checkbox",
-                "text": "Deceased donor"
-              },
-              {
-                "type": "checkbox",
-                "text": "Living donor \u2013 related or unrelated"
-              },
-              {
-                "type": "subheading",
-                "text": "Immunological considerations"
-              },
-              {
-                "type": "checkbox",
-                "text": "HLA matching"
-              },
-              {
-                "type": "checkbox",
-                "text": "Donor-specific antibodies"
-              },
-              {
-                "type": "checkbox",
-                "text": "Risk factors for sensitisation (pregnancy, transfusion, prior transplant)"
-              },
-              {
-                "type": "checkbox",
-                "text": "CMV donor and recipient serostatus"
-              },
-              {
-                "type": "category",
-                "text": "Complications since transplant"
-              },
-              {
-                "type": "checkbox",
-                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
-              },
-              {
-                "type": "checkbox",
-                "text": "Rejection episodes and management"
-              },
-              {
-                "type": "checkbox",
-                "text": "Malignancy (especially skin cancer)",
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "Package malignancy screening including skin checks"
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
-                "text": "Cytopenias (e.g MMF, AZA, mTORi, Valcyte, Bactrim, CMV, parvovirus)"
-              },
-              {
-                "type": "checkbox",
-                "text": "Anatomical complications"
-              },
-              {
-                "type": "checkbox",
-                "text": "Changes in immunosuppression and reasons"
-              }
-            ]
-          },
-          "now": {
-            "active": true,
-            "items": []
-          },
-          "management": {
-            "active": true,
-            "items": [
-              {
-                "type": "category",
-                "text": "Pharmacological"
-              },
-              {
-                "type": "subheading",
-                "text": "Immunosupression",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "Most patients with a solid organ transplant patients are taking three immunosuppressants (liver transplant in the longer term are on two agents). Sometimes patients are on two agents by design - but if they are on less than three agents you should check if their immunosuppression was reduced for a particular reason (eg infection or malignancy)."
-                  }
-                ]
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Tacrolimus or cyclosporin"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Mycophenolate or azathioprine"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Prednisolone"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "mTOR inhibitor (everolimus or sirolimus)"
-              },
-              {
-                "type": "subheading",
-                "text": "Antimicrobials",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "If a transplant patient is on an antimicrobial, know the reason. Is it routine prophylaxis? Prior infection? Or increased immunosuppression for rejection?"
-                  }
-                ]
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Vaccination status"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Trimethoprim-sulfamethoxazole"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Valganciclovir"
-              },
-              {
-                "type": "category",
-                "text": "Non-pharmacological"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Population cancer screening up to date"
-              }
-            ]
-          },
-          "complications": {
-            "active": true,
-            "items": [
-              {
-                "type": "category",
-                "text": "Complications of management"
-              },
-              {
-                "type": "subheading",
-                "text": "Calcineurin inhibitor toxicities"
-              },
-              {
-                "type": "checkbox",
-                "text": "Hypertension"
-              },
-              {
-                "type": "checkbox",
-                "text": "Hyperlipidaemia"
-              },
-              {
-                "type": "checkbox",
-                "text": "Hypomagnesaemia"
-              },
-              {
-                "type": "checkbox",
-                "text": "Nephrotoxicity"
-              },
-              {
-                "type": "subheading",
-                "text": "Corticosteroid toxicities"
-              },
-              {
-                "type": "checkbox",
-                "text": "Post-transplant diabetes",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "If patient has pre-existing diabetes with complications before transplant \u2013 discuss separately but nod towards it here. If patient\u00a0has developed diabetes post-transplant and the transplant was recent (insufficient time to develop complications of diabetes) diabetes can be handled here briefly."
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
-                "text": "Osteoporosis",
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "Package DEXA screening and OP medications here."
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
-                "text": "GORD",
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "Package PPIs here."
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
-                "text": "Weight gain"
-              },
-              {
-                "type": "subheading",
-                "text": "Anti-proliferative toxicities"
-              },
-              {
-                "type": "checkbox",
-                "text": "Cytopenias (MMF, AZA)"
-              },
-              {
-                "type": "checkbox",
-                "text": "Diarrhoea (MMF)"
-              },
-              {
-                "type": "subheading",
-                "text": "mTOR inhibitor toxicities"
-              },
-              {
-                "type": "checkbox",
-                "text": "Impaired wound healing"
-              },
-              {
-                "type": "checkbox",
-                "text": "Dyslipidaemia"
-              },
-              {
-                "type": "checkbox",
-                "text": "Infection risk"
-              },
-              {
-                "type": "category",
-                "text": "Complications of disease"
-              },
-              {
-                "type": "subheading",
-                "text": "Chronic allograft dysfunction",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "A renal transplant is a single kidney. Patients have varied ranges of function. General CKD complications may occur in renal transplant patients if GFR is low - look for clues on medication chart."
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
-                "text": "Renal anaemia"
-              },
-              {
-                "type": "checkbox",
-                "text": "CKD-MBD"
-              },
-              {
-                "type": "checkbox",
-                "text": "Metabolic acidosis"
-              },
-              {
-                "type": "checkbox",
-                "text": "Hypertension"
-              },
-              {
-                "type": "checkbox",
-                "text": "Gout"
-              },
-              {
-                "type": "checkbox",
-                "text": "Fluid overload"
-              }
-            ]
-          },
-          "function": {
-            "active": true,
-            "items": [
-              {
-                "type": "checkbox",
-                "text": "Renal allograft function (eGFR, creatinine)",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "Patients should know their baseline eGFR and creatnine!"
-                  }
-                ]
-              }
-            ]
-          },
-          "adherence": {
-            "active": true,
-            "items": [
-              {
-                "type": "subheading",
-                "text": "Pharmacological adherence"
-              },
-              {
-                "type": "checkbox",
-                "text": "Missed doses per week"
-              },
-              {
-                "type": "checkbox",
-                "text": "Timing consistency of medications"
-              },
-              {
-                "type": "checkbox",
-                "text": "Strategies: dosette box, timers"
-              },
-              {
-                "type": "checkbox",
-                "text": "Understanding of illness and insight"
-              }
-            ],
-            "sectionIcons": [
-              {
-                "type": "info",
-                "tip": "This is very important in a transplant patient!"
-              }
-            ]
-          },
-          "symptoms": {
-            "active": true,
-            "items": [
-              {
-                "type": "checkbox",
-                "text": "Symptoms of graft dysfunction if present"
-              }
-            ]
-          },
-          "targets": {
-            "active": true,
-            "items": [
-              {
-                "type": "checkbox",
-                "text": "Blood pressure target (~ 130/80)"
-              },
-              {
-                "type": "checkbox",
-                "text": "Stable renal function"
-              },
-              {
-                "type": "checkbox",
-                "text": "Immunosuppressant drug levels within transplant team target"
-              }
-            ]
-          },
-          "impact": {
-            "active": true,
-            "items": [
-              {
-                "type": "checkbox",
-                "text": "Impact of illness"
-              }
-            ]
-          },
-          "future": {
-            "active": true,
-            "items": [
-              {
-                "type": "checkbox",
-                "text": "Follow up \u2013 transplant team frequency"
-              },
-              {
-                "type": "checkbox",
-                "text": "Plans if graft failing (dialysis or re-transplant)"
-              }
-            ]
-          }
-        }
-      },
-      {
         "id": "solid_organ_transplant",
         "name": "Solid Organ Transplant",
         "headingModifiers": [
-          "Lung (Single or Bilateral Sequential)",
-          "Cardiac (Orthotopic or Heterotopic)",
-          "Renal (Deceased or Live Donor)"
+          "Lung (Single or Bilateral Sequential), Cardiac (Orthotopic or Heterotopic), Renal (Deceased or Live Donor)"
         ],
         "tips": [
           "Orthotopic Heart Transplant = swap old heart for new heart",
@@ -11926,7 +11524,9 @@
         ],
         "resources": [
           "RYLC Week 3 & 4: Renal Transplant",
-          "RYLC Week 6: Heart and Lung Transplant"
+          "RYLC Week 6: Heart and Lung Transplant",
+          "RYLC Week 9 (After Party): Heart Transplant with Dr Hitesh Patel",
+          "RYLC Week 9 (After Party): Lung Transplant Immersion with Dr Nicole Gaffney"
         ],
         "sections": {
           "diagnosis": {
@@ -11975,22 +11575,6 @@
                 ]
               },
               {
-                "type": "checkbox",
-                "text": "HLA match"
-              },
-              {
-                "type": "checkbox",
-                "text": "Donor-specific antibodies"
-              },
-              {
-                "type": "checkbox",
-                "text": "Risk factors for DSA development (pregnancy, blood products, prior transplant)"
-              },
-              {
-                "type": "checkbox",
-                "text": "CMV donor/recipient IgG status"
-              },
-              {
                 "type": "category",
                 "text": "Time since transplant"
               },
@@ -12000,7 +11584,23 @@
               },
               {
                 "type": "checkbox",
+                "text": "HLA match"
+              },
+              {
+                "type": "checkbox",
+                "text": "Donor-specific antibodies"
+              },
+              {
+                "type": "checkbox",
                 "text": "Rejection episodes and management"
+              },
+              {
+                "type": "checkbox",
+                "text": "Risk factors for DSA development (pregnancy, blood products, prior transplant)"
+              },
+              {
+                "type": "checkbox",
+                "text": "CMV donor/recipient IgG status"
               },
               {
                 "type": "checkbox",
@@ -12080,12 +11680,12 @@
                 "text": "Other (anti-thymocyte globulin, basiliximab)"
               },
               {
-                "type": "subheading",
+                "type": "checkbox-bold",
                 "text": "Antimicrobials",
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If a transplant patient is on an antimicrobial know the reason. Is it routine prophylaxis prior infection or increased immunosuppression for rejection."
+                    "tip": "If a transplant patient is on an antimicrobial, know the reason. Is it routine prophylaxis? Prior infection? Or increased immunosuppression for rejection?"
                   }
                 ]
               },
@@ -12136,21 +11736,21 @@
               },
               {
                 "type": "checkbox",
-                "text": "Infections",
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "Synthesise vaccination status and well as any antimicrobial prophylaxis"
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
                 "text": "Hypertension",
                 "icons": [
                   {
                     "type": "info",
                     "tip": "Can be related to CNis, mTORi +/- steroids"
+                  }
+                ]
+              },
+              {
+                "type": "checkbox",
+                "text": "Infections",
+                "icons": [
+                  {
+                    "type": "synthesis",
+                    "tip": "Synthesise vaccination status and well as any antimicrobial prophylaxis"
                   }
                 ]
               },
@@ -12181,24 +11781,6 @@
               {
                 "type": "checkbox",
                 "text": "Nephrotoxicity"
-              },
-              {
-                "type": "checkbox",
-                "text": "Hypertension"
-              },
-              {
-                "type": "checkbox",
-                "text": "Hyperlipidaemia"
-              },
-              {
-                "type": "checkbox",
-                "text": "Hyperglycaemia",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "Relates more to tacrolimus > cyclosporine"
-                  }
-                ]
               },
               {
                 "type": "checkbox",
@@ -12558,7 +12140,11 @@
         "tips": [
           "Only Allogeneic HSCT  pose risk of Graft vs Host Disease"
         ],
-        "resources": [],
+        "resources": [
+          "RYLC Week 6: Bone Marrow Transplant Workshop",
+          "RYLC Week 9 (After Party): BMT History Workshop with Dr Kaitlyn Wiltshire",
+          "RYLC Week 9 (After Party): Bone Marrow Transplant Immersion with Dr Shu Min Wong"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -12783,11 +12369,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Mood regarding mortality and morbidity"
-              },
-              {
-                "type": "checkbox",
-                "text": "Impact on independence"
+                "text": "Psychosocial implications of disease and treatment related complications"
               }
             ]
           },
@@ -12797,6 +12379,427 @@
               {
                 "type": "checkbox",
                 "text": "Follow up \u2013 by whom and when"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "renal_transplant",
+        "name": "Renal Transplant",
+        "headingModifiers": [
+          "Deceased Donor",
+          "Living Donor"
+        ],
+        "tips": null,
+        "resources": [
+          "RYLC Week 3 & 4: The Renal Transplant Module"
+        ],
+        "sections": {
+          "diagnosis": {
+            "active": true,
+            "items": [
+              {
+                "type": "checkbox",
+                "text": "When transplant performed"
+              }
+            ]
+          },
+          "aetiology": {
+            "active": true,
+            "items": [
+              {
+                "type": "checkbox",
+                "text": "Cause of ESKD and when diagnosed"
+              },
+              {
+                "type": "checkbox",
+                "text": "Symptoms and investigations at diagnosis of ESKD",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Keep this brief - just make sure you know why they needed a transplant and agree with the diagnosis. Avoid a long drawn out chronological history of time of CKD diagnosis to transplant."
+                  }
+                ]
+              }
+            ]
+          },
+          "riskFactors": {
+            "active": false,
+            "items": []
+          },
+          "progress": {
+            "active": true,
+            "items": [
+              {
+                "type": "category",
+                "text": "Time of Transplant"
+              },
+              {
+                "type": "category",
+                "text": "Complications since transplant"
+              },
+              {
+                "type": "checkbox",
+                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
+              },
+              {
+                "type": "subheading",
+                "text": "Anatomical Considerations & Source"
+              },
+              {
+                "type": "checkbox",
+                "text": "Deceased donor"
+              },
+              {
+                "type": "checkbox",
+                "text": "Rejection episodes and management"
+              },
+              {
+                "type": "checkbox",
+                "text": "Living donor \u2013 related or unrelated"
+              },
+              {
+                "type": "checkbox",
+                "text": "Malignancy (especially skin cancer)",
+                "icons": [
+                  {
+                    "type": "synthesis",
+                    "tip": "Package malignancy screening including skin checks"
+                  }
+                ]
+              },
+              {
+                "type": "subheading",
+                "text": "Immunological considerations"
+              },
+              {
+                "type": "checkbox",
+                "text": "Cytopenias (e.g MMF, AZA, mTORi, Valcyte, Bactrim, CMV, parvovirus)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Anatomical complications"
+              },
+              {
+                "type": "checkbox",
+                "text": "HLA matching"
+              },
+              {
+                "type": "checkbox",
+                "text": "Donor-specific antibodies"
+              },
+              {
+                "type": "checkbox",
+                "text": "Changes in immunosuppression and reasons"
+              },
+              {
+                "type": "checkbox",
+                "text": "Risk factors for sensitisation (pregnancy, transfusion, prior transplant)"
+              },
+              {
+                "type": "checkbox",
+                "text": "CMV donor and recipient serostatus"
+              }
+            ]
+          },
+          "now": {
+            "active": true,
+            "items": []
+          },
+          "management": {
+            "active": true,
+            "items": [
+              {
+                "type": "category",
+                "text": "Pharmacological"
+              },
+              {
+                "type": "subheading",
+                "text": "Immunosupression",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Most patients with a solid organ transplant patients are taking three immunosuppressants (liver transplant in the longer term are on two agents). Sometimes patients are on two agents by design - but if they are on less than three agents you should check if their immunosuppression was reduced for a particular reason (eg infection or malignancy)."
+                  }
+                ]
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Tacrolimus or cyclosporin"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Mycophenolate or azathioprine"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Prednisolone"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "mTOR inhibitor (everolimus or sirolimus)"
+              },
+              {
+                "type": "subheading",
+                "text": "Antimicrobials",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "If a transplant patient is on an antimicrobial, know the reason. Is it routine prophylaxis? Prior infection? Or increased immunosuppression for rejection?"
+                  }
+                ]
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Vaccination status"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Current antimicrobial prophylaxis"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Trimethoprim-sulfamethoxazole"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Valganciclovir"
+              },
+              {
+                "type": "category",
+                "text": "Non-pharmacological"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Population cancer screening up to date"
+              }
+            ]
+          },
+          "complications": {
+            "active": true,
+            "items": [
+              {
+                "type": "category",
+                "text": "Complications of management"
+              },
+              {
+                "type": "subheading",
+                "text": "Calcineurin inhibitor toxicities"
+              },
+              {
+                "type": "checkbox",
+                "text": "Hypertension"
+              },
+              {
+                "type": "checkbox",
+                "text": "Hyperlipidaemia"
+              },
+              {
+                "type": "checkbox",
+                "text": "Hypomagnesaemia"
+              },
+              {
+                "type": "checkbox",
+                "text": "Nephrotoxicity"
+              },
+              {
+                "type": "subheading",
+                "text": "Corticosteroid toxicities"
+              },
+              {
+                "type": "checkbox",
+                "text": "Post-transplant diabetes",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "If patient has pre-existing diabetes with complications before transplant \u2013 discuss separately but nod towards it here. If patient\u00a0has developed diabetes post-transplant and the transplant was recent (insufficient time to develop complications of diabetes) diabetes can be handled here briefly."
+                  }
+                ]
+              },
+              {
+                "type": "checkbox",
+                "text": "Osteoporosis",
+                "icons": [
+                  {
+                    "type": "synthesis",
+                    "tip": "Package DEXA screening and OP medications here."
+                  }
+                ]
+              },
+              {
+                "type": "checkbox",
+                "text": "GORD",
+                "icons": [
+                  {
+                    "type": "synthesis",
+                    "tip": "Package PPIs here."
+                  }
+                ]
+              },
+              {
+                "type": "checkbox",
+                "text": "Weight gain"
+              },
+              {
+                "type": "subheading",
+                "text": "Anti-proliferative toxicities"
+              },
+              {
+                "type": "checkbox",
+                "text": "Cytopenias (MMF, AZA)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Diarrhoea (MMF)"
+              },
+              {
+                "type": "subheading",
+                "text": "mTOR inhibitor toxicities"
+              },
+              {
+                "type": "checkbox",
+                "text": "Impaired wound healing"
+              },
+              {
+                "type": "checkbox",
+                "text": "Dyslipidaemia"
+              },
+              {
+                "type": "checkbox",
+                "text": "Infection risk"
+              },
+              {
+                "type": "category",
+                "text": "Complications of disease"
+              },
+              {
+                "type": "subheading",
+                "text": "Chronic allograft dysfunction",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "A renal transplant is a single kidney. Patients have varied ranges of function. General CKD complications may occur in renal transplant patients if GFR is low - look for clues on medication chart."
+                  }
+                ]
+              },
+              {
+                "type": "checkbox",
+                "text": "Renal anaemia"
+              },
+              {
+                "type": "checkbox",
+                "text": "CKD-MBD"
+              },
+              {
+                "type": "checkbox",
+                "text": "Metabolic acidosis"
+              },
+              {
+                "type": "checkbox",
+                "text": "Hypertension"
+              },
+              {
+                "type": "checkbox",
+                "text": "Gout"
+              },
+              {
+                "type": "checkbox",
+                "text": "Fluid overload"
+              }
+            ]
+          },
+          "function": {
+            "active": true,
+            "items": [
+              {
+                "type": "checkbox",
+                "text": "Renal allograft function (eGFR, creatinine)",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Patients should know their baseline eGFR and creatnine!"
+                  }
+                ]
+              }
+            ]
+          },
+          "adherence": {
+            "active": true,
+            "items": [
+              {
+                "type": "subheading",
+                "text": "Pharmacological adherence"
+              },
+              {
+                "type": "checkbox",
+                "text": "Missed doses per week"
+              },
+              {
+                "type": "checkbox",
+                "text": "Timing consistency of medications"
+              },
+              {
+                "type": "checkbox",
+                "text": "Strategies: dosette box, timers"
+              },
+              {
+                "type": "checkbox",
+                "text": "Understanding of illness and insight"
+              }
+            ],
+            "sectionIcons": [
+              {
+                "type": "info",
+                "tip": "This is very important in a transplant patient!"
+              }
+            ]
+          },
+          "symptoms": {
+            "active": true,
+            "items": [
+              {
+                "type": "checkbox",
+                "text": "Symptoms of graft dysfunction if present"
+              }
+            ]
+          },
+          "targets": {
+            "active": true,
+            "items": [
+              {
+                "type": "checkbox",
+                "text": "Blood pressure target (~ 130/80)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Stable renal function"
+              },
+              {
+                "type": "checkbox",
+                "text": "Immunosuppressant drug levels within transplant team target"
+              }
+            ]
+          },
+          "impact": {
+            "active": true,
+            "items": [
+              {
+                "type": "checkbox",
+                "text": "Impact of illness"
+              }
+            ]
+          },
+          "future": {
+            "active": true,
+            "items": [
+              {
+                "type": "checkbox",
+                "text": "Follow up \u2013 transplant team frequency"
+              },
+              {
+                "type": "checkbox",
+                "text": "Plans if graft failing (dialysis or re-transplant)"
               }
             ]
           }
