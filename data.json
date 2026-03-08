@@ -3216,7 +3216,10 @@
         "id": "haem_malignancy",
         "name": "Haematological Malignancy",
         "headingModifiers": [
-          "haematology"
+          "Leukaemia",
+          "Lymphoma",
+          "Plasma Cell Dyscrasia",
+          "Myeloproliferative neoplasms"
         ],
         "tips": null,
         "resources": [],
@@ -3234,7 +3237,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Incidental cytopenia"
+                "text": "Incidental cytopenia or elevated cell counts"
               },
               {
                 "type": "checkbox",
@@ -3249,13 +3252,12 @@
                 "text": "Hypercalcaemia, renal impairment or bone pain"
               },
               {
-                "type": "subheading",
-                "text": "Investigations at diagnosis"
+                "type": "checkbox",
+                "text": "Bone marrow aspiration"
               },
               {
-                "type": "checkbox",
-                "text": "Bone marrow aspiration",
-                "bold": true
+                "type": "subheading",
+                "text": "Investigations at diagnosis"
               },
               {
                 "type": "checkbox",
@@ -3263,18 +3265,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Cytogenetics or molecular markers (eg bCR-ACL, FLT3 if known)",
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "\\"
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
-                "text": "Stage or risk category",
-                "bold": true
+                "text": "Cytogenetics or molecular markers (eg bCR-ACL, FLT3 if known)"
               }
             ]
           },
@@ -3347,31 +3338,33 @@
             "items": [
               {
                 "type": "category",
-                "text": "Systemic therapy"
+                "text": "Systemic therapy",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "SECTION: Consider curative vs palliative intent"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
-                "text": "Cytotoxic chemotherapy",
-                "bold": true
+                "text": "Cytotoxic chemotherapy"
               },
               {
                 "type": "checkbox",
-                "text": "Targeted therapy",
-                "bold": true
+                "text": "Targeted therapy"
               },
               {
                 "type": "checkbox",
-                "text": "Immunotherapy",
-                "bold": true
+                "text": "Immunotherapy"
               },
               {
                 "type": "checkbox",
-                "text": "Stem cell transplant",
-                "bold": true
+                "text": "Stem cell transplant"
               },
               {
                 "type": "checkbox",
-                "text": "Radiotherapy if applicable"
+                "text": "Radiotherapy"
               },
               {
                 "type": "category",
@@ -3475,7 +3468,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Performance status"
+                "text": "Performance status",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "ECOG Performance Status\\tGrade 0\\nFully active, able to carry on all pre-disease activities without restriction\\tGrade 1\\nRestricted in physically strenuous activity but ambulatory and able to carry out light work\\tGrade 2\\nAmbulatory and capable of all self-care but unable to carry out any work activities\\nUp and about more than 50% of waking hours\\tGrade 3\\nCapable of only limited self-care\\nConfined to bed or chair more than 50% of waking hours\\tGrade 4\\nCompletely disabled\\nCannot carry on any self-care\\nTotally confined to bed or chair\\tGrade 5\\nDead"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -3512,11 +3511,11 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "plain",
                 "text": "B symptoms"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Cytopenia-related symptoms"
               },
               {
@@ -3538,8 +3537,23 @@
             "items": []
           },
           "impact": {
-            "active": false,
-            "items": []
+            "active": true,
+            "items": [
+              {
+                "type": "checkbox",
+                "text": "Impact of illness"
+              },
+              {
+                "type": "checkbox",
+                "text": "Prognosis",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Whilst you may not know the exact prognosis, you must explore the prognosis and the patient\u2019s understanding of this."
+                  }
+                ]
+              }
+            ]
           },
           "future": {
             "active": true,
@@ -3570,7 +3584,11 @@
         "tips": [
           "Only Allogeneic HSCT  pose risk of Graft vs Host Disease"
         ],
-        "resources": [],
+        "resources": [
+          "RYLC Week 6: Bone Marrow Transplant Workshop",
+          "RYLC Week 9 (After Party): BMT History Workshop with Dr Kaitlyn Wiltshire",
+          "RYLC Week 9 (After Party): Bone Marrow Transplant Immersion with Dr Shu Min Wong"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -3795,11 +3813,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Mood regarding mortality and morbidity"
-              },
-              {
-                "type": "checkbox",
-                "text": "Impact on independence"
+                "text": "Psychosocial implications of disease and treatment related complications"
               }
             ]
           },
@@ -4189,13 +4203,14 @@
         "id": "thalassaemia",
         "name": "Thalassaemia",
         "headingModifiers": [
-          "B-thalassaemia major",
-          "Transfusion Dependent Thalassaemia"
+          "B-thalassaemia major, Transfusion Dependent Thalassaemia"
         ],
         "tips": [
           "If the patient has a mild anaemia and minor carrier state thalassaemia only list this as a brief less active problem"
         ],
-        "resources": [],
+        "resources": [
+          "RYLC Week 9 (After Party): Thalassaemia & Sickle Cell for the Long Case"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -4239,7 +4254,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "This is an autosomal recessive haemoglobinopathy - two abnormal genes (one from each parent) are needed cause disease"
+                    "tip": "This is an autosomal recessive haemoglobinopathy - two abnormal genes (one from each parent) are needed to cause disease"
                   }
                 ]
               },
@@ -4442,7 +4457,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Cardiac and liver MRI every 12\u201318 months"
+                "text": "Cardiac and liver MRI every 12\u201318 months (iron overload)"
               }
             ]
           },
@@ -4494,13 +4509,14 @@
         "id": "haemophilia",
         "name": "Haemophilia",
         "headingModifiers": [
-          "Haemophilia A (low factor 8)",
-          "Haemophilia B (low factor 9)"
+          "Haemophilia A (low factor 8), Haemophilia B (low factor 9)"
         ],
         "tips": [
-          "Severity, Factor Level & Presentation - \nSevere: <1% (spontaneous joint/muscle bleeds)\nModerate: 1\u20135% (bleeds after minor trauma or procedures)\nMild: >5% (bleeds only after major trauma/surgery)"
+          "Severity, Factor Level & Presentation \\n - Severe: <1% (spontaneous joint/muscle bleeds) \\n - Moderate: 1\u20135% (bleeds after minor trauma or procedures) \\n - Mild: >5% (bleeds only after major trauma/surgery)"
         ],
-        "resources": [],
+        "resources": [
+          "RYLC Week 9 (After Party): Haemophilia Long Case"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -4514,7 +4530,7 @@
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "plain",
+                "type": "subheading",
                 "text": "Investigations at diagnosis"
               },
               {
@@ -4568,7 +4584,7 @@
                 "text": "Non-pharmacological"
               },
               {
-                "type": "plain",
+                "type": "subheading",
                 "text": "Haemophilia action plan"
               },
               {
@@ -4729,11 +4745,11 @@
             "active": true,
             "items": [
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Family planning considerations"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "For males - daughters would be carriers"
               },
               {
@@ -11670,21 +11686,17 @@
               },
               {
                 "type": "subheading",
-                "text": "Antimicrobials"
+                "text": "Antimicrobials",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "If a transplant patient is on an antimicrobial know the reason. Is it routine prophylaxis prior infection or increased immunosuppression for rejection."
+                  }
+                ]
               },
               {
                 "type": "checkbox-bullet",
                 "text": "Vaccination status"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Current antimicrobial prophylaxis",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "If a transplant patient is receiving an antimicrobial, make sure you know why. Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection, necessitating re-introduction of antimicrobials?"
-                  }
-                ]
               },
               {
                 "type": "checkbox-bullet",
@@ -11713,7 +11725,7 @@
               },
               {
                 "type": "subheading",
-                "text": "Calcineurin inhibitor toxicity"
+                "text": "Calcineurin inhibitor toxicities"
               },
               {
                 "type": "checkbox",
@@ -11733,7 +11745,7 @@
               },
               {
                 "type": "subheading",
-                "text": "Steroid-related complications"
+                "text": "Corticosteroid toxicities"
               },
               {
                 "type": "checkbox",
@@ -11771,7 +11783,7 @@
               },
               {
                 "type": "subheading",
-                "text": "Anti-proliferative side effects"
+                "text": "Anti-proliferative toxicities"
               },
               {
                 "type": "checkbox",
@@ -11783,7 +11795,7 @@
               },
               {
                 "type": "subheading",
-                "text": "mTOR inhibitor complications"
+                "text": "mTOR inhibitor toxicities"
               },
               {
                 "type": "checkbox",
@@ -12065,6 +12077,10 @@
                 ]
               },
               {
+                "type": "subheading",
+                "text": "Immunosupression"
+              },
+              {
                 "type": "italic",
                 "text": "Their current immunosupressive regimen includes"
               },
@@ -12097,12 +12113,12 @@
                 "text": "Other (anti-thymocyte globulin, basiliximab)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "subheading",
                 "text": "Antimicrobials",
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If a transplant patient is receiving an antimicrobial, make sure you know why. Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection, necessitating re-introduction of antimicrobials?"
+                    "tip": "If a transplant patient is on an antimicrobial know the reason. Is it routine prophylaxis prior infection or increased immunosuppression for rejection."
                   }
                 ]
               },
