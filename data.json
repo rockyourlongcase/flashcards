@@ -5996,8 +5996,8 @@
         "id": "renal_transplant",
         "name": "Renal Transplant",
         "headingModifiers": [
-          "eceased Donor",
-          "Living Donor Renal Transplant"
+          "Deceased Donor",
+          "Living Donor"
         ],
         "tips": null,
         "resources": [],
@@ -6074,19 +6074,19 @@
                 "text": "CMV donor and recipient serostatus"
               },
               {
-                "type": "subheading",
+                "type": "category",
                 "text": "Complications since transplant"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Infections (BK, CMV, PJP, UTI, others major infection)"
+                "type": "checkbox",
+                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Rejection episodes and management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Malignancy (especially skin cancer)",
                 "icons": [
                   {
@@ -6096,15 +6096,15 @@
                 ]
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Cytopenias ((e.g MMF, AZA, mTORi, Valcyte, Bactrim, CMV, parvovirus)"
+                "type": "checkbox",
+                "text": "Cytopenias (e.g MMF, AZA, mTORi, Valcyte, Bactrim, CMV, parvovirus)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Anatomical complications"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Changes in immunosuppression and reasons"
               }
             ]
@@ -6147,16 +6147,20 @@
                 "text": "mTOR inhibitor (everolimus or sirolimus)"
               },
               {
+                "type": "subheading",
+                "text": "Antimicrobials"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Vaccination status"
+              },
+              {
                 "type": "checkbox-bullet",
                 "text": "Current antimicrobial prophylaxis",
                 "icons": [
                   {
-                    "type": "synthesis",
-                    "tip": "Package vaccination status here"
-                  },
-                  {
                     "type": "info",
-                    "tip": "If a transplant patient is receiving an antimicrobial make sure you know why.\u00a0 Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection? necessitating re-introduction of antimirobials?"
+                    "tip": "If a transplant patient is receiving an antimicrobial, make sure you know why. Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection, necessitating re-introduction of antimicrobials?"
                   }
                 ]
               },
@@ -6215,7 +6219,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If patient has pre-existing diabetes with complications before transplant \u2013 discuss separately but nod toward it here, If patient\u00a0has developed diabetes post-transplant and the transplant was recent (insufficient time to develop complications of diabetes) diabetes can be handled here briefly."
+                    "tip": "If patient has pre-existing diabetes with complications before transplant \u2013 discuss separately but nod towards it here. If patient\u00a0has developed diabetes post-transplant and the transplant was recent (insufficient time to develop complications of diabetes) diabetes can be handled here briefly."
                   }
                 ]
               },
@@ -6245,15 +6249,15 @@
               },
               {
                 "type": "subheading",
-                "text": "Mycophenolate or azathioprine effects"
+                "text": "Anti-proliferative side effects"
               },
               {
                 "type": "checkbox",
-                "text": "Cytopenias"
+                "text": "Cytopenias (MMF, AZA)"
               },
               {
                 "type": "checkbox",
-                "text": "Diarrhoea"
+                "text": "Diarrhoea (MMF)"
               },
               {
                 "type": "subheading",
@@ -6272,10 +6276,6 @@
                 "text": "Infection risk"
               },
               {
-                "type": "checkbox",
-                "text": "Malignancy risk"
-              },
-              {
                 "type": "category",
                 "text": "Complications of disease"
               },
@@ -6285,7 +6285,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "A renal transplant is a single kidney, patients have various ranges of function. General CKD complications may to the transplant patient if GFR is low - look for clues on med chart."
+                    "tip": "A renal transplant is a single kidney. Patients have varied ranges of function. General CKD complications may occur in renal transplant patients if GFR is low - look for clues on medication chart."
                   }
                 ]
               },
@@ -9234,7 +9234,7 @@
                 "text": "Parenteral feeding if required"
               },
               {
-                "type": "checkbox",
+                "type": "checkbox-bullet",
                 "text": "Surveillance sputum cultures"
               },
               {
@@ -11518,8 +11518,8 @@
         "id": "renal_transplant",
         "name": "Renal Transplant",
         "headingModifiers": [
-          "eceased Donor",
-          "Living Donor Renal Transplant"
+          "Deceased Donor",
+          "Living Donor"
         ],
         "tips": null,
         "resources": [],
@@ -11596,19 +11596,19 @@
                 "text": "CMV donor and recipient serostatus"
               },
               {
-                "type": "subheading",
+                "type": "category",
                 "text": "Complications since transplant"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Infections (BK, CMV, PJP, UTI, others major infection)"
+                "type": "checkbox",
+                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Rejection episodes and management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Malignancy (especially skin cancer)",
                 "icons": [
                   {
@@ -11618,15 +11618,15 @@
                 ]
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Cytopenias ((e.g MMF, AZA, mTORi, Valcyte, Bactrim, CMV, parvovirus)"
+                "type": "checkbox",
+                "text": "Cytopenias (e.g MMF, AZA, mTORi, Valcyte, Bactrim, CMV, parvovirus)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Anatomical complications"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Changes in immunosuppression and reasons"
               }
             ]
@@ -11669,16 +11669,20 @@
                 "text": "mTOR inhibitor (everolimus or sirolimus)"
               },
               {
+                "type": "subheading",
+                "text": "Antimicrobials"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Vaccination status"
+              },
+              {
                 "type": "checkbox-bullet",
                 "text": "Current antimicrobial prophylaxis",
                 "icons": [
                   {
-                    "type": "synthesis",
-                    "tip": "Package vaccination status here"
-                  },
-                  {
                     "type": "info",
-                    "tip": "If a transplant patient is receiving an antimicrobial make sure you know why.\u00a0 Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection? necessitating re-introduction of antimirobials?"
+                    "tip": "If a transplant patient is receiving an antimicrobial, make sure you know why. Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection, necessitating re-introduction of antimicrobials?"
                   }
                 ]
               },
@@ -11737,7 +11741,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If patient has pre-existing diabetes with complications before transplant \u2013 discuss separately but nod toward it here, If patient\u00a0has developed diabetes post-transplant and the transplant was recent (insufficient time to develop complications of diabetes) diabetes can be handled here briefly."
+                    "tip": "If patient has pre-existing diabetes with complications before transplant \u2013 discuss separately but nod towards it here. If patient\u00a0has developed diabetes post-transplant and the transplant was recent (insufficient time to develop complications of diabetes) diabetes can be handled here briefly."
                   }
                 ]
               },
@@ -11767,15 +11771,15 @@
               },
               {
                 "type": "subheading",
-                "text": "Mycophenolate or azathioprine effects"
+                "text": "Anti-proliferative side effects"
               },
               {
                 "type": "checkbox",
-                "text": "Cytopenias"
+                "text": "Cytopenias (MMF, AZA)"
               },
               {
                 "type": "checkbox",
-                "text": "Diarrhoea"
+                "text": "Diarrhoea (MMF)"
               },
               {
                 "type": "subheading",
@@ -11794,10 +11798,6 @@
                 "text": "Infection risk"
               },
               {
-                "type": "checkbox",
-                "text": "Malignancy risk"
-              },
-              {
                 "type": "category",
                 "text": "Complications of disease"
               },
@@ -11807,7 +11807,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "A renal transplant is a single kidney, patients have various ranges of function. General CKD complications may to the transplant patient if GFR is low - look for clues on med chart."
+                    "tip": "A renal transplant is a single kidney. Patients have varied ranges of function. General CKD complications may occur in renal transplant patients if GFR is low - look for clues on medication chart."
                   }
                 ]
               },
@@ -11946,7 +11946,8 @@
           "Heterotopic Heart Transplant = deceased heart in situ and 'piggy back' heart added in"
         ],
         "resources": [
-          "RYLC Week 3 & 4: Renal Transplant, RYLC Week 6: Heart and Lung Transplant"
+          "RYLC Week 3 & 4: Renal Transplant",
+          "RYLC Week 6: Heart and Lung Transplant"
         ],
         "sections": {
           "diagnosis": {
@@ -12101,7 +12102,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If a transplant patient is on an antimicrobial know the reason. Is it routine prophylaxis prior infection or increased immunosuppression for rejection."
+                    "tip": "If a transplant patient is receiving an antimicrobial, make sure you know why. Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection, necessitating re-introduction of antimicrobials?"
                   }
                 ]
               },
