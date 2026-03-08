@@ -3338,13 +3338,7 @@
             "items": [
               {
                 "type": "category",
-                "text": "Systemic therapy",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "SECTION: Consider curative vs palliative intent"
-                  }
-                ]
+                "text": "Systemic therapy"
               },
               {
                 "type": "checkbox",
@@ -3389,6 +3383,12 @@
               {
                 "type": "checkbox",
                 "text": "Palliative care involvement"
+              }
+            ],
+            "sectionIcons": [
+              {
+                "type": "info",
+                "tip": "Consider curative vs palliative intent"
               }
             ]
           },
@@ -3835,7 +3835,9 @@
         "tips": [
           "This is a haemoglobinopathy causing chronic haemolysis and recurrent vaso-occlusion, leading to pain crises, infection risk from functional asplenia, and progressive, multi-system end-organ damage."
         ],
-        "resources": [],
+        "resources": [
+          "RYLC Week 9 (After Party): Thalassaemia & Sickle Cell for the Long Case"
+        ],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -9567,24 +9569,17 @@
         "id": "ra",
         "name": "Rheumatoid Arthritis",
         "headingModifiers": [
-          "Seropositive / seronegative",
-          "Erosive",
-          "Deforming"
+          "Seropositive / seronegative, Erosive, Deforming"
         ],
         "tips": null,
-        "resources": [
-          "RYLC Week 7: Live Practise Session \"Multifactorial Pain Syndromes\"",
-          "RYLC Week 7: \"Assessing Function\"",
-          "RYLC Week 7: \"Assessing Disease Activity\""
-        ],
+        "resources": [],
         "sections": {
           "diagnosis": {
             "active": true,
             "items": [
               {
                 "type": "checkbox",
-                "text": "When diagnosed",
-                "bold": true
+                "text": "When diagnosed"
               },
               {
                 "type": "subheading",
@@ -9629,7 +9624,7 @@
                 "icons": [
                   {
                     "type": "synthesis",
-                    "tip": "Package less active autoimmune medical problems which don't require a detailed, separate presentation (eg. autoimmune neutropaenia, Sjogren's disease, Hashimoto's thyroiditis)"
+                    "tip": "Package less active autoimmune medical problems which don't require a detailed, separate presentation (eg. autoimmune neutropenia, Sjogren's disease, Hashimoto's thyroiditis)"
                   }
                 ]
               },
@@ -9693,13 +9688,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "NSAIDs",
-                "bold": true
+                "text": "NSAIDs"
               },
               {
                 "type": "checkbox",
-                "text": "Glucocorticoids (po, IM, IA, IV)",
-                "bold": true
+                "text": "Glucocorticoids (po, IM, IA, IV)"
               },
               {
                 "type": "subheading",
@@ -9839,8 +9832,8 @@
                 "text": "Central sensitisation",
                 "icons": [
                   {
-                    "type": "course",
-                    "ref": "RYLC Week 7: Live Practise Session \"Multifactorial Pain Syndromes\""
+                    "type": "resource",
+                    "text": "RYLC Week 7: Live Practise Session \"Multifactorial Pain Syndromes\""
                   }
                 ]
               },
@@ -9865,7 +9858,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Mobiility: consider distance and gait aids"
+                "text": "Mobility: consider distance and gait aids"
               },
               {
                 "type": "checkbox",
@@ -9882,8 +9875,8 @@
             ],
             "sectionIcons": [
               {
-                "type": "course",
-                "ref": "RYLC Week 7: \"Assessing Function\""
+                "type": "resource",
+                "text": "RYLC Week 7: \"Assessing Function\""
               }
             ]
           },
@@ -9975,8 +9968,8 @@
             ],
             "sectionIcons": [
               {
-                "type": "course",
-                "ref": "RYLC Week 7: \"Assessing Disease Activity\""
+                "type": "resource",
+                "text": "RYLC Week 7: \"Assessing Disease Activity\""
               }
             ]
           },
@@ -10012,23 +10005,17 @@
         "id": "psa",
         "name": "Psoriatic Arthritis",
         "headingModifiers": [
-          "Erosive",
-          "Deforming",
-          "With / without axial involvement"
+          "Erosive, Deforming, With / without axial involvement"
         ],
         "tips": null,
-        "resources": [
-          "RYLC Week 7: Assessing Function\"",
-          "RYLC Week 7: Assessing Disease Activity"
-        ],
+        "resources": [],
         "sections": {
           "diagnosis": {
             "active": true,
             "items": [
               {
                 "type": "checkbox",
-                "text": "When diagnosed",
-                "bold": true
+                "text": "When diagnosed"
               },
               {
                 "type": "subheading",
@@ -10092,6 +10079,16 @@
               {
                 "type": "checkbox",
                 "text": "Smoking"
+              },
+              {
+                "type": "checkbox",
+                "text": "Metabolic syndrome",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Metabolic syndrome is a common comorbidity and risk factor in psoriatic arthritis"
+                  }
+                ]
               }
             ]
           },
@@ -10247,17 +10244,6 @@
               {
                 "type": "checkbox",
                 "text": "Loss of function"
-              },
-              {
-                "type": "checkbox",
-                "text": "Metabolic syndrome",
-                "bold": true,
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "Commonly associated with psoriatic arthritis; could package detail here"
-                  }
-                ]
               }
             ]
           },
@@ -10283,8 +10269,8 @@
             ],
             "sectionIcons": [
               {
-                "type": "course",
-                "ref": "RYLC Week 7: Assessing Function\""
+                "type": "resource",
+                "text": "RYLC Week 7: Assessing Function"
               }
             ]
           },
@@ -10370,8 +10356,8 @@
                 "text": "Assess current disease activity (swollen / tender joint count)",
                 "icons": [
                   {
-                    "type": "course",
-                    "ref": "RYLC Week 7: Assessing Disease Activity"
+                    "type": "resource",
+                    "text": "RYLC Week 7: Assessing Disease Activity"
                   }
                 ]
               }
@@ -10405,8 +10391,7 @@
         "id": "axspa",
         "name": "Axial Spondyloarthritis",
         "headingModifiers": [
-          "Radiographic (Ankylosing Spondylitis)",
-          "Non-Radiographic"
+          "Radiographic (Ankylosing Spondylitis), Non-Radiographic"
         ],
         "tips": null,
         "resources": [],
@@ -10416,8 +10401,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "When diagnosed",
-                "bold": true
+                "text": "When diagnosed"
               },
               {
                 "type": "subheading",
@@ -10510,7 +10494,15 @@
               },
               {
                 "type": "checkbox",
-                "text": "Exercise, stretching, and allied health involvement (physiotherapy, exercise physiology, occupational therapy), gait aids"
+                "text": "Exercise & stretching"
+              },
+              {
+                "type": "checkbox",
+                "text": "Allied health involvement (physiotherapy, exercise physiology, occupational therapy),"
+              },
+              {
+                "type": "checkbox",
+                "text": "Gait aids"
               },
               {
                 "type": "category",
@@ -10731,7 +10723,8 @@
         "name": "Systemic Lupus Erythematosus",
         "headingModifiers": [],
         "tips": [
-          "Consider listing the main manifestations upfront.\nIf the patient has lupus nephritis then use this as this  heading and discuss as you would a renal problem - touching on the less serious manifestations within complications or symptoms."
+          "Consider listing the main manifestations upfront.",
+          "If the patient has lupus nephritis then use this as the  heading and discuss as you would a primary renal problem - touching on the less serious manifestations of SLE within complications or symptoms."
         ],
         "resources": [
           "RYLC Week 7: Lupus, Scleroderma & More with Professor Michelle Leech"
@@ -10741,9 +10734,8 @@
             "active": true,
             "items": [
               {
-                "type": "checkbox",
-                "text": "When diagnosed",
-                "bold": true
+                "type": "checkbox-bold",
+                "text": "When diagnosed"
               },
               {
                 "type": "subheading",
@@ -10787,7 +10779,7 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Erosions or synovitis on imaging"
+                "text": "Synovitis on imaging"
               },
               {
                 "type": "checkbox-bullet",
@@ -10873,14 +10865,12 @@
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox",
-                "text": "Glucocorticoids (PO, IM, IA, IV)",
-                "bold": true
+                "type": "checkbox-bold",
+                "text": "Glucocorticoids (PO, IM, IA, IV)"
               },
               {
-                "type": "checkbox",
-                "text": "Hydroxychloroquine",
-                "bold": true
+                "type": "checkbox-bold",
+                "text": "Hydroxychloroquine"
               },
               {
                 "type": "subheading",
@@ -10920,8 +10910,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Cyclophosphamide",
-                "bold": true
+                "text": "Cyclophosphamide"
               }
             ]
           },
@@ -10977,10 +10966,6 @@
               {
                 "type": "checkbox",
                 "text": "Azathioprine \u2013 cytopaenias, hepatitis, pancreatitis, rash"
-              },
-              {
-                "type": "checkbox",
-                "text": "Mycophenolate mofetil - cytopaenias, GI upset"
               },
               {
                 "type": "checkbox",
@@ -11136,8 +11121,7 @@
         "id": "ssc",
         "name": "Systemic Sclerosis",
         "headingModifiers": [
-          "Limited / Diffuse",
-          "Overlap Syndrome (eg with SLE or myositis)"
+          "Limited / Diffuse, Overlap Syndrome (eg with SLE or myositis)"
         ],
         "tips": [
           "Consider listing the manifestations upfront."
@@ -11151,8 +11135,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "When diagnosed",
-                "bold": true
+                "text": "When diagnosed"
               },
               {
                 "type": "subheading",
@@ -11270,13 +11253,16 @@
                 "text": "Gloves, beanie, scarf (for Raynaud\u2019s)"
               },
               {
+                "type": "checkbox",
+                "text": "Nutrition"
+              },
+              {
                 "type": "category",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox",
-                "text": "Glucocorticoids (PO, IM, IA, IV)",
-                "bold": true
+                "type": "checkbox-bold",
+                "text": "Glucocorticoids (PO, IM, IA, IV)"
               },
               {
                 "type": "subheading",
@@ -11304,24 +11290,11 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "TNF inhibitors"
-              },
-              {
-                "type": "checkbox-bullet",
                 "text": "Rituximab"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Belimumab"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Abatacept"
-              },
-              {
-                "type": "checkbox",
-                "text": "Cyclophosphamide",
-                "bold": true
+                "type": "checkbox-bold",
+                "text": "Cyclophosphamide"
               }
             ]
           },
@@ -11362,16 +11335,6 @@
               },
               {
                 "type": "checkbox",
-                "text": "Hydroxychloroquine \u2013 macular toxicity",
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "Package ocular screening here"
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
                 "text": "Methotrexate \u2013 cytopaenias, hepatitis, pneumonitis, interstitial lung disease, gastrointestinal upset"
               },
               {
@@ -11405,6 +11368,10 @@
               {
                 "type": "checkbox",
                 "text": "Oesophageal dysmotility, GORD, gastroparesis, GAVE"
+              },
+              {
+                "type": "checkbox",
+                "text": "Weight loss, sarcopenia, vitamin deficiencies due to dysmotility, SIBO, and malabsorption"
               },
               {
                 "type": "checkbox",
@@ -11690,7 +11657,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If a transplant patient is on an antimicrobial know the reason. Is it routine prophylaxis prior infection or increased immunosuppression for rejection."
+                    "tip": "If a transplant patient is on an antimicrobial, know the reason. Is it routine prophylaxis? Prior infection? Or increased immunosuppression for rejection?"
                   }
                 ]
               },
