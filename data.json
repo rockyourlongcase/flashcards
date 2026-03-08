@@ -3568,7 +3568,7 @@
           "Autologous"
         ],
         "tips": [
-          "Only Allogeneic HSCT  convey risk of Graft vs Host Disease"
+          "Only Allogeneic HSCT  pose risk of Graft vs Host Disease"
         ],
         "resources": [],
         "sections": {
@@ -12403,7 +12403,7 @@
               },
               {
                 "type": "plain",
-                "text": "Lung graft dysfunction represented by hypoxia",
+                "text": "For a lung transplant",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -12573,7 +12573,7 @@
           "Autologous"
         ],
         "tips": [
-          "Only Allogeneic HSCT  convey risk of Graft vs Host Disease"
+          "Only Allogeneic HSCT  pose risk of Graft vs Host Disease"
         ],
         "resources": [],
         "sections": {
