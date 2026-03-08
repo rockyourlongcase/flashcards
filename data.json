@@ -5218,7 +5218,8 @@
         "id": "ckd_dialysis",
         "name": "End Stage Renal Failure On Dialysis",
         "headingModifiers": [
-          "Peritoneal Dialysis, Haemodyalsis"
+          "Peritoneal Dialysis",
+          "Haemodialysis"
         ],
         "tips": null,
         "resources": [
@@ -5892,7 +5893,7 @@
                 "text": "Complications of disease"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "All CKD stages"
               },
               {
@@ -5908,7 +5909,7 @@
                 "text": "Gout"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Advanced CKD"
               },
               {
@@ -6007,7 +6008,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Future Care Planning if CKD 4-5 (dialysis vs transplant vs supportive care)"
+                "text": "Future care planning if CKD 4-5 (dialysis vs transplant vs supportive care)"
               }
             ]
           }
