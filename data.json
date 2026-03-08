@@ -10981,6 +10981,10 @@
                 "text": "Azathioprine \u2013 cytopaenias, hepatitis, pancreatitis, rash"
               },
               {
+                "type": "plain",
+                "text": "Mycophenolate mofetil - cytopaenias, GI upset"
+              },
+              {
                 "type": "checkbox",
                 "text": "Rituximab \u2013 hypogammaglobulinaemia"
               },
@@ -11116,6 +11120,10 @@
               {
                 "type": "checkbox",
                 "text": "Contraception"
+              },
+              {
+                "type": "plain",
+                "text": "Impact on life, work, relationships"
               }
             ]
           },
@@ -11576,14 +11584,6 @@
                 ]
               },
               {
-                "type": "category",
-                "text": "Time since transplant"
-              },
-              {
-                "type": "checkbox",
-                "text": "Infectious complications (BK, CMV, PJP, UTI, other)"
-              },
-              {
                 "type": "checkbox",
                 "text": "HLA match"
               },
@@ -11593,15 +11593,23 @@
               },
               {
                 "type": "checkbox",
-                "text": "Rejection episodes and management"
-              },
-              {
-                "type": "checkbox",
                 "text": "Risk factors for DSA development (pregnancy, blood products, prior transplant)"
               },
               {
                 "type": "checkbox",
                 "text": "CMV donor/recipient IgG status"
+              },
+              {
+                "type": "category",
+                "text": "Time since transplant"
+              },
+              {
+                "type": "checkbox",
+                "text": "Infectious complications (BK, CMV, PJP, UTI, other)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Rejection episodes and management"
               },
               {
                 "type": "checkbox",
