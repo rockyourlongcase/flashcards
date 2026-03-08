@@ -6156,7 +6156,7 @@
                   },
                   {
                     "type": "info",
-                    "tip": "If a transplant patient is receiving an antimicrobial make sure you know why.\u00a0 Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection necessitating re-introduction of antimirobials?"
+                    "tip": "If a transplant patient is receiving an antimicrobial make sure you know why.\u00a0 Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection? necessitating re-introduction of antimirobials?"
                   }
                 ]
               },
@@ -9234,6 +9234,10 @@
                 "text": "Parenteral feeding if required"
               },
               {
+                "type": "checkbox",
+                "text": "Surveillance sputum cultures"
+              },
+              {
                 "type": "category",
                 "text": "Pharmacological"
               },
@@ -9268,10 +9272,6 @@
               {
                 "type": "checkbox-bullet",
                 "text": "Antimicrobials"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Surveillance sputum cultures"
               },
               {
                 "type": "checkbox-bullet",
@@ -11678,7 +11678,7 @@
                   },
                   {
                     "type": "info",
-                    "tip": "If a transplant patient is receiving an antimicrobial make sure you know why.\u00a0 Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection necessitating re-introduction of antimirobials?"
+                    "tip": "If a transplant patient is receiving an antimicrobial make sure you know why.\u00a0 Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection? necessitating re-introduction of antimirobials?"
                   }
                 ]
               },
@@ -11942,7 +11942,8 @@
           "Renal (Deceased or Live Donor)"
         ],
         "tips": [
-          "Orthotopic Heart Transplant = swap old heart for new heart, Heterotopic Heart Transplant = deceased heart in situ and 'piggy back' heart added in"
+          "Orthotopic Heart Transplant = swap old heart for new heart",
+          "Heterotopic Heart Transplant = deceased heart in situ and 'piggy back' heart added in"
         ],
         "resources": [
           "RYLC Week 3 & 4: Renal Transplant, RYLC Week 6: Heart and Lung Transplant"
@@ -12355,49 +12356,85 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "Here we connect medications which may be representative of a failing graft organ"
+                    "tip": "Use the medication list to help you infer dysfunction of the transplant organ"
                   }
                 ]
               },
               {
-                "type": "checkbox",
-                "text": "Renal graft dysfunction represented by anaemia, fluid overload, CKD-MBD",
+                "type": "plain",
+                "text": "For a renal transplant",
                 "icons": [
                   {
                     "type": "synthesis",
-                    "tip": "Package EPO, diuretics, phosphate binders"
+                    "tip": "Are there EPO, diuretics or phosphate binders on the medication list?"
                   }
                 ]
               },
               {
-                "type": "checkbox",
-                "text": "Cardiac graft dysfunction represented by arrythmia, cardiac failure",
+                "type": "checkbox-bullet",
+                "text": "Anaemia"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Fluid overload"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "CKD-MBD"
+              },
+              {
+                "type": "plain",
+                "text": "For a heart transplant",
                 "icons": [
                   {
                     "type": "synthesis",
-                    "tip": "Package anti-arrythmics, cardiac failure medications"
+                    "tip": "Are there anti-arrythmics or cardiac failure medications on the medication list?"
                   }
                 ]
               },
               {
-                "type": "checkbox",
+                "type": "checkbox-bullet",
+                "text": "Arrythmia"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Cardiac failure"
+              },
+              {
+                "type": "plain",
                 "text": "Lung graft dysfunction represented by hypoxia",
                 "icons": [
                   {
                     "type": "synthesis",
-                    "tip": "Package oxygen requirement"
+                    "tip": "Does the patient require supplemental oxygen?"
                   }
                 ]
               },
               {
-                "type": "checkbox",
-                "text": "Pancreatic graft dysfunction represented by endocrine / exocrine dysfunction",
+                "type": "checkbox-bullet",
+                "text": "Hypoxia"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Dypsnoea"
+              },
+              {
+                "type": "plain",
+                "text": "For a pancreas transplant",
                 "icons": [
                   {
                     "type": "synthesis",
-                    "tip": "Package creon or diabetes medications"
+                    "tip": "Is there creon or diabetes medications on the medication list?"
                   }
                 ]
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Exocrine dysfunction"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "Endocrine dysfunction"
               }
             ]
           },
@@ -12485,7 +12522,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "Immunosuppressant drug levels are individualised targets and patients may not know them. They help assess adherence absorption and toxicity."
+                    "tip": "Immunosuppressant drug levels are individualised targets and patients may not know them. They help assess adherence, absorption and toxicity."
                   }
                 ]
               }
@@ -12506,6 +12543,10 @@
               {
                 "type": "checkbox",
                 "text": "Follow up \u2013 by whom and when"
+              },
+              {
+                "type": "subheading",
+                "text": "If severe/declining transplant organ dysfunction:"
               },
               {
                 "type": "checkbox",
