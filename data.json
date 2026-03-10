@@ -35,7 +35,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
                   }
                 ]
               },
@@ -45,7 +45,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "PND"
+                "text": "Paroxysmal nocturnal dyspnoea"
               },
               {
                 "type": "checkbox",
@@ -118,7 +118,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Diabetes Mellitus"
+                "text": "Diabetes mellitus"
               },
               {
                 "type": "checkbox",
@@ -155,7 +155,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
                   }
                 ]
               },
@@ -348,7 +348,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
                   }
                 ]
               },
@@ -392,7 +392,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
                   }
                 ]
               },
@@ -402,7 +402,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "PND"
+                "text": "Paroxysmal noctural dyspnoea"
               },
               {
                 "type": "checkbox",
@@ -493,7 +493,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "EtOH and high caloric diet"
+                "text": "EtOH"
+              },
+              {
+                "type": "checkbox",
+                "text": "High caloric diet"
               },
               {
                 "type": "checkbox",
@@ -505,7 +509,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "DM (should be discussed separately)"
+                "text": "Diabetes mellitus",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "This should also be discussed as a separate medical proble, but nod to diabetes here if there are other cardiovascular risk factors"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -517,7 +527,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Current smoking status (pack-year history)"
+                "text": "Current smoking status (state pack-years)"
               },
               {
                 "type": "checkbox",
@@ -533,7 +543,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "OSA"
+                "text": "Obstructive sleep apnoea"
               }
             ]
           },
@@ -653,10 +663,6 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Specify type (if known)"
-              },
-              {
-                "type": "checkbox",
                 "text": "When diagnosed"
               },
               {
@@ -732,10 +738,6 @@
               {
                 "type": "checkbox",
                 "text": "Hospital admissions"
-              },
-              {
-                "type": "checkbox",
-                "text": "Requirement for acute termination agents (eg adenosine, amiodarone)"
               },
               {
                 "type": "checkbox",
@@ -907,7 +909,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Episodes of pre-syncope and syncope"
+                "text": "Exercise tolerance"
               }
             ]
           },
@@ -939,8 +941,7 @@
         "id": "brady",
         "name": "Bradyarrhythmias",
         "headingModifiers": [
-          "Sinus node dysfunction",
-          "AV conduction disease"
+          "Sinus node dysfunction, AV conduction disease"
         ],
         "tips": null,
         "resources": [],
@@ -961,8 +962,20 @@
                 "text": "Context of diagnosis (eg in the context of acute illness)"
               },
               {
-                "type": "checkbox",
+                "type": "plain",
                 "text": "Investigations at diagnosis (UEC, CMP, troponin, TFTs, ECG, holter, loop recorder, TTE)"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "UEC, CMP, TFT, troponin"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "ECG, holter monitor, loop recorder"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "TTE"
               }
             ]
           },
@@ -1037,7 +1050,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Temporary Pacing"
+                "text": "Temporary pacing"
               },
               {
                 "type": "category",
@@ -1111,7 +1124,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
                   }
                 ]
               },
@@ -1155,7 +1168,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
+                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
                   }
                 ]
               },
@@ -1205,14 +1218,7 @@
         "id": "dm",
         "name": "Diabetes Mellitus",
         "headingModifiers": [
-          "T1DM",
-          "T2DM",
-          "LADA",
-          "MODY",
-          "NODAT",
-          "Pancreatogenic (Type 3C)",
-          "CF-related",
-          "Insulin-dependent"
+          "T1DM, T2DM, LADA, MODY, NODAT, Pancreatogenic (Type 3C), CF-related, Insulin-dependent"
         ],
         "tips": null,
         "resources": [
@@ -1240,11 +1246,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "Diabetic ketoacidosis (DKA)"
+                "text": "Diabetic ketoacidosis"
               },
               {
                 "type": "checkbox",
-                "text": "Hyperosmolar hyperglycaemic state (HHS)"
+                "text": "Hyperglycaemic hyperosmolic state"
               },
               {
                 "type": "subheading",
@@ -1450,7 +1456,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "DPP4 inhibitors \u2013 pancreatitis, joint pain"
+                "text": "DPP4 inhibitors \u2013 pancreatitis, arthralgias"
               },
               {
                 "type": "checkbox",
@@ -1602,6 +1608,10 @@
             "items": [
               {
                 "type": "checkbox",
+                "text": "Impact of illness"
+              },
+              {
+                "type": "checkbox",
                 "text": "Sexual dysfunction and impact on relationships"
               }
             ]
@@ -1623,8 +1633,7 @@
         "headingModifiers": [],
         "tips": null,
         "resources": [
-          "RYLC Week 7: Osteoporosis for the Long Case",
-          "RYLC Week 7: Osteoporosis For The Long Case"
+          "RYLC Week 7: Osteoporosis for the Long Case"
         ],
         "sections": {
           "diagnosis": {
@@ -2058,7 +2067,15 @@
               },
               {
                 "type": "checkbox",
-                "text": "GLP-1 agonists, Contrave, Orlistat"
+                "text": "GLP-1 agonists"
+              },
+              {
+                "type": "checkbox",
+                "text": "Contrave"
+              },
+              {
+                "type": "checkbox",
+                "text": "Orlistat"
               }
             ]
           },
@@ -2091,7 +2108,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "NAFLD, GORD"
+                "text": "NAFLD"
+              },
+              {
+                "type": "checkbox",
+                "text": "GORD"
               },
               {
                 "type": "checkbox",
@@ -2099,11 +2120,19 @@
               },
               {
                 "type": "checkbox",
-                "text": "OSA, Obesity hypoventilation syndrome"
+                "text": "Gout"
+              },
+              {
+                "type": "checkbox",
+                "text": "OSA"
               },
               {
                 "type": "checkbox",
                 "text": "Low mood"
+              },
+              {
+                "type": "checkbox",
+                "text": "Obesity hypoventilation syndrome"
               }
             ]
           },
@@ -2532,7 +2561,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "HLA-B27 association"
+                "text": "HLA-B27 associated diseases"
               }
             ]
           },
@@ -2609,20 +2638,20 @@
                 "text": "Ustekinumab"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Surgical management"
               },
               {
                 "type": "checkbox",
-                "text": "Fistulae"
+                "text": "Seton placement, fistulotomy, fistulectomy"
               },
               {
                 "type": "checkbox",
-                "text": "Strictures or obstruction"
+                "text": "Strictureplasty"
               },
               {
                 "type": "checkbox",
-                "text": "Not curative"
+                "text": "Bowel resection"
               },
               {
                 "type": "category",
@@ -2670,7 +2699,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Colectomy \u2013 curative"
+                "text": "Colectomy"
               }
             ]
           },
@@ -2794,7 +2823,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Stool frequency, urgency, blood"
+                "text": "Stool frequency, urgency, haematochezia"
               },
               {
                 "type": "checkbox",
@@ -2819,7 +2848,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Mucosal healing"
+                "text": "Endoscopic remission"
               },
               {
                 "type": "checkbox",
@@ -2837,6 +2866,10 @@
               {
                 "type": "checkbox",
                 "text": "Stoma management"
+              },
+              {
+                "type": "checkbox",
+                "text": "Impact of illness"
               }
             ]
           },
@@ -2859,10 +2892,7 @@
         "id": "cld",
         "name": "Chronic Liver Disease",
         "headingModifiers": [
-          "Compensated",
-          "Decompensated",
-          "With Cirrhosis",
-          "Without Cirrhosis"
+          "Compensated, Decompensated, With Cirrhosis, Without Cirrhosis"
         ],
         "tips": [
           "List aetiology upfront if known."
@@ -2886,19 +2916,7 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "LFTs"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "INR"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Albumin"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Platelets"
+                "text": "LFTs including albumin, INR, platelets"
               },
               {
                 "type": "checkbox-bullet",
@@ -2965,10 +2983,6 @@
               {
                 "type": "checkbox",
                 "text": "Viral exposure"
-              },
-              {
-                "type": "checkbox",
-                "text": "Family history"
               }
             ]
           },
@@ -3005,27 +3019,27 @@
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Alcohol abstinence"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "High-energy high-protein diet"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Low salt diet"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Fluid restriction"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Weight loss and exercise"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vaccinations"
               },
               {
@@ -3033,19 +3047,19 @@
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Treatment of underlying cause"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Tenofovir, entecavir (HBV)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "DAA therapy (HCV)"
+                "type": "checkbox",
+                "text": "Direct-Acting Antiviral therapy (HCV)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Ursodeoxycholic acid (PBC)"
               }
             ]
@@ -3058,15 +3072,11 @@
                 "text": "Complications of management"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Antiviral adverse effects"
+                "type": "checkbox",
+                "text": "Antiviral adverse effects - fatigue, GI symptoms, transaminitis"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Immunosuppression adverse effects"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Diuretic complications (renal impairment, electrolyte disturbance)"
               },
               {
@@ -3074,51 +3084,51 @@
                 "text": "Complications of disease"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pruritus"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Oestrogen-related effects"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Bleeding"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Sarcopaenia"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Osteoporosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hepatocellular carcinoma"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Varices"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Ascites"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Spontaneous bacterial peritonitis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hepatic encephalopathy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Portal vein thrombosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hepatorenal syndrome"
               }
             ]
