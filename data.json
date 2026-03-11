@@ -941,7 +941,8 @@
         "id": "brady",
         "name": "Bradyarrhythmias",
         "headingModifiers": [
-          "Sinus node dysfunction, AV conduction disease"
+          "Sinus node dysfunction",
+          "AV conduction disease"
         ],
         "tips": null,
         "resources": [],
@@ -4620,10 +4621,6 @@
                 "text": "Identified hospital for acute presentation (consider rural patients)"
               },
               {
-                "type": "checkbox",
-                "text": "Avoid NSAIDs"
-              },
-              {
                 "type": "category",
                 "text": "Pharmacological"
               },
@@ -4761,7 +4758,7 @@
             "active": true,
             "items": [
               {
-                "type": "plain",
+                "type": "checkbox",
                 "text": "Impact of illness"
               },
               {
@@ -4826,15 +4823,15 @@
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Seroconversion illness at lower viral loads"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Opportunistic infections"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "AIDS-defining illnesses"
               },
               {
@@ -4842,15 +4839,15 @@
                 "text": "Co-infection at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Syphilis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hepatitis B"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hepatitis C"
               },
               {
@@ -4858,11 +4855,11 @@
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CD4 count"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Viral load"
               }
             ]
@@ -4927,15 +4924,15 @@
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Safe sex practices"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Partner notification and testing"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Smoking cessation and cardiovascular risk reduction"
               },
               {
@@ -5045,23 +5042,23 @@
                 "text": "Infection Prophylaxis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "TMP-SMX for Pneumocystis jirovecii pneumonia if CD4 <200"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "TMP-SMX for Toxoplasma gondii if CD4 <100"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Azithromycin or clarithromycin for Mycobacterium avium complex if CD4 <50"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Itraconazole for histoplasmosis if CD4 <150"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vaccinations (non-live where appropriate)"
               }
             ]
