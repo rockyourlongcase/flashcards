@@ -3262,12 +3262,12 @@
                 "text": "Hypercalcaemia, renal impairment or bone pain"
               },
               {
-                "type": "checkbox",
-                "text": "Bone marrow aspiration"
-              },
-              {
                 "type": "subheading",
                 "text": "Investigations at diagnosis"
+              },
+              {
+                "type": "checkbox",
+                "text": "Bone marrow aspirate and trephine"
               },
               {
                 "type": "checkbox",
@@ -3308,7 +3308,7 @@
                 "icons": [
                   {
                     "type": "synthesis",
-                    "tip": "Package EBV, HTLV-1, hepatitis C here"
+                    "tip": "Package EBV, HHV-8, HTLV-1, hepatitis C & HIV here. If patients has had HIV this will likely need to also be discussed as a separate issue."
                   }
                 ]
               }
@@ -3352,11 +3352,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "Cytotoxic chemotherapy"
+                "text": "Chemotherapy"
               },
               {
                 "type": "checkbox",
-                "text": "Targeted therapy"
+                "text": "Targeted therapy (eg tyrosine kinase inhibitors)"
               },
               {
                 "type": "checkbox",
@@ -3364,7 +3364,17 @@
               },
               {
                 "type": "checkbox",
-                "text": "Stem cell transplant"
+                "text": "CAR-T"
+              },
+              {
+                "type": "checkbox",
+                "text": "Haemopoetic stemm cell transplant",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "If the patient has had an HSCT, this should be the heading of the medical problem (see HSCT flashcard)"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -3376,19 +3386,19 @@
               },
               {
                 "type": "checkbox",
-                "text": "Transfusion support"
+                "text": "Transfusion support (packed red blood cells, platelet transfusions)"
               },
               {
                 "type": "checkbox",
-                "text": "G-CSF"
+                "text": "G-CSF (filgrastim, pegfilgrastim)"
               },
               {
                 "type": "checkbox",
-                "text": "Antimicrobial prophylaxis"
+                "text": "Antimicrobial prophylaxis (trimethoprim-sulfamethoxazole, aciclovir, antifungal prophylaxis eg posaconazole)"
               },
               {
                 "type": "checkbox",
-                "text": "Bone protection"
+                "text": "Bone protection (calcium, vitamin D, bone protection)"
               },
               {
                 "type": "checkbox",
@@ -3411,37 +3421,27 @@
               },
               {
                 "type": "checkbox",
-                "text": "Myelosuppression",
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "Package anaemia, neutropenia, thrombocytopenia"
-                  }
-                ]
+                "text": "Chemotherapy - myelosuppression, infections, tumour lysis syndrome, cardiotoxicity, peripheral neuropathy, secondary malignancy"
               },
               {
                 "type": "checkbox",
-                "text": "Infections"
+                "text": "Targeted therapy (e.g. TKIs) - tumour lysis syndrome, myelosuppression, infections, cardiotoxicity"
               },
               {
                 "type": "checkbox",
-                "text": "Tumour lysis syndrome"
+                "text": "Immunotherapy - immune-related adverse events"
               },
               {
                 "type": "checkbox",
-                "text": "Graft-versus-host disease"
+                "text": "CAR-T - tumour lysis syndrome, infections, immune-related adverse events"
               },
               {
                 "type": "checkbox",
-                "text": "Cardiotoxicity"
+                "text": "Haematopoietic stem cell transplant - graft-versus-host disease, infections, myelosuppression, secondary malignancy"
               },
               {
                 "type": "checkbox",
-                "text": "Peripheral neuropathy"
-              },
-              {
-                "type": "checkbox",
-                "text": "Secondary malignancy"
+                "text": "Radiotherapy - myelosuppression, secondary malignancy"
               },
               {
                 "type": "category",
@@ -3449,27 +3449,19 @@
               },
               {
                 "type": "checkbox",
-                "text": "Cytopenias"
+                "text": "Leukaemia - cytopenias, hypersplenism (cytopenias, early satiety, abdominal pain, splenic infarction), renal impairment"
               },
               {
                 "type": "checkbox",
-                "text": "Hyperviscosity"
+                "text": "Lymphoma - cytopenias, spinal cord compression, hypersplenism (cytopenias, early satiety, abdominal pain, splenic infarction), renal impairment"
               },
               {
                 "type": "checkbox",
-                "text": "Renal impairment"
+                "text": "Plasma cell dyscrasia - hyperviscosity complications (visual disturbance, headache, confusion, mucosal bleeding), renal impairment, pathological fracture, spinal cord compression, cytopenias"
               },
               {
                 "type": "checkbox",
-                "text": "Pathological fracture"
-              },
-              {
-                "type": "checkbox",
-                "text": "Spinal cord compression"
-              },
-              {
-                "type": "checkbox",
-                "text": "Splenomegaly-related complications"
+                "text": "Myeloproliferative neoplasms - hyperviscosity complications (headache, dizziness, visual disturbance, thrombosis), hypersplenism (cytopenias, early satiety, abdominal pain, splenic infarction), cytopenias (in advanced disease)"
               }
             ]
           },
@@ -3478,11 +3470,11 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Performance status",
+                "text": "Performance status (ECOG)",
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "ECOG Performance Status\\tGrade 0\\nFully active, able to carry on all pre-disease activities without restriction\\tGrade 1\\nRestricted in physically strenuous activity but ambulatory and able to carry out light work\\tGrade 2\\nAmbulatory and capable of all self-care but unable to carry out any work activities\\nUp and about more than 50% of waking hours\\tGrade 3\\nCapable of only limited self-care\\nConfined to bed or chair more than 50% of waking hours\\tGrade 4\\nCompletely disabled\\nCannot carry on any self-care\\nTotally confined to bed or chair\\tGrade 5\\nDead"
+                    "tip": "ECOG Performance Status\\n0 \u2013 Fully active, able to carry on all pre-disease activities without restriction\\n1 \u2013 Restricted in strenuous activity but ambulatory and able to do light work\\n2 \u2013 Ambulatory and capable of self-care, but unable to work; up and about >50% of waking hours\\n3 \u2013 Limited self-care, confined to bed or chair >50% of waking hours\\n4 \u2013 Completely disabled, totally confined to bed or chair\\n5 \u2013 Dead"
                   }
                 ]
               },
@@ -3505,11 +3497,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Pharmacological adherence"
-              },
-              {
-                "type": "checkbox",
-                "text": "Attendance at treatment cycles"
+                "text": "Pharmacological adherence / attendance at treatment cycles"
               },
               {
                 "type": "checkbox",
@@ -3521,8 +3509,12 @@
             "active": true,
             "items": [
               {
-                "type": "plain",
+                "type": "checkbox",
                 "text": "B symptoms"
+              },
+              {
+                "type": "checkbox",
+                "text": "Hypersplenism symptoms (early satiety, abdominal pain)"
               },
               {
                 "type": "subheading",
@@ -3592,7 +3584,7 @@
           "Autologous"
         ],
         "tips": [
-          "Only Allogeneic HSCT  pose risk of Graft vs Host Disease"
+          "Only allogeneic HSCT pose risk of Graft vs Host Disease"
         ],
         "resources": [
           "RYLC Week 6: Bone Marrow Transplant Workshop",
@@ -3638,6 +3630,10 @@
             "active": true,
             "items": [
               {
+                "type": "category",
+                "text": "At time of HSCT"
+              },
+              {
                 "type": "checkbox",
                 "text": "HLA match"
               },
@@ -3648,6 +3644,18 @@
               {
                 "type": "checkbox",
                 "text": "Stem cell source (peripheral blood, bone marrow, cord blood)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Toxicities from conditioning agents"
+              },
+              {
+                "type": "category",
+                "text": "Since HSCT"
+              },
+              {
+                "type": "checkbox",
+                "text": "Disease relapse or recurrence"
               }
             ]
           },
@@ -3664,7 +3672,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "SYNTHESIS: In an allogeneic HSCT after 100 days immunosuppression and antimicrobials should be ceased unless there are concerns for GVHD."
+                    "tip": "In an allogeneic HSCT after 100 days immunosuppression and antimicrobials should be ceased unless there are concerns for GVHD."
                   }
                 ]
               },
@@ -3733,7 +3741,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "Endocrine dysfunction"
+                "text": "Endocrine dysfunction",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Late complication of HSCT \u2013 endocrine dysfunction due to conditioning chemotherapy/irradiation, chronic steroid therapy for GVHD, and iron overload, leading to hypogonadism, hypothyroidism, growth hormone deficiency, diabetes, and adrenal suppression."
+                  }
+                ]
               },
               {
                 "type": "plain",
@@ -3750,18 +3764,6 @@
               {
                 "type": "checkbox-bullet",
                 "text": "Lung involvement"
-              },
-              {
-                "type": "checkbox",
-                "text": "Major chemotherapy toxicities"
-              },
-              {
-                "type": "category",
-                "text": "Complications of disease"
-              },
-              {
-                "type": "checkbox",
-                "text": "Disease relapse or recurrence"
               }
             ]
           },
@@ -4215,10 +4217,11 @@
         "id": "thalassaemia",
         "name": "Thalassaemia",
         "headingModifiers": [
-          "B-thalassaemia major, Transfusion Dependent Thalassaemia"
+          "B-thalassaemia major",
+          "Transfusion Dependent Thalassaemia"
         ],
         "tips": [
-          "If the patient has a mild anaemia and minor carrier state thalassaemia only list this as a brief less active problem"
+          "If the patient has a mild anaemia and minor carrier state thalassaemia - only use this as a less active medical problem and discuss in brief"
         ],
         "resources": [
           "RYLC Week 9 (After Party): Thalassaemia & Sickle Cell for the Long Case"
@@ -4237,7 +4240,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Symptoms at diagnosis (if relevant)"
+                "text": "Symptoms at diagnosis (if symptomatic)"
               },
               {
                 "type": "plain",
@@ -4346,31 +4349,31 @@
                 "text": "Iron overload"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Liver cirrhosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cardiomyopathy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pancreatic dysfunction (diabetes)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pituitary dysfunction (hypogonadism)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypothyroidism"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypoparathyroidism"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "HBV, HCV, HIV risk in older patients (due to blood products)"
               },
               {
@@ -4521,7 +4524,8 @@
         "id": "haemophilia",
         "name": "Haemophilia",
         "headingModifiers": [
-          "Haemophilia A (low factor 8), Haemophilia B (low factor 9)"
+          "Haemophilia A (low factor 8)",
+          "Haemophilia B (low factor 9)"
         ],
         "tips": [
           "Severity, Factor Level & Presentation \\n - Severe: <1% (spontaneous joint/muscle bleeds) \\n - Moderate: 1\u20135% (bleeds after minor trauma or procedures) \\n - Mild: >5% (bleeds only after major trauma/surgery)"
@@ -4596,6 +4600,14 @@
                 "text": "Non-pharmacological"
               },
               {
+                "type": "checkbox",
+                "text": "Avoid intramuscular injections"
+              },
+              {
+                "type": "checkbox",
+                "text": "Avoid NSAIDs"
+              },
+              {
                 "type": "subheading",
                 "text": "Haemophilia action plan"
               },
@@ -4606,10 +4618,6 @@
               {
                 "type": "checkbox-bullet",
                 "text": "Identified hospital for acute presentation (consider rural patients)"
-              },
-              {
-                "type": "checkbox",
-                "text": "Avoid intramuscular injections"
               },
               {
                 "type": "checkbox",
@@ -4664,15 +4672,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "Recurrent haemarthroses"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Chronic arthropathy, deformity, disability"
+                "text": "Recurrent haemarthroses causing arthopathy, deformity, pain and disability"
               },
               {
                 "type": "checkbox",
-                "text": "Chronic pain syndromes"
+                "text": "Other bleeding complications (peri-operative, intracranial, trauma)"
               },
               {
                 "type": "checkbox",
@@ -4756,6 +4760,10 @@
           "impact": {
             "active": true,
             "items": [
+              {
+                "type": "plain",
+                "text": "Impact of illness"
+              },
               {
                 "type": "subheading",
                 "text": "Family planning considerations"
@@ -12157,7 +12165,7 @@
           "Autologous"
         ],
         "tips": [
-          "Only Allogeneic HSCT  pose risk of Graft vs Host Disease"
+          "Only allogeneic HSCT pose risk of Graft vs Host Disease"
         ],
         "resources": [
           "RYLC Week 6: Bone Marrow Transplant Workshop",
@@ -12203,6 +12211,10 @@
             "active": true,
             "items": [
               {
+                "type": "category",
+                "text": "At time of HSCT"
+              },
+              {
                 "type": "checkbox",
                 "text": "HLA match"
               },
@@ -12213,6 +12225,18 @@
               {
                 "type": "checkbox",
                 "text": "Stem cell source (peripheral blood, bone marrow, cord blood)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Toxicities from conditioning agents"
+              },
+              {
+                "type": "category",
+                "text": "Since HSCT"
+              },
+              {
+                "type": "checkbox",
+                "text": "Disease relapse or recurrence"
               }
             ]
           },
@@ -12229,7 +12253,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "SYNTHESIS: In an allogeneic HSCT after 100 days immunosuppression and antimicrobials should be ceased unless there are concerns for GVHD."
+                    "tip": "In an allogeneic HSCT after 100 days immunosuppression and antimicrobials should be ceased unless there are concerns for GVHD."
                   }
                 ]
               },
@@ -12298,7 +12322,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "Endocrine dysfunction"
+                "text": "Endocrine dysfunction",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Late complication of HSCT \u2013 endocrine dysfunction due to conditioning chemotherapy/irradiation, chronic steroid therapy for GVHD, and iron overload, leading to hypogonadism, hypothyroidism, growth hormone deficiency, diabetes, and adrenal suppression."
+                  }
+                ]
               },
               {
                 "type": "plain",
@@ -12315,18 +12345,6 @@
               {
                 "type": "checkbox-bullet",
                 "text": "Lung involvement"
-              },
-              {
-                "type": "checkbox",
-                "text": "Major chemotherapy toxicities"
-              },
-              {
-                "type": "category",
-                "text": "Complications of disease"
-              },
-              {
-                "type": "checkbox",
-                "text": "Disease relapse or recurrence"
               }
             ]
           },
