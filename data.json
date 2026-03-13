@@ -35,7 +35,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
+                    "tip": "New York Heart Association \\n Class I – No symptoms \\n Class II – Symptoms with ordinary activity \\n Class III – Symptoms with minimal activity \\ Class IV – Symptoms at rest"
                   }
                 ]
               },
@@ -155,7 +155,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
+                    "tip": "New York Heart Association \\n Class I – No symptoms \\n Class II – Symptoms with ordinary activity \\n Class III – Symptoms with minimal activity \\ Class IV – Symptoms at rest"
                   }
                 ]
               },
@@ -248,7 +248,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "Aim to restore TSAT \u226520% and ferritin >100 \u00b5g/L using IV iron, to improve symptoms, function, and reduce hospitalisations."
+                    "tip": "Aim to restore TSAT ≥20% and ferritin >100 µg/L using IV iron, to improve symptoms, function, and reduce hospitalisations."
                   }
                 ]
               },
@@ -295,19 +295,19 @@
               },
               {
                 "type": "checkbox",
-                "text": "Diuretics \u2013 hypotension, dyselectrolytaemia, renal impairment, gout"
+                "text": "Diuretics – hypotension, dyselectrolytaemia, renal impairment, gout"
               },
               {
                 "type": "checkbox",
-                "text": "Beta-blockers \u2013 bronchospasm"
+                "text": "Beta-blockers – bronchospasm"
               },
               {
                 "type": "checkbox",
-                "text": "SGLT2 inhibitors \u2013 genitourinary infections, euglycaemic ketoacidosis"
+                "text": "SGLT2 inhibitors – genitourinary infections, euglycaemic ketoacidosis"
               },
               {
                 "type": "checkbox",
-                "text": "Mineralocorticoid receptor antagonists \u2013 gynaecomastia"
+                "text": "Mineralocorticoid receptor antagonists – gynaecomastia"
               },
               {
                 "type": "category",
@@ -348,7 +348,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
+                    "tip": "New York Heart Association \\n Class I – No symptoms \\n Class II – Symptoms with ordinary activity \\n Class III – Symptoms with minimal activity \\ Class IV – Symptoms at rest"
                   }
                 ]
               },
@@ -392,7 +392,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
+                    "tip": "New York Heart Association \\n Class I – No symptoms \\n Class II – Symptoms with ordinary activity \\n Class III – Symptoms with minimal activity \\ Class IV – Symptoms at rest"
                   }
                 ]
               },
@@ -428,7 +428,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow-up \u2013 by whom and when"
+                "text": "Follow-up – by whom and when"
               },
               {
                 "type": "checkbox",
@@ -448,7 +448,7 @@
         "headingModifiers": [],
         "tips": [
           "This is a neat way to package a number of related medical problems in a meaninful way",
-          "This could be introuced as \"\"The next problem I would like to discuss is Mr X's elevated risk of cardiovascular events. In terms of his risk factors\u2026\"\""
+          "This could be introuced as \"\"The next problem I would like to discuss is Mr X's elevated risk of cardiovascular events. In terms of his risk factors…\"\""
         ],
         "resources": [],
         "sections": {
@@ -639,7 +639,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow-up \u2013 by whom and when"
+                "text": "Follow-up – by whom and when"
               }
             ]
           }
@@ -863,15 +863,15 @@
               },
               {
                 "type": "checkbox",
-                "text": "Beta-blockers \u2013 hypotension, bradycardia, fatigue, bronchospasm, masking of hypoglycaemia"
+                "text": "Beta-blockers – hypotension, bradycardia, fatigue, bronchospasm, masking of hypoglycaemia"
               },
               {
                 "type": "checkbox",
-                "text": "Calcium channel blockers \u2013 hypotension, peripheral oedema"
+                "text": "Calcium channel blockers – hypotension, peripheral oedema"
               },
               {
                 "type": "checkbox",
-                "text": "Amiodarone \u2013 thyroid toxicity, interstitial pneumonitis and fibrosis, hepatotoxicity"
+                "text": "Amiodarone – thyroid toxicity, interstitial pneumonitis and fibrosis, hepatotoxicity"
               }
             ]
           },
@@ -931,7 +931,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow-up \u2013 by whom and when"
+                "text": "Follow-up – by whom and when"
               }
             ]
           }
@@ -1125,7 +1125,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
+                    "tip": "New York Heart Association \\n Class I – No symptoms \\n Class II – Symptoms with ordinary activity \\n Class III – Symptoms with minimal activity \\ Class IV – Symptoms at rest"
                   }
                 ]
               },
@@ -1169,7 +1169,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "New York Heart Association \\n Class I \u2013 No symptoms \\n Class II \u2013 Symptoms with ordinary activity \\n Class III \u2013 Symptoms with minimal activity \\ Class IV \u2013 Symptoms at rest"
+                    "tip": "New York Heart Association \\n Class I – No symptoms \\n Class II – Symptoms with ordinary activity \\n Class III – Symptoms with minimal activity \\ Class IV – Symptoms at rest"
                   }
                 ]
               },
@@ -1203,7 +1203,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow-up \u2013 by whom and when"
+                "text": "Follow-up – by whom and when"
               }
             ]
           }
@@ -1338,7 +1338,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Medications \u2013 glucocorticoids, tacrolimus, cyclosporin"
+                "text": "Medications – glucocorticoids, tacrolimus, cyclosporin"
               }
             ]
           },
@@ -1428,7 +1428,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Basal\u2013bolus regimen"
+                "text": "Basal–bolus regimen"
               },
               {
                 "type": "checkbox",
@@ -1445,27 +1445,27 @@
               },
               {
                 "type": "checkbox",
-                "text": "Metformin \u2013 gastrointestinal upset, B12 deficiency, lactic acidosis"
+                "text": "Metformin – gastrointestinal upset, B12 deficiency, lactic acidosis"
               },
               {
                 "type": "checkbox",
-                "text": "SGLT2 inhibitors \u2013 genitourinary infections, euglycaemic ketoacidosis"
+                "text": "SGLT2 inhibitors – genitourinary infections, euglycaemic ketoacidosis"
               },
               {
                 "type": "checkbox",
-                "text": "GLP1 receptor agonists \u2013 gastrointestinal side effects, pancreatitis"
+                "text": "GLP1 receptor agonists – gastrointestinal side effects, pancreatitis"
               },
               {
                 "type": "checkbox",
-                "text": "DPP4 inhibitors \u2013 pancreatitis, arthralgias"
+                "text": "DPP4 inhibitors – pancreatitis, arthralgias"
               },
               {
                 "type": "checkbox",
-                "text": "Sulfonylureas \u2013 hypoglycaemia, weight gain"
+                "text": "Sulfonylureas – hypoglycaemia, weight gain"
               },
               {
                 "type": "checkbox",
-                "text": "Insulin \u2013 hypoglycaemia, weight gain, lipohypertrophy"
+                "text": "Insulin – hypoglycaemia, weight gain, lipohypertrophy"
               },
               {
                 "type": "category",
@@ -1622,7 +1622,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow-up \u2013 by whom and when"
+                "text": "Follow-up – by whom and when"
               }
             ]
           }
@@ -1646,7 +1646,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Circumstances of diagnosis \u2013 routine DEXA vs minimal trauma fracture"
+                "text": "Circumstances of diagnosis – routine DEXA vs minimal trauma fracture"
               },
               {
                 "type": "checkbox",
@@ -1806,23 +1806,23 @@
               },
               {
                 "type": "checkbox",
-                "text": "Bisphosphonates \u2013 oesophagitis, GORD, dysphagia, dyspepsia, hypocalcaemia, osteonecrosis of the jaw, atypical femoral fractures"
+                "text": "Bisphosphonates – oesophagitis, GORD, dysphagia, dyspepsia, hypocalcaemia, osteonecrosis of the jaw, atypical femoral fractures"
               },
               {
                 "type": "checkbox",
-                "text": "Denosumab \u2013 hypocalcaemia, UTIs, osteonecrosis of the jaw, atypical femoral fractures, rebound vertebral fractures"
+                "text": "Denosumab – hypocalcaemia, UTIs, osteonecrosis of the jaw, atypical femoral fractures, rebound vertebral fractures"
               },
               {
                 "type": "checkbox",
-                "text": "Raloxifene \u2013 VTE, hot flushes, leg cramps"
+                "text": "Raloxifene – VTE, hot flushes, leg cramps"
               },
               {
                 "type": "checkbox",
-                "text": "Teriparatide \u2013 hypercalcaemia, dizziness, nausea, leg cramps"
+                "text": "Teriparatide – hypercalcaemia, dizziness, nausea, leg cramps"
               },
               {
                 "type": "checkbox",
-                "text": "Romosozumab \u2013 arthralgias, headaches, hypocalcaemia, cardiovascular risk"
+                "text": "Romosozumab – arthralgias, headaches, hypocalcaemia, cardiovascular risk"
               },
               {
                 "type": "category",
@@ -1834,7 +1834,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Vertebral fractures \u2013 kyphosis, chronic pain, radicular pain"
+                "text": "Vertebral fractures – kyphosis, chronic pain, radicular pain"
               }
             ]
           },
@@ -1904,7 +1904,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow-up \u2013 by whom and when"
+                "text": "Follow-up – by whom and when"
               }
             ]
           }
@@ -1924,7 +1924,7 @@
             "items": [
               {
                 "type": "italic",
-                "text": "\"Mrs X has metabolic syndrome as evidenced by\u2026\"",
+                "text": "\"Mrs X has metabolic syndrome as evidenced by…\"",
                 "icons": [
                   {
                     "type": "info",
@@ -1934,7 +1934,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "On antihypertensive therapy or SBP \u2265130 mmHg or DBP \u226585 mmHg"
+                "text": "On antihypertensive therapy or SBP ≥130 mmHg or DBP ≥85 mmHg"
               },
               {
                 "type": "checkbox",
@@ -1946,7 +1946,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Increased abdominal circumference: \u2265102 cm (men) or \u226588 cm (women)"
+                "text": "Increased abdominal circumference: ≥102 cm (men) or ≥88 cm (women)"
               },
               {
                 "type": "checkbox",
@@ -1963,7 +1963,7 @@
             "items": [
               {
                 "type": "italic",
-                "text": "\"Other risk factors for their elevated cardiovascular risk are\u2026\""
+                "text": "\"Other risk factors for their elevated cardiovascular risk are…\""
               },
               {
                 "type": "category",
@@ -2089,15 +2089,15 @@
               },
               {
                 "type": "checkbox",
-                "text": "GLP-1 agonists \u2013 gastrointestinal side effects, thyroid cancers"
+                "text": "GLP-1 agonists – gastrointestinal side effects, thyroid cancers"
               },
               {
                 "type": "checkbox",
-                "text": "Contrave \u2013 headache, seizures, hypertension, dizziness"
+                "text": "Contrave – headache, seizures, hypertension, dizziness"
               },
               {
                 "type": "checkbox",
-                "text": "Orlistat \u2013 gastrointestinal side effects, malabsorption of vitamins A, D, E, K"
+                "text": "Orlistat – gastrointestinal side effects, malabsorption of vitamins A, D, E, K"
               },
               {
                 "type": "category",
@@ -2183,7 +2183,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Physical activity \u2265150 minutes per week of moderate-intensity exercise"
+                "text": "Physical activity ≥150 minutes per week of moderate-intensity exercise"
               }
             ]
           },
@@ -2274,7 +2274,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Cushing\u2019s"
+                "text": "Cushing’s"
               }
             ]
           },
@@ -2353,15 +2353,15 @@
               },
               {
                 "type": "checkbox",
-                "text": "GLP-1 \u2013 gastrointestinal side effects, thyroid cancers"
+                "text": "GLP-1 – gastrointestinal side effects, thyroid cancers"
               },
               {
                 "type": "checkbox",
-                "text": "Contrave \u2013 headache, seizures, hypertension, dizziness"
+                "text": "Contrave – headache, seizures, hypertension, dizziness"
               },
               {
                 "type": "checkbox",
-                "text": "Orlistat \u2013 gastrointestinal side effects, malabsorption of vitamins A, D, E, K"
+                "text": "Orlistat – gastrointestinal side effects, malabsorption of vitamins A, D, E, K"
               },
               {
                 "type": "category",
@@ -2470,7 +2470,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow-up \u2013 by whom and when"
+                "text": "Follow-up – by whom and when"
               }
             ]
           }
@@ -2533,7 +2533,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Colonoscopy \u00b1 biopsy"
+                "text": "Colonoscopy ± biopsy"
               }
             ]
           },
@@ -2554,7 +2554,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Smoking history (Crohn\u2019s); smoking cessation (UC)"
+                "text": "Smoking history (Crohn’s); smoking cessation (UC)"
               },
               {
                 "type": "checkbox",
@@ -2600,7 +2600,7 @@
             "items": [
               {
                 "type": "category",
-                "text": "Crohn\u2019s disease"
+                "text": "Crohn’s disease"
               },
               {
                 "type": "subheading",
@@ -2741,7 +2741,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Crohn\u2019s \u2013 fistulae, strictures, abscesses"
+                "text": "Crohn’s – fistulae, strictures, abscesses"
               },
               {
                 "type": "checkbox",
@@ -2757,7 +2757,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Ulcerative colitis \u2013 acute severe UC"
+                "text": "Ulcerative colitis – acute severe UC"
               },
               {
                 "type": "checkbox",
@@ -2879,7 +2879,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               },
               {
                 "type": "checkbox",
@@ -2921,7 +2921,7 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Liver ultrasound \u00b1 FibroScan"
+                "text": "Liver ultrasound ± FibroScan"
               },
               {
                 "type": "checkbox-bullet",
@@ -2950,7 +2950,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Wilson\u2019s disease"
+                "text": "Wilson’s disease"
               },
               {
                 "type": "checkbox",
@@ -2966,7 +2966,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Budd\u2013Chiari syndrome"
+                "text": "Budd–Chiari syndrome"
               }
             ]
           },
@@ -3207,7 +3207,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               },
               {
                 "type": "checkbox",
@@ -3475,7 +3475,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "ECOG Performance Status\\n0 \u2013 Fully active, able to carry on all pre-disease activities without restriction\\n1 \u2013 Restricted in strenuous activity but ambulatory and able to do light work\\n2 \u2013 Ambulatory and capable of self-care, but unable to work; up and about >50% of waking hours\\n3 \u2013 Limited self-care, confined to bed or chair >50% of waking hours\\n4 \u2013 Completely disabled, totally confined to bed or chair\\n5 \u2013 Dead"
+                    "tip": "ECOG Performance Status\\n0 – Fully active, able to carry on all pre-disease activities without restriction\\n1 – Restricted in strenuous activity but ambulatory and able to do light work\\n2 – Ambulatory and capable of self-care, but unable to work; up and about >50% of waking hours\\n3 – Limited self-care, confined to bed or chair >50% of waking hours\\n4 – Completely disabled, totally confined to bed or chair\\n5 – Dead"
                   }
                 ]
               },
@@ -3552,7 +3552,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "Whilst you may not know the exact prognosis, you must explore the prognosis and the patient\u2019s understanding of this."
+                    "tip": "Whilst you may not know the exact prognosis, you must explore the prognosis and the patient’s understanding of this."
                   }
                 ]
               }
@@ -3746,7 +3746,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "Late complication of HSCT \u2013 endocrine dysfunction due to conditioning chemotherapy/irradiation, chronic steroid therapy for GVHD, and iron overload, leading to hypogonadism, hypothyroidism, growth hormone deficiency, diabetes, and adrenal suppression."
+                    "tip": "Late complication of HSCT – endocrine dysfunction due to conditioning chemotherapy/irradiation, chronic steroid therapy for GVHD, and iron overload, leading to hypogonadism, hypothyroidism, growth hormone deficiency, diabetes, and adrenal suppression."
                   }
                 ]
               },
@@ -3835,7 +3835,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               }
             ]
           }
@@ -4204,7 +4204,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               },
               {
                 "type": "checkbox",
@@ -4469,11 +4469,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "Ferritin approximately 700 \u00b5g/L (or less than 1000 \u00b5g/L)"
+                "text": "Ferritin approximately 700 µg/L (or less than 1000 µg/L)"
               },
               {
                 "type": "checkbox",
-                "text": "Cardiac and liver MRI every 12\u201318 months (iron overload)"
+                "text": "Cardiac and liver MRI every 12–18 months (iron overload)"
               }
             ]
           },
@@ -4515,7 +4515,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               }
             ]
           }
@@ -4529,7 +4529,7 @@
           "Haemophilia B (low factor 9)"
         ],
         "tips": [
-          "Severity, Factor Level & Presentation \\n - Severe: <1% (spontaneous joint/muscle bleeds) \\n - Moderate: 1\u20135% (bleeds after minor trauma or procedures) \\n - Mild: >5% (bleeds only after major trauma/surgery)"
+          "Severity, Factor Level & Presentation \\n - Severe: <1% (spontaneous joint/muscle bleeds) \\n - Moderate: 1–5% (bleeds after minor trauma or procedures) \\n - Mild: >5% (bleeds only after major trauma/surgery)"
         ],
         "resources": [
           "RYLC Week 9 (After Party): Haemophilia Long Case"
@@ -4788,7 +4788,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               }
             ]
           }
@@ -5076,7 +5076,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Gastrointestinal upset, fatigue, headache, dizziness, sleep disturbance, rash, pruritus, myalgias, arthralgias, transaminitis, drug\u2013drug interactions"
+                "text": "Gastrointestinal upset, fatigue, headache, dizziness, sleep disturbance, rash, pruritus, myalgias, arthralgias, transaminitis, drug–drug interactions"
               },
               {
                 "type": "checkbox",
@@ -5170,11 +5170,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "Pharmacological \u2013 PrEP, PEP"
+                "text": "Pharmacological – PrEP, PEP"
               },
               {
                 "type": "checkbox",
-                "text": "Non-pharmacological \u2013 barrier protection"
+                "text": "Non-pharmacological – barrier protection"
               },
               {
                 "type": "checkbox",
@@ -5217,7 +5217,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               }
             ]
           }
@@ -5253,19 +5253,19 @@
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Asymptomatic"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypertension"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Nephrotic syndrome"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vasculitic rash"
               },
               {
@@ -5273,19 +5273,19 @@
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "GFR"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Haematuria"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Proteinuria"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Renal biopsy"
               }
             ]
@@ -5303,43 +5303,43 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Cardiovascular risk factors"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypertension"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Diabetes"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Age"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Smoking"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Obesity"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Low nephron mass"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Single kidney"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Prematurity"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Previous AKI"
               }
             ]
@@ -5349,15 +5349,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Disease severity and CKD stage"
-              },
-              {
-                "type": "checkbox",
                 "text": "Trajectory of renal function decline"
-              },
-              {
-                "type": "checkbox",
-                "text": "Immunosuppression or disease-specific therapy"
               },
               {
                 "type": "checkbox",
@@ -5365,38 +5357,10 @@
               },
               {
                 "type": "checkbox",
-                "text": "Failed renal transplant"
+                "text": "Change in dialysis modality over time"
               },
               {
-                "type": "category",
-                "text": "Dialysis modality"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Haemodialysis"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Peritoneal dialysis"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Change in modality over time"
-              },
-              {
-                "type": "category",
-                "text": "Dialysis access complications"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "PD peritonitis"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "AV fistula thrombosis"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Permcath use and reason"
               }
             ]
@@ -5409,43 +5373,43 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Fluid restriction"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Low salt diet"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Low potassium diet"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Low phosphate diet"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Diuretics"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Erythropoietin"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Antihypertensives"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Phosphate binders"
               }
             ]
@@ -5454,91 +5418,99 @@
             "active": true,
             "items": [
               {
-                "type": "category",
-                "text": "Complications of management"
+                "type": "subheading",
+                "text": "Complications of dialysis"
               },
               {
-                "type": "subheading",
+                "type": "plain",
                 "text": "Haemodialysis-related"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Dizziness"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cramps"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Headaches"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Intradialytic hypotension"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Vascular access complications"
+                "type": "checkbox",
+                "text": "Vascular access complications eg AV fistula thrombosis"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Peritoneal dialysis-related"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Access complications"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Peritonitis"
               },
               {
-                "type": "category",
+                "type": "checkbox",
+                "text": "Herniae"
+              },
+              {
+                "type": "checkbox",
+                "text": "Acess complications eg catheter malfunction, dialysate leak"
+              },
+              {
+                "type": "checkbox",
+                "text": "Hyperglycaemia"
+              },
+              {
+                "type": "subheading",
                 "text": "Complications of disease"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypertension"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Fluid overload"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Gout"
               },
               {
-                "type": "category",
+                "type": "bold",
                 "text": "Advanced CKD (universal)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hyperkalaemia"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Metabolic acidosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CKD-MBD"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Anaemia"
               },
               {
-                "type": "category",
+                "type": "bold",
                 "text": "Advanced CKD (less common)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Restless legs"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Neuropathy"
               }
             ]
@@ -5568,20 +5540,12 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
-                "text": "Pharmacological"
-              },
-              {
-                "type": "subheading",
-                "text": "Non-pharmacological"
-              },
-              {
                 "type": "checkbox",
                 "text": "Haemodialysis: Attendance __ times weekly for ___ hours"
               },
               {
                 "type": "checkbox",
-                "text": "Peritoneal Dialysis: Performing daily?"
+                "text": "Peritoneal Dialysis: Performs [frequency]"
               },
               {
                 "type": "checkbox",
@@ -5613,27 +5577,31 @@
             "active": true,
             "items": [
               {
-                "type": "plain",
+                "type": "checkbox",
+                "text": "Symptoms of fluid overload"
+              },
+              {
+                "type": "bold",
                 "text": "Uraemic symptoms"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Itch"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Nausea"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vomiting"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Poor appetite"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Lethargy"
               }
             ]
@@ -5661,7 +5629,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               },
               {
                 "type": "checkbox",
@@ -5680,9 +5648,7 @@
           "Non-Proteinuric",
           "Being considered for transplant"
         ],
-        "tips": [
-          "CKD Stage 1: eGFR \u226590 mL/min \\n CKD Stage 2: eGFR 60\u201389 mL/min \\n CKD Stage 3a: eGFR 45\u201359 mL/min \\n CKD Stage 3b: eGFR 30\u201344 mL/min \\n CKD Stage 4: eGFR 15\u201329 mL/min \\n CKD Stage 5: eGFR <15 mL/min"
-        ],
+        "tips": "CKD Stage 1: eGFR ≥90 mL/min \\ CKD Stage 2: eGFR 60–89 mL/min \\ CKD Stage 3a: eGFR 45–59 mL/min \\ CKD Stage 3b: eGFR 30–44 mL/min \\ CKD Stage 4: eGFR 15–29 mL/min \\ CKD Stage 5: eGFR <15 mL/min",
         "resources": [
           "RYLC Week 2: The CKD History & Examination"
         ],
@@ -5699,19 +5665,19 @@
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Asymptomatic"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypertension"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Nephrotic syndrome"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vasculitic rash"
               },
               {
@@ -5719,23 +5685,23 @@
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "eGFR"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Haematuria"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Proteinuria"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "ACR / PCR"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Renal biopsy"
               }
             ]
@@ -5753,43 +5719,43 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Cardiovascular risk factors"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypertension"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Diabetes"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Age"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Smoking"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Obesity"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Low nephron mass"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Single kidney"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Prematurity"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Previous AKI"
               }
             ]
@@ -5819,63 +5785,63 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Blood pressure optimisation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Low salt diet"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Weight optimisation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Smoking cessation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vaccinations"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "ACE inhibitor or ARB"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "SGLT2 inhibitor"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Antihypertensives"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Statin"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Erythropoiesis-stimulating agent"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Phosphate binders"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Diuretics"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Sodium bicarbonate"
               }
             ]
@@ -5884,63 +5850,63 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hyperkalaemia from RAAS blockade"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypotension"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Medication-related AKI"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Drug-induced electrolyte disturbance"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of disease"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "All CKD stages"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypertension"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Fluid overload"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Gout"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Advanced CKD"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hyperkalaemia"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Metabolic acidosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CKD-MBD"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Anaemia"
               }
             ]
@@ -5985,6 +5951,10 @@
               {
                 "type": "checkbox",
                 "text": "Uraemic symptoms"
+              },
+              {
+                "type": "checkbox",
+                "text": "Symptoms of fluid overload"
               }
             ]
           },
@@ -6034,7 +6004,7 @@
         "name": "Renal Transplant",
         "headingModifiers": [
           "Deceased Donor",
-          "Living Donor"
+          "Living Donor (related or unrelated)"
         ],
         "tips": null,
         "resources": [
@@ -6077,58 +6047,16 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Time of Transplant"
               },
               {
-                "type": "category",
-                "text": "Complications since transplant"
-              },
-              {
-                "type": "checkbox",
-                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
-              },
-              {
-                "type": "subheading",
-                "text": "Anatomical Considerations & Source"
-              },
-              {
-                "type": "checkbox",
-                "text": "Deceased donor"
-              },
-              {
-                "type": "checkbox",
-                "text": "Rejection episodes and management"
-              },
-              {
-                "type": "checkbox",
-                "text": "Living donor \u2013 related or unrelated"
-              },
-              {
-                "type": "checkbox",
-                "text": "Malignancy (especially skin cancer)",
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "Package malignancy screening including skin checks"
-                  }
-                ]
-              },
-              {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Immunological considerations"
               },
               {
                 "type": "checkbox",
-                "text": "Cytopenias (e.g MMF, AZA, mTORi, Valcyte, Bactrim, CMV, parvovirus)"
-              },
-              {
-                "type": "checkbox",
-                "text": "Anatomical complications"
-              },
-              {
-                "type": "checkbox",
-                "text": "HLA matching"
+                "text": "HLA match"
               },
               {
                 "type": "checkbox",
@@ -6136,15 +6064,31 @@
               },
               {
                 "type": "checkbox",
-                "text": "Changes in immunosuppression and reasons"
-              },
-              {
-                "type": "checkbox",
-                "text": "Risk factors for sensitisation (pregnancy, transfusion, prior transplant)"
+                "text": "Risk factors for DSA development (pregnancy, transfusion, prior transplant)"
               },
               {
                 "type": "checkbox",
                 "text": "CMV donor and recipient serostatus"
+              },
+              {
+                "type": "subheading",
+                "text": "Time since transplant"
+              },
+              {
+                "type": "checkbox",
+                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Rejection episodes and management"
+              },
+              {
+                "type": "checkbox",
+                "text": "Anatomical complications"
+              },
+              {
+                "type": "checkbox",
+                "text": "Changes in immunsupression and reasons"
               }
             ]
           },
@@ -6156,11 +6100,11 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Immunosupression",
                 "icons": [
                   {
@@ -6170,54 +6114,46 @@
                 ]
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Tacrolimus or cyclosporin"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mycophenolate or azathioprine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Prednisolone"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "mTOR inhibitor (everolimus or sirolimus)"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Antimicrobials",
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If a transplant patient is on an antimicrobial, know the reason. Is it routine prophylaxis? Prior infection? Or increased immunosuppression for rejection?"
+                    "tip": "If a transplant patient is receiving an antimicrobial, make sure you know why. Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection, necessitating re-introduction of antimicrobials?"
                   }
                 ]
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vaccination status"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Current antimicrobial prophylaxis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Trimethoprim-sulfamethoxazole"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Valganciclovir"
-              },
-              {
-                "type": "category",
-                "text": "Non-pharmacological"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Population cancer screening up to date"
               }
             ]
           },
@@ -6225,12 +6161,40 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of management"
               },
               {
-                "type": "subheading",
-                "text": "Calcineurin inhibitor toxicities"
+                "type": "plain",
+                "text": "General immunosupression complications"
+              },
+              {
+                "type": "plain",
+                "text": "Malignancy (especially skin cancer)",
+                "icons": [
+                  {
+                    "type": "synthesis",
+                    "tip": "Package cancer screening including skin checks here"
+                  }
+                ]
+              },
+              {
+                "type": "plain",
+                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
+              },
+              {
+                "type": "plain",
+                "text": "Cytopenias",
+                "icons": [
+                  {
+                    "type": "synthesis",
+                    "tip": "This can be secondary to immunosupression (MMF, AZA, mTORi) but also anti-microbials (valcyte, bactrim) or infection (CMV, parvovirus)"
+                  }
+                ]
+              },
+              {
+                "type": "bold",
+                "text": "Calcineurin inhibitor toxicity"
               },
               {
                 "type": "checkbox",
@@ -6249,8 +6213,8 @@
                 "text": "Nephrotoxicity"
               },
               {
-                "type": "subheading",
-                "text": "Corticosteroid toxicities"
+                "type": "bold",
+                "text": "Steroid-related complications"
               },
               {
                 "type": "checkbox",
@@ -6258,7 +6222,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If patient has pre-existing diabetes with complications before transplant \u2013 discuss separately but nod towards it here. If patient\u00a0has developed diabetes post-transplant and the transplant was recent (insufficient time to develop complications of diabetes) diabetes can be handled here briefly."
+                    "tip": "If patient has pre-existing diabetes with complications before transplant – discuss separately but nod towards it here. If patient has developed diabetes post-transplant and the transplant was recent (insufficient time to develop complications of diabetes) diabetes can be handled here briefly."
                   }
                 ]
               },
@@ -6287,7 +6251,7 @@
                 "text": "Weight gain"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Anti-proliferative toxicities"
               },
               {
@@ -6299,7 +6263,7 @@
                 "text": "Diarrhoea (MMF)"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "mTOR inhibitor toxicities"
               },
               {
@@ -6311,15 +6275,11 @@
                 "text": "Dyslipidaemia"
               },
               {
-                "type": "checkbox",
-                "text": "Infection risk"
-              },
-              {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of disease"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Chronic allograft dysfunction",
                 "icons": [
                   {
@@ -6373,7 +6333,7 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Pharmacological adherence"
               },
               {
@@ -6440,7 +6400,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 transplant team frequency"
+                "text": "Follow up – transplant team frequency"
               },
               {
                 "type": "checkbox",
@@ -6461,7 +6421,7 @@
         "name": "General Neurology",
         "headingModifiers": [],
         "tips": [
-          "Of course, title with the patient\u2019s diagnosed neurological condition! But this card details what is most important to elucidate in any neurological long case."
+          "Of course, title with the patient’s diagnosed neurological condition! But this card details what is most important to elucidate in any neurological long case."
         ],
         "resources": [
           "Neurological History in a Jiffy! >> https://www.youtube.com/watch?v=RMDRNlMxg0M&list=PLKXxI1ykAbeq5uesbvziJd4kt_Sc_spmz&index=12"
@@ -6693,7 +6653,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Global impact of illness \u2013 pre-diagnosis function vs current function"
+                "text": "Global impact of illness – pre-diagnosis function vs current function"
               }
             ]
           },
@@ -6712,7 +6672,7 @@
         "id": "ms",
         "name": "Multiple Sclerosis",
         "headingModifiers": [
-          "Relapsing\u2013Remitting MS",
+          "Relapsing–Remitting MS",
           "Secondary Progressive MS",
           "Primary Progressive MS",
           "Clinically Isolated Syndrome",
@@ -6810,7 +6770,7 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Relapsing\u2013remitting"
+                "text": "Relapsing–remitting"
               },
               {
                 "type": "checkbox-bullet",
@@ -6903,7 +6863,7 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Glucocorticoids (PO, IV) \u2013 quantity, frequency, dose for steroid burden"
+                "text": "Glucocorticoids (PO, IV) – quantity, frequency, dose for steroid burden"
               }
             ]
           },
@@ -6936,7 +6896,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Cytopaenias \u2013 lymphopenia, bone marrow suppression (fingolimod, dimethyl fumarate, interferon beta, teriflunomide)"
+                "text": "Cytopaenias – lymphopenia, bone marrow suppression (fingolimod, dimethyl fumarate, interferon beta, teriflunomide)"
               },
               {
                 "type": "checkbox",
@@ -6952,7 +6912,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Secondary autoimmune disease \u2013 ITP, anti-GBM disease (alemtuzumab)"
+                "text": "Secondary autoimmune disease – ITP, anti-GBM disease (alemtuzumab)"
               },
               {
                 "type": "category",
@@ -7127,7 +7087,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Global impact of illness \u2013 pre-diagnosis function vs current function"
+                "text": "Global impact of illness – pre-diagnosis function vs current function"
               }
             ]
           },
@@ -7637,7 +7597,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Global impact of illness \u2013 pre-diagnosis function vs current function"
+                "text": "Global impact of illness – pre-diagnosis function vs current function"
               }
             ]
           },
@@ -7659,7 +7619,7 @@
           "Focal Onset (Aware / Impaired Awareness / Motor Onset / Non-Motor Onset)",
           "Generalised Onset (Motor / Non-Motor / Absence)",
           "Unknown Onset",
-          "Epilepsy Syndromes (Juvenile myoclonic epilepsy / Lennox\u2013Gastaut syndrome / Childhood absence epilepsy)"
+          "Epilepsy Syndromes (Juvenile myoclonic epilepsy / Lennox–Gastaut syndrome / Childhood absence epilepsy)"
         ],
         "tips": null,
         "resources": [],
@@ -7722,7 +7682,7 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Lennox\u2013Gastaut syndrome"
+                "text": "Lennox–Gastaut syndrome"
               },
               {
                 "type": "checkbox-bullet",
@@ -7914,7 +7874,7 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Stevens\u2013Johnson syndrome / toxic epidermal necrolysis (lamotrigine, carbamazepine, oxcarbazepine, phenytoin, ethosuximide)"
+                "text": "Stevens–Johnson syndrome / toxic epidermal necrolysis (lamotrigine, carbamazepine, oxcarbazepine, phenytoin, ethosuximide)"
               },
               {
                 "type": "checkbox-bullet",
@@ -8001,7 +7961,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Global impact of illness \u2013 pre-diagnosis function vs current function"
+                "text": "Global impact of illness – pre-diagnosis function vs current function"
               }
             ]
           },
@@ -8460,8 +8420,8 @@
         "id": "copd",
         "name": "Chronic Obstructve Pulmonary Disease",
         "headingModifiers": [
-          "Severity\\n- Mild FEV\u2081 \u2265 80% predicted\\n- Moderate FEV\u2081 50\u201379% predicted\\n- Severe FEV\u2081 30\u201349% predicted\\n- Very severe FEV\u2081 < 30% predicted",
-          "Phenotype\\n- Emphysema-predominant COPD\\n- Chronic bronchitis phenotype\\n- Asthma\u2013COPD overlap"
+          "Severity\\n- Mild FEV₁ ≥ 80% predicted\\n- Moderate FEV₁ 50–79% predicted\\n- Severe FEV₁ 30–49% predicted\\n- Very severe FEV₁ < 30% predicted",
+          "Phenotype\\n- Emphysema-predominant COPD\\n- Chronic bronchitis phenotype\\n- Asthma–COPD overlap"
         ],
         "tips": null,
         "resources": [],
@@ -8762,7 +8722,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               },
               {
                 "type": "checkbox",
@@ -8781,7 +8741,7 @@
         "name": "Interstital Lung Disease",
         "headingModifiers": [
           "Pattern\\n- Usual interstitial pneumonia pattern\\n- Nonspecific interstitial pneumonia\\n- Organising pneumonia\\n- Hypersensitivity pneumonitis",
-          "Cause\\n- Idiopathic pulmonary fibrosis\\n- Connective tissue disease\u2013associated ILD\\n- Drug-induced ILD\\n- Occupational ILD",
+          "Cause\\n- Idiopathic pulmonary fibrosis\\n- Connective tissue disease–associated ILD\\n- Drug-induced ILD\\n- Occupational ILD",
           "Oxygen Requiring",
           "Under Transplant Assessment"
         ],
@@ -9009,11 +8969,11 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Pirfenidone \u2013 gastrointestinal upset (nausea, dyspepsia), photosensitivity rash, fatigue, hepatotoxicity"
+                "text": "Pirfenidone – gastrointestinal upset (nausea, dyspepsia), photosensitivity rash, fatigue, hepatotoxicity"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Nintedanib \u2013 diarrhoea, nausea/vomiting, hepatotoxicity, bleeding risk"
+                "text": "Nintedanib – diarrhoea, nausea/vomiting, hepatotoxicity, bleeding risk"
               },
               {
                 "type": "subheading",
@@ -9021,27 +8981,27 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Glucocorticoids \u2013 weight gain, osteoporosis, hyperglycaemia, infection risk, mood change"
+                "text": "Glucocorticoids – weight gain, osteoporosis, hyperglycaemia, infection risk, mood change"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Mycophenolate mofetil \u2013 gastrointestinal upset, cytopenias, infection risk"
+                "text": "Mycophenolate mofetil – gastrointestinal upset, cytopenias, infection risk"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Azathioprine \u2013 bone marrow suppression, hepatotoxicity, pancreatitis, infection risk"
+                "text": "Azathioprine – bone marrow suppression, hepatotoxicity, pancreatitis, infection risk"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Cyclophosphamide \u2013 myelosuppression, haemorrhagic cystitis, infertility, malignancy risk, infection risk"
+                "text": "Cyclophosphamide – myelosuppression, haemorrhagic cystitis, infertility, malignancy risk, infection risk"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Rituximab \u2013 infusion reactions, hypogammaglobulinaemia, infection risk, hepatitis B reactivation"
+                "text": "Rituximab – infusion reactions, hypogammaglobulinaemia, infection risk, hepatitis B reactivation"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Tocilizumab \u2013 infection risk, transaminitis, neutropenia, hyperlipidaemia, GI perforation (rare)"
+                "text": "Tocilizumab – infection risk, transaminitis, neutropenia, hyperlipidaemia, GI perforation (rare)"
               },
               {
                 "type": "category",
@@ -9134,7 +9094,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               },
               {
                 "type": "checkbox",
@@ -9181,7 +9141,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Genetic mutation if known (\u0394F508 most common)"
+                "text": "Genetic mutation if known (ΔF508 most common)"
               }
             ]
           },
@@ -9198,7 +9158,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "CF is an autosomal recessive disorder and approximately 1 in 25 Caucasians are carriers. It is caused by mutations in the CFTR gene.The most common mutation is \u0394F508, although more than 1,500 CFTR mutations have been identified."
+                    "tip": "CF is an autosomal recessive disorder and approximately 1 in 25 Caucasians are carriers. It is caused by mutations in the CFTR gene.The most common mutation is ΔF508, although more than 1,500 CFTR mutations have been identified."
                   }
                 ]
               },
@@ -9361,35 +9321,35 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Parenteral feeding \u2013 line infections, thrombosis"
+                "text": "Parenteral feeding – line infections, thrombosis"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Dornase alfa \u2013 voice alteration, pharyngitis, rash"
+                "text": "Dornase alfa – voice alteration, pharyngitis, rash"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Hypertonic saline \u2013 bronchospasm, cough irritation"
+                "text": "Hypertonic saline – bronchospasm, cough irritation"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Mannitol \u2013 bronchospasm, cough"
+                "text": "Mannitol – bronchospasm, cough"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Bronchodilators \u2013 tremor, tachycardia"
+                "text": "Bronchodilators – tremor, tachycardia"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Long-term azithromycin \u2013 QT prolongation, hearing disturbance, gastrointestinal upset"
+                "text": "Long-term azithromycin – QT prolongation, hearing disturbance, gastrointestinal upset"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Antimicrobials \u2013 nephrotoxicity, ototoxicity, antimicrobial resistance"
+                "text": "Antimicrobials – nephrotoxicity, ototoxicity, antimicrobial resistance"
               },
               {
                 "type": "checkbox-bullet",
-                "text": "CFTR modulators \u2013 transaminitis, rash, cataracts (paediatric), drug\u2013drug interactions"
+                "text": "CFTR modulators – transaminitis, rash, cataracts (paediatric), drug–drug interactions"
               },
               {
                 "type": "category",
@@ -9566,7 +9526,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               },
               {
                 "type": "checkbox",
@@ -9672,7 +9632,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Disease severity and trajectory (progressive, relapsing\u2013remitting, or well controlled)"
+                "text": "Disease severity and trajectory (progressive, relapsing–remitting, or well controlled)"
               },
               {
                 "type": "checkbox",
@@ -9806,23 +9766,23 @@
               },
               {
                 "type": "checkbox",
-                "text": "Hydroxychloroquine \u2013 maculopathy"
+                "text": "Hydroxychloroquine – maculopathy"
               },
               {
                 "type": "checkbox",
-                "text": "TNF inhibitors \u2013 SLE, psoriasis, demyelination, heart failure"
+                "text": "TNF inhibitors – SLE, psoriasis, demyelination, heart failure"
               },
               {
                 "type": "checkbox",
-                "text": "JAK inhibitos \u2013 VTE, CVD, Varicella Zoster reactivation"
+                "text": "JAK inhibitos – VTE, CVD, Varicella Zoster reactivation"
               },
               {
                 "type": "checkbox",
-                "text": "Rituximab \u2013 hypogammaglobulinemia"
+                "text": "Rituximab – hypogammaglobulinemia"
               },
               {
                 "type": "checkbox",
-                "text": "Interleukin 6 inhibitors  \u2013 diverticulitis"
+                "text": "Interleukin 6 inhibitors  – diverticulitis"
               },
               {
                 "type": "category",
@@ -10088,7 +10048,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "HLA-B27\u2013associated conditions (psoriasis, IBD, uveitis)",
+                "text": "HLA-B27–associated conditions (psoriasis, IBD, uveitis)",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -10125,7 +10085,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Disease severity and trajectory (progressive, relapsing\u2013remitting, or well controlled)"
+                "text": "Disease severity and trajectory (progressive, relapsing–remitting, or well controlled)"
               },
               {
                 "type": "checkbox",
@@ -10247,15 +10207,15 @@
               },
               {
                 "type": "checkbox",
-                "text": "TNF inhibitors \u2013 psoriasis, SLE, demyelination, heart failure"
+                "text": "TNF inhibitors – psoriasis, SLE, demyelination, heart failure"
               },
               {
                 "type": "checkbox",
-                "text": "JAK inhibitors \u2013 VTE, CVD, varicella zoster reactivation"
+                "text": "JAK inhibitors – VTE, CVD, varicella zoster reactivation"
               },
               {
                 "type": "checkbox",
-                "text": "IL-17 inhibitors \u2013 fungal infections"
+                "text": "IL-17 inhibitors – fungal infections"
               },
               {
                 "type": "category",
@@ -10332,7 +10292,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Morning stiffness >30\u201360 minutes"
+                "text": "Morning stiffness >30–60 minutes"
               },
               {
                 "type": "checkbox",
@@ -10497,7 +10457,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Disease severity and trajectory (progressive, relapsing\u2013remitting, or well controlled)"
+                "text": "Disease severity and trajectory (progressive, relapsing–remitting, or well controlled)"
               },
               {
                 "type": "checkbox",
@@ -10599,15 +10559,15 @@
               },
               {
                 "type": "checkbox",
-                "text": "TNF inhibitor \u2013 psoriasis, SLE, demyelination, heart failure"
+                "text": "TNF inhibitor – psoriasis, SLE, demyelination, heart failure"
               },
               {
                 "type": "checkbox",
-                "text": "JAK inhibitor \u2013 venous thromboembolism, cardiovascular disease, varicella zoster reactivation"
+                "text": "JAK inhibitor – venous thromboembolism, cardiovascular disease, varicella zoster reactivation"
               },
               {
                 "type": "checkbox",
-                "text": "IL-17 inhibitor \u2013 fungal infections"
+                "text": "IL-17 inhibitor – fungal infections"
               },
               {
                 "type": "category",
@@ -10849,7 +10809,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Disease severity and trajectory (progressive, relapsing\u2013remitting, or well controlled)"
+                "text": "Disease severity and trajectory (progressive, relapsing–remitting, or well controlled)"
               },
               {
                 "type": "checkbox",
@@ -10886,7 +10846,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Gloves, beanie, scarf (for Raynaud\u2019s)"
+                "text": "Gloves, beanie, scarf (for Raynaud’s)"
               },
               {
                 "type": "category",
@@ -10979,7 +10939,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Hydroxychloroquine \u2013 macular toxicity",
+                "text": "Hydroxychloroquine – macular toxicity",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -10993,7 +10953,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Azathioprine \u2013 cytopaenias, hepatitis, pancreatitis, rash"
+                "text": "Azathioprine – cytopaenias, hepatitis, pancreatitis, rash"
               },
               {
                 "type": "plain",
@@ -11001,11 +10961,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "Rituximab \u2013 hypogammaglobulinaemia"
+                "text": "Rituximab – hypogammaglobulinaemia"
               },
               {
                 "type": "checkbox",
-                "text": "Cyclophosphamide \u2013 cystitis, bladder cancer, infertility"
+                "text": "Cyclophosphamide – cystitis, bladder cancer, infertility"
               },
               {
                 "type": "category",
@@ -11179,7 +11139,7 @@
               },
               {
                 "type": "checkbox-bullet",
-                "text": "Raynaud\u2019s phenomenon"
+                "text": "Raynaud’s phenomenon"
               },
               {
                 "type": "checkbox-bullet",
@@ -11245,7 +11205,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Disease severity and trajectory (progressive, relapsing\u2013remitting, or well controlled)"
+                "text": "Disease severity and trajectory (progressive, relapsing–remitting, or well controlled)"
               },
               {
                 "type": "checkbox",
@@ -11286,7 +11246,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Gloves, beanie, scarf (for Raynaud\u2019s)"
+                "text": "Gloves, beanie, scarf (for Raynaud’s)"
               },
               {
                 "type": "checkbox",
@@ -11371,23 +11331,23 @@
               },
               {
                 "type": "checkbox",
-                "text": "Methotrexate \u2013 cytopaenias, hepatitis, pneumonitis, interstitial lung disease, gastrointestinal upset"
+                "text": "Methotrexate – cytopaenias, hepatitis, pneumonitis, interstitial lung disease, gastrointestinal upset"
               },
               {
                 "type": "checkbox",
-                "text": "Azathioprine \u2013 cytopaenias, hepatitis, pancreatitis, rash"
+                "text": "Azathioprine – cytopaenias, hepatitis, pancreatitis, rash"
               },
               {
                 "type": "checkbox",
-                "text": "Mycophenolate mofetil \u2013 cytopaenias, gastrointestinal upset"
+                "text": "Mycophenolate mofetil – cytopaenias, gastrointestinal upset"
               },
               {
                 "type": "checkbox",
-                "text": "Rituximab \u2013 hypogammaglobulinaemia"
+                "text": "Rituximab – hypogammaglobulinaemia"
               },
               {
                 "type": "checkbox",
-                "text": "Cyclophosphamide \u2013 cystitis, bladder cancer, infertility"
+                "text": "Cyclophosphamide – cystitis, bladder cancer, infertility"
               },
               {
                 "type": "category",
@@ -11399,7 +11359,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Raynaud\u2019s and complications (ulcers, osteomyelitis, pain)"
+                "text": "Raynaud’s and complications (ulcers, osteomyelitis, pain)"
               },
               {
                 "type": "checkbox",
@@ -11736,7 +11696,7 @@
               },
               {
                 "type": "italic",
-                "text": "In regard to complications of overall immunosuppression\u2026"
+                "text": "In regard to complications of overall immunosuppression…"
               },
               {
                 "type": "checkbox",
@@ -12037,15 +11997,15 @@
               },
               {
                 "type": "checkbox",
-                "text": "Kidney \u2013 eGFR"
+                "text": "Kidney – eGFR"
               },
               {
                 "type": "checkbox",
-                "text": "Lung \u2013 FEV1"
+                "text": "Lung – FEV1"
               },
               {
                 "type": "checkbox",
-                "text": "Heart \u2013 ejection fraction or NYHA class",
+                "text": "Heart – ejection fraction or NYHA class",
                 "icons": [
                   {
                     "type": "info",
@@ -12132,7 +12092,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               },
               {
                 "type": "subheading",
@@ -12323,7 +12283,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "Late complication of HSCT \u2013 endocrine dysfunction due to conditioning chemotherapy/irradiation, chronic steroid therapy for GVHD, and iron overload, leading to hypogonadism, hypothyroidism, growth hormone deficiency, diabetes, and adrenal suppression."
+                    "tip": "Late complication of HSCT – endocrine dysfunction due to conditioning chemotherapy/irradiation, chronic steroid therapy for GVHD, and iron overload, leading to hypogonadism, hypothyroidism, growth hormone deficiency, diabetes, and adrenal suppression."
                   }
                 ]
               },
@@ -12412,7 +12372,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               }
             ]
           }
@@ -12423,7 +12383,7 @@
         "name": "Renal Transplant",
         "headingModifiers": [
           "Deceased Donor",
-          "Living Donor"
+          "Living Donor (related or unrelated)"
         ],
         "tips": null,
         "resources": [
@@ -12466,58 +12426,16 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Time of Transplant"
               },
               {
-                "type": "category",
-                "text": "Complications since transplant"
-              },
-              {
-                "type": "checkbox",
-                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
-              },
-              {
-                "type": "subheading",
-                "text": "Anatomical Considerations & Source"
-              },
-              {
-                "type": "checkbox",
-                "text": "Deceased donor"
-              },
-              {
-                "type": "checkbox",
-                "text": "Rejection episodes and management"
-              },
-              {
-                "type": "checkbox",
-                "text": "Living donor \u2013 related or unrelated"
-              },
-              {
-                "type": "checkbox",
-                "text": "Malignancy (especially skin cancer)",
-                "icons": [
-                  {
-                    "type": "synthesis",
-                    "tip": "Package malignancy screening including skin checks"
-                  }
-                ]
-              },
-              {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Immunological considerations"
               },
               {
                 "type": "checkbox",
-                "text": "Cytopenias (e.g MMF, AZA, mTORi, Valcyte, Bactrim, CMV, parvovirus)"
-              },
-              {
-                "type": "checkbox",
-                "text": "Anatomical complications"
-              },
-              {
-                "type": "checkbox",
-                "text": "HLA matching"
+                "text": "HLA match"
               },
               {
                 "type": "checkbox",
@@ -12525,15 +12443,31 @@
               },
               {
                 "type": "checkbox",
-                "text": "Changes in immunosuppression and reasons"
-              },
-              {
-                "type": "checkbox",
-                "text": "Risk factors for sensitisation (pregnancy, transfusion, prior transplant)"
+                "text": "Risk factors for DSA development (pregnancy, transfusion, prior transplant)"
               },
               {
                 "type": "checkbox",
                 "text": "CMV donor and recipient serostatus"
+              },
+              {
+                "type": "subheading",
+                "text": "Time since transplant"
+              },
+              {
+                "type": "checkbox",
+                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Rejection episodes and management"
+              },
+              {
+                "type": "checkbox",
+                "text": "Anatomical complications"
+              },
+              {
+                "type": "checkbox",
+                "text": "Changes in immunsupression and reasons"
               }
             ]
           },
@@ -12545,11 +12479,11 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Immunosupression",
                 "icons": [
                   {
@@ -12559,54 +12493,46 @@
                 ]
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Tacrolimus or cyclosporin"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mycophenolate or azathioprine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Prednisolone"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "mTOR inhibitor (everolimus or sirolimus)"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Antimicrobials",
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If a transplant patient is on an antimicrobial, know the reason. Is it routine prophylaxis? Prior infection? Or increased immunosuppression for rejection?"
+                    "tip": "If a transplant patient is receiving an antimicrobial, make sure you know why. Is it routine prophylaxis? Or have they had an infection? Or an increase in their immunosuppression for rejection, necessitating re-introduction of antimicrobials?"
                   }
                 ]
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vaccination status"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Current antimicrobial prophylaxis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Trimethoprim-sulfamethoxazole"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Valganciclovir"
-              },
-              {
-                "type": "category",
-                "text": "Non-pharmacological"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Population cancer screening up to date"
               }
             ]
           },
@@ -12614,12 +12540,40 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of management"
               },
               {
-                "type": "subheading",
-                "text": "Calcineurin inhibitor toxicities"
+                "type": "plain",
+                "text": "General immunosupression complications"
+              },
+              {
+                "type": "plain",
+                "text": "Malignancy (especially skin cancer)",
+                "icons": [
+                  {
+                    "type": "synthesis",
+                    "tip": "Package cancer screening including skin checks here"
+                  }
+                ]
+              },
+              {
+                "type": "plain",
+                "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
+              },
+              {
+                "type": "plain",
+                "text": "Cytopenias",
+                "icons": [
+                  {
+                    "type": "synthesis",
+                    "tip": "This can be secondary to immunosupression (MMF, AZA, mTORi) but also anti-microbials (valcyte, bactrim) or infection (CMV, parvovirus)"
+                  }
+                ]
+              },
+              {
+                "type": "bold",
+                "text": "Calcineurin inhibitor toxicity"
               },
               {
                 "type": "checkbox",
@@ -12638,8 +12592,8 @@
                 "text": "Nephrotoxicity"
               },
               {
-                "type": "subheading",
-                "text": "Corticosteroid toxicities"
+                "type": "bold",
+                "text": "Steroid-related complications"
               },
               {
                 "type": "checkbox",
@@ -12647,7 +12601,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If patient has pre-existing diabetes with complications before transplant \u2013 discuss separately but nod towards it here. If patient\u00a0has developed diabetes post-transplant and the transplant was recent (insufficient time to develop complications of diabetes) diabetes can be handled here briefly."
+                    "tip": "If patient has pre-existing diabetes with complications before transplant – discuss separately but nod towards it here. If patient has developed diabetes post-transplant and the transplant was recent (insufficient time to develop complications of diabetes) diabetes can be handled here briefly."
                   }
                 ]
               },
@@ -12676,7 +12630,7 @@
                 "text": "Weight gain"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Anti-proliferative toxicities"
               },
               {
@@ -12688,7 +12642,7 @@
                 "text": "Diarrhoea (MMF)"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "mTOR inhibitor toxicities"
               },
               {
@@ -12700,15 +12654,11 @@
                 "text": "Dyslipidaemia"
               },
               {
-                "type": "checkbox",
-                "text": "Infection risk"
-              },
-              {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of disease"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Chronic allograft dysfunction",
                 "icons": [
                   {
@@ -12762,7 +12712,7 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Pharmacological adherence"
               },
               {
@@ -12829,7 +12779,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 transplant team frequency"
+                "text": "Follow up – transplant team frequency"
               },
               {
                 "type": "checkbox",
@@ -13366,7 +13316,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               },
               {
                 "type": "checkbox",
@@ -13666,7 +13616,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Follow up \u2013 by whom and when"
+                "text": "Follow up – by whom and when"
               }
             ]
           }
