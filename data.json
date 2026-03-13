@@ -5249,7 +5249,7 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
@@ -5269,7 +5269,7 @@
                 "text": "Vasculitic rash"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
@@ -5422,7 +5422,7 @@
                 "text": "Complications of dialysis"
               },
               {
-                "type": "plain",
+                "type": "bold",
                 "text": "Haemodialysis-related"
               },
               {
@@ -5648,7 +5648,7 @@
           "Non-Proteinuric",
           "Being considered for transplant"
         ],
-        "tips": "CKD Stage 1: eGFR ≥90 mL/min \\ CKD Stage 2: eGFR 60–89 mL/min \\ CKD Stage 3a: eGFR 45–59 mL/min \\ CKD Stage 3b: eGFR 30–44 mL/min \\ CKD Stage 4: eGFR 15–29 mL/min \\ CKD Stage 5: eGFR <15 mL/min",
+        "tips": "CKD Stage 1: eGFR ≥90 mL/min\nCKD Stage 2: eGFR 60–89 mL/min\nCKD Stage 3a: eGFR 45–59 mL/min\nCKD Stage 3b: eGFR 30–44 mL/min\nCKD Stage 4: eGFR 15–29 mL/min\nCKD Stage 5: eGFR <15 mL/min",
         "resources": [
           "RYLC Week 2: The CKD History & Examination"
         ],
@@ -5661,7 +5661,7 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
@@ -5681,7 +5681,7 @@
                 "text": "Vasculitic rash"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
@@ -5694,11 +5694,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Proteinuria"
-              },
-              {
-                "type": "checkbox",
-                "text": "ACR / PCR"
+                "text": "Proteinuria (ACR / PCR)"
               },
               {
                 "type": "checkbox",
@@ -5963,7 +5959,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Blood pressure target"
+                "text": "Blood pressure target (KDIGO: SBP target <120 mmHg)",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Is the guideline directed blood pressure target appropriate in this patient?"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -6165,7 +6167,7 @@
                 "text": "Complications of management"
               },
               {
-                "type": "plain",
+                "type": "bold",
                 "text": "General immunosupression complications"
               },
               {
@@ -12544,7 +12546,7 @@
                 "text": "Complications of management"
               },
               {
-                "type": "plain",
+                "type": "bold",
                 "text": "General immunosupression complications"
               },
               {
