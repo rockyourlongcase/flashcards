@@ -614,11 +614,12 @@ function renderModal() {
     const c = DATA[state.specialty].conditions[state.condition];
     const tipsArr = Array.isArray(c.tips) ? c.tips : (c.tips ? [c.tips] : []);
     const tipsHtml = tipsArr.map(t => {
-      let html = esc(t).replace(/\n/g, '<br>').replace(/\\n/g, '<br>');
-      // ""double quotes"" = italic WITH visible quotes
-      html = html.replace(/&quot;&quot;(.*?)&quot;&quot;/g, '<em>&ldquo;$1&rdquo;</em>');
-      // "single quotes" = italic only, no visible quotes
-      html = html.replace(/&quot;(.*?)&quot;/g, '<em>$1</em>');
+      let html = t.split(/\\n|\n/).map(line => {
+        let s = esc(line);
+        s = s.replace(/&quot;&quot;(.*?)&quot;&quot;/g, '<em>&ldquo;$1&rdquo;</em>');
+        s = s.replace(/&quot;(.*?)&quot;/g, '<em>$1</em>');
+        return s;
+      }).join('<br>');
       return `<div class="modal-item gold">${html}</div>`;
     }).join('');
     modal.innerHTML = `<h3 class="gold">💡 Tips</h3>
