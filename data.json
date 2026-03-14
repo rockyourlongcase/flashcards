@@ -11585,7 +11585,7 @@
                 "text": "Their current immunosupressive regimen includes"
               },
               {
-                "type": "plain",
+                "type": "checkbox",
                 "text": "Prednisolone"
               },
               {
@@ -11869,11 +11869,7 @@
               },
               {
                 "type": "subheading",
-                "text": "Complications of graft dysfunction"
-              },
-              {
-                "type": "bold",
-                "text": "For a renal transplant",
+                "text": "Complications of graft dysfunction",
                 "icons": [
                   {
                     "type": "info",
@@ -11882,14 +11878,18 @@
                 ]
               },
               {
-                "type": "checkbox",
-                "text": "Anaemia",
+                "type": "bold",
+                "text": "For a renal transplant",
                 "icons": [
                   {
                     "type": "synthesis",
                     "tip": "Are there EPO, diuretics or phosphate binders on the medication list?"
                   }
                 ]
+              },
+              {
+                "type": "checkbox",
+                "text": "Anaemia"
               },
               {
                 "type": "checkbox",
@@ -11936,7 +11936,7 @@
                 "text": "Dypsnoea"
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "For a pancreas transplant",
                 "icons": [
                   {
@@ -11963,7 +11963,7 @@
                 "text": "Organ function parameters"
               },
               {
-                "type": "bold",
+                "type": "checkbox",
                 "text": "Kidney – eGFR"
               },
               {
@@ -11972,7 +11972,13 @@
               },
               {
                 "type": "checkbox",
-                "text": "Heart – ejection fraction or NYHA class"
+                "text": "Heart – ejection fraction or NYHA class",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "New York Heart Association \\n Class I – No symptoms \\n Class II – Symptoms with ordinary activity \\n Class III – Symptoms with minimal activity \\ Class IV – Symptoms at rest"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -11980,25 +11986,19 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "New York Heart Association \\n Class I – No symptoms \\n Class II – Symptoms with ordinary activity \\n Class III – Symptoms with minimal activity \\ Class IV – Symptoms at rest"
+                    "tip": "Pancreas has no direct measure of graft function. Lipase checks for inflammation while worsening glycaemic control or need for Creon suggests dysfunction."
                   }
                 ]
+              },
+              {
+                "type": "bold",
+                "text": "Pharmacological adherence"
               }
             ]
           },
           "adherence": {
             "active": true,
             "items": [
-              {
-                "type": "bold",
-                "text": "Pharmacological adherence",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "Pancreas has no direct measure of graft function. Lipase checks for inflammation while worsening glycaemic control or need for Creon suggests dysfunction."
-                  }
-                ]
-              },
               {
                 "type": "checkbox",
                 "text": "Missed doses per week"
@@ -12030,7 +12030,13 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Immunosuppressant drug levels"
+                "text": "Immunosuppressant drug levels",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Immunosuppressant drug levels are individualised targets and patients may not know them. They help assess adherence, absorption and toxicity."
+                  }
+                ]
               }
             ]
           },
@@ -12039,13 +12045,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Impact of illness",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "Immunosuppressant drug levels are individualised targets and patients may not know them. They help assess adherence, absorption and toxicity."
-                  }
-                ]
+                "text": "Impact of illness"
               }
             ]
           },
@@ -13243,19 +13243,19 @@
                 "text": "Pain rating out of 10"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Pain description"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Myalgia, arthralgia, axial, peripheral, widespread or radicular"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Inflammatory versus mechanical"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mono, oligo or polyarticular"
               }
             ]
