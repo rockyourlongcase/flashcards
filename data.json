@@ -9549,14 +9549,12 @@
         "id": "ra",
         "name": "Rheumatoid Arthritis",
         "headingModifiers": [
-          "Seropositive / seronegative, Erosive, Deforming"
+          "Seropositive / seronegative",
+          "Erosive",
+          "Deforming"
         ],
         "tips": null,
-        "resources": [
-          "RYLC Week 7: Live Practise Session \"Multifactorial Pain Syndromes\"",
-          "RYLC Week 7: \"Assessing Function\"",
-          "RYLC Week 7: \"Assessing Disease Activity\""
-        ],
+        "resources": [],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -9566,7 +9564,7 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
@@ -9578,7 +9576,7 @@
                 "text": "Mono / oligo / polyarthritis"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
@@ -9655,7 +9653,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
@@ -9667,7 +9665,7 @@
                 "text": "Foot orthoses / Hand splints / Gait aids"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
@@ -9679,47 +9677,47 @@
                 "text": "Glucocorticoids (po, IM, IA, IV)"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "csDMARDs"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hydroxychloroquine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Methotrexate"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Leflunomide"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Sulfasalazine"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "bDMARDs / tsDMARDs"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "TNF inhibitors (adalimumab, certolizumab pegol, etanercept, golimumab, infliximab)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "T Cell Co-Stimulation Inhibitors (abatacept)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "IL-6 Inhibitors (tocilizumab)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CD-20 depleting agents (rituximab)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "JAK inihibitos (tofacitinib, upadacitinib)"
               }
             ]
@@ -9728,7 +9726,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of immunosuppression:"
               },
               {
@@ -9756,7 +9754,7 @@
                 ]
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Specific medication complications:"
               },
               {
@@ -9784,7 +9782,7 @@
                 "text": "Interleukin 6 inhibitors  – diverticulitis"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of inflammatory disease"
               },
               {
@@ -9808,18 +9806,12 @@
                 ]
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of persistent pain and deformity"
               },
               {
                 "type": "checkbox",
-                "text": "Central sensitisation",
-                "icons": [
-                  {
-                    "type": "course",
-                    "ref": "RYLC Week 7: Live Practise Session \"Multifactorial Pain Syndromes\""
-                  }
-                ]
+                "text": "Central sensitisation"
               },
               {
                 "type": "checkbox",
@@ -9856,12 +9848,6 @@
                 "type": "checkbox",
                 "text": "cADLs: consider driving & safety"
               }
-            ],
-            "sectionIcons": [
-              {
-                "type": "course",
-                "ref": "RYLC Week 7: \"Assessing Function\""
-              }
             ]
           },
           "adherence": {
@@ -9885,7 +9871,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Articular symptoms"
               },
               {
@@ -9905,16 +9891,16 @@
                 "text": "Synovitis on exam"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Extra-articular symptoms & complications"
               },
               {
                 "type": "checkbox",
-                "text": "Sjogren's Disease"
+                "text": "Sjogren’s Disease"
               },
               {
                 "type": "checkbox",
-                "text": "Raynaud's phenomenon"
+                "text": "Raynaud’s phenomenon"
               },
               {
                 "type": "checkbox",
@@ -9934,7 +9920,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Felty's syndrome"
+                "text": "Felty’s syndrome"
               },
               {
                 "type": "checkbox",
@@ -9949,17 +9935,15 @@
                 "type": "checkbox",
                 "text": "Assess current disease activity (swollen / tender joint count)"
               }
-            ],
-            "sectionIcons": [
-              {
-                "type": "course",
-                "ref": "RYLC Week 7: \"Assessing Disease Activity\""
-              }
             ]
           },
           "impact": {
             "active": true,
             "items": [
+              {
+                "type": "checkbox",
+                "text": "Impact of illness"
+              },
               {
                 "type": "checkbox",
                 "text": "Family planning"
@@ -9989,13 +9973,12 @@
         "id": "psa",
         "name": "Psoriatic Arthritis",
         "headingModifiers": [
-          "Erosive, Deforming, With / without axial involvement"
+          "Erosive",
+          "Deforming",
+          "With / without axial involvement"
         ],
         "tips": null,
-        "resources": [
-          "RYLC Week 7: Assessing Function",
-          "RYLC Week 7: Assessing Disease Activity"
-        ],
+        "resources": [],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -10005,7 +9988,7 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
@@ -10017,7 +10000,7 @@
                 "text": "Mono / oligo / polyarthritis"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
@@ -10108,7 +10091,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
@@ -10120,7 +10103,7 @@
                 "text": "Aids (orthoses, hand splints, gait aids)"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
@@ -10132,39 +10115,39 @@
                 "text": "Glucocorticoids (po, IM, IA, IV)"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "csDMARDs"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Methotrexate"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Leflunomide"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Sulfasalazine"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "bDMARDs / tsDMARDs"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "TNF inhibitors (adalimumab, certolizumab pegol, etanercept, golimumab, infliximab)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "JAK inhibitors (tofacitinib, upadacitinib)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "IL-17 inhibitors (ixekizumab, risankizumab, secukinumab)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "IL-12/23 inhibitors (guselkumab)"
               }
             ]
@@ -10173,7 +10156,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of immunosuppression"
               },
               {
@@ -10197,7 +10180,7 @@
                 ]
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Specific medication complications"
               },
               {
@@ -10217,7 +10200,7 @@
                 "text": "IL-17 inhibitors – fungal infections"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of persistent pain"
               },
               {
@@ -10253,12 +10236,6 @@
                 "type": "checkbox",
                 "text": "cADLs: consider driving"
               }
-            ],
-            "sectionIcons": [
-              {
-                "type": "course",
-                "ref": "RYLC Week 7: Assessing Function"
-              }
             ]
           },
           "adherence": {
@@ -10282,7 +10259,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Articular symptoms"
               },
               {
@@ -10310,7 +10287,7 @@
                 "text": "Axial involvement"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Extra-articular symptoms & complications"
               },
               {
@@ -10340,19 +10317,17 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Assess current disease activity (swollen / tender joint count)",
-                "icons": [
-                  {
-                    "type": "course",
-                    "ref": "RYLC Week 7: Assessing Disease Activity"
-                  }
-                ]
+                "text": "Assess current disease activity (swollen / tender joint count)"
               }
             ]
           },
           "impact": {
             "active": true,
             "items": [
+              {
+                "type": "checkbox",
+                "text": "Impact of illness"
+              },
               {
                 "type": "checkbox",
                 "text": "Family planning, teratogenicity of medications, contraception"
@@ -10378,7 +10353,8 @@
         "id": "axspa",
         "name": "Axial Spondyloarthritis",
         "headingModifiers": [
-          "Radiographic (Ankylosing Spondylitis), Non-Radiographic"
+          "Radiographic (Ankylosing Spondylitis)",
+          "Non-Radiographic"
         ],
         "tips": null,
         "resources": [],
@@ -10391,7 +10367,7 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
@@ -10407,7 +10383,7 @@
                 "text": "Response to NSAIDs"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
@@ -10476,7 +10452,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
@@ -10492,7 +10468,7 @@
                 "text": "Gait aids"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
@@ -10504,19 +10480,19 @@
                 "text": "Glucocorticoids (oral, intramuscular, intra-articular, intravenous)"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "bDMARDs / tsDMARDs"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "TNF inhibitor (adalimumab, certolizumab pegol, etanercept, golimumab, infliximab)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "IL-17 inhibitor (secukinumab, ixekizumab, bimekizumab)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "JAK inhibitor (tofacitinib, upadacitinib)"
               }
             ]
@@ -10525,7 +10501,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of immunosuppression"
               },
               {
@@ -10549,7 +10525,7 @@
                 ]
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Specific medication effects"
               },
               {
@@ -10569,7 +10545,7 @@
                 "text": "IL-17 inhibitor – fungal infections"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of persistent pain"
               },
               {
@@ -10632,47 +10608,47 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Articular symptoms"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Inflammatory low back pain"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Duration of morning stiffness"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Peripheral arthralgias"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Enthesitis"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Extra-articular symptoms and complications"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Upper lobe fibrosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Aortic regurgitation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Psoriasis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Inflammatory bowel disease"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Uveitis"
               }
             ]
@@ -10684,6 +10660,10 @@
           "impact": {
             "active": true,
             "items": [
+              {
+                "type": "checkbox",
+                "text": "Impact of illness"
+              },
               {
                 "type": "checkbox",
                 "text": "Family planning, teratogenicity of medication in females, and contraception"
@@ -10708,24 +10688,19 @@
       {
         "id": "sle",
         "name": "Systemic Lupus Erythematosus",
-        "headingModifiers": [],
-        "tips": [
-          "Consider listing the main manifestations upfront.",
-          "If the patient has lupus nephritis then use this as the  heading and discuss as you would a primary renal problem - touching on the less serious manifestations of SLE within complications or symptoms."
-        ],
-        "resources": [
-          "RYLC Week 7: Lupus, Scleroderma & More with Professor Michelle Leech"
-        ],
+        "headingModifiers": null,
+        "tips": "Consider listing the main manifestations upfront. \\ If the patient has lupus nephritis then use this as the  heading and discuss as you would a primary renal problem - touching on the less serious manifestations of SLE within complications or symptoms.",
+        "resources": [],
         "sections": {
           "diagnosis": {
             "active": true,
             "items": [
               {
-                "type": "checkbox-bold",
+                "type": "checkbox",
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
@@ -10753,7 +10728,7 @@
                 "text": "Cardiopulmonary symptoms"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
@@ -10836,7 +10811,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
@@ -10848,51 +10823,51 @@
                 "text": "Gloves, beanie, scarf (for Raynaud’s)"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bold",
+                "type": "checkbox",
                 "text": "Glucocorticoids (PO, IM, IA, IV)"
               },
               {
-                "type": "checkbox-bold",
+                "type": "checkbox",
                 "text": "Hydroxychloroquine"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "csDMARDs"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Methotrexate"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Azathioprine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mycophenolate mofetil"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Sulfasalazine"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "bDMARDs"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Rituximab"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Belimumab"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Anifrolumab"
               },
               {
@@ -10905,7 +10880,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of immunosuppression"
               },
               {
@@ -10933,7 +10908,7 @@
                 ]
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Specific medication complications"
               },
               {
@@ -10955,10 +10930,6 @@
                 "text": "Azathioprine – cytopaenias, hepatitis, pancreatitis, rash"
               },
               {
-                "type": "plain",
-                "text": "Mycophenolate mofetil - cytopaenias, GI upset"
-              },
-              {
                 "type": "checkbox",
                 "text": "Rituximab – hypogammaglobulinaemia"
               },
@@ -10967,7 +10938,7 @@
                 "text": "Cyclophosphamide – cystitis, bladder cancer, infertility"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of inflammatory disease"
               },
               {
@@ -10991,7 +10962,7 @@
                 ]
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Manifestations"
               },
               {
@@ -11094,10 +11065,6 @@
               {
                 "type": "checkbox",
                 "text": "Contraception"
-              },
-              {
-                "type": "plain",
-                "text": "Impact on life, work, relationships"
               }
             ]
           },
@@ -11116,14 +11083,11 @@
         "id": "ssc",
         "name": "Systemic Sclerosis",
         "headingModifiers": [
-          "Limited / Diffuse, Overlap Syndrome (eg with SLE or myositis)"
+          "Limited / Diffuse",
+          "Overlap Syndrome (eg with SLE or myositis)"
         ],
-        "tips": [
-          "Consider listing the manifestations upfront."
-        ],
-        "resources": [
-          "RYLC Week 7: Lupus, Scleroderma & More with Professor Michelle Leech"
-        ],
+        "tips": "Consider listing the manifestations upfront.",
+        "resources": [],
         "sections": {
           "diagnosis": {
             "active": true,
@@ -11133,39 +11097,39 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Raynaud’s phenomenon"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Skin thickening or puffy fingers"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Gastrointestinal symptoms"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cardiopulmonary symptoms"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "ANA, ENA, RNA polymerase III, CK, ESR, CRP"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Haemoproteinuria"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Skin biopsy"
               }
             ]
@@ -11232,7 +11196,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
@@ -11252,43 +11216,43 @@
                 "text": "Nutrition"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bold",
+                "type": "checkbox",
                 "text": "Glucocorticoids (PO, IM, IA, IV)"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "csDMARDs"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Methotrexate"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Azathioprine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mycophenolate mofetil"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "bDMARDs"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "IL-6 inhibitors"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Rituximab"
               },
               {
-                "type": "checkbox-bold",
+                "type": "checkbox",
                 "text": "Cyclophosphamide"
               }
             ]
@@ -11297,7 +11261,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of immunosuppression"
               },
               {
@@ -11325,7 +11289,7 @@
                 ]
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Specific medication complications"
               },
               {
@@ -11349,7 +11313,7 @@
                 "text": "Cyclophosphamide – cystitis, bladder cancer, infertility"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Manifestations"
               },
               {
