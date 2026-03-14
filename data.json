@@ -7806,71 +7806,71 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of disease"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Post-ictal confusion, headache, or fatigue"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Injury"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Head trauma"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Falls"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Fractures"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cognitive impairment"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Depression / anxiety"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Psychosis (interictal or post-ictal)"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of drug therapy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hepatotoxicity (sodium valproate, carbamazepine, oxcarbazepine)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Stevens–Johnson syndrome / toxic epidermal necrolysis (lamotrigine, carbamazepine, oxcarbazepine, phenytoin, ethosuximide)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cytopaenias (sodium valproate, carbamazepine, oxcarbazepine, ethosuximide, phenytoin)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hyponatraemia (carbamazepine, oxcarbazepine)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cognitive impairment / slowing (topiramate, benzodiazepines)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Behavioural disturbance / mood changes (levetiracetam, brivaracetam, ethosuximide)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Weight gain (sodium valproate)"
               }
             ]
