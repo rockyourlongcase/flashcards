@@ -7713,19 +7713,19 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Seizure first aid education"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Avoidance of triggers (sleep deprivation, alcohol)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Alarm / bracelet",
                 "icons": [
                   {
@@ -7735,23 +7735,23 @@
                 ]
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Supervision for bathing/showering/swimming"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Avoiding cooking with open flames (microwave)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Avoiding ladders/heights"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Carer input for high-risk tasks"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Home safety modifications",
                 "icons": [
                   {
@@ -7761,43 +7761,43 @@
                 ]
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Sodium valproate"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Levetiracetam / brivaracetam"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Lamotrigine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Topiramate"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Carbamazepine / oxcarbazepine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Lacosamide"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Phenytoin"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Ethosuximide"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Clobazam / clonazepam / midazolam / diazepam / lorazepam"
               }
             ]
