@@ -498,7 +498,7 @@ function renderItems(condId, sectionKey, items) {
           return `<span class="inline-icon" data-tip-id="${safeId}" onclick="event.stopPropagation();toggleTipById(event,this)" onmouseenter="showTipById(event,this)" onmouseleave="hideTooltip()">${emoji}</span>`;
         }).join('');
       }
-      return `<div class="content-subheading">${esc(item.text)} ${subIcons}</div>`;
+      return `<div class="content-category">${esc(item.text)} ${subIcons}</div>`;
     }
     if (item.type === 'italic') {
       let italicIcons = '';
