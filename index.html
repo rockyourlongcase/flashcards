@@ -612,14 +612,13 @@ function renderModal() {
   }
   else if (state.modal === 'tips') {
     const c = DATA[state.specialty].conditions[state.condition];
-    const tipsArr = Array.isArray(c.tips) ? c.tips : (c.tips ? [c.tips] : []);
+    const rawTips = Array.isArray(c.tips) ? c.tips.join(' \\ ') : (c.tips || '');
+    const tipsArr = rawTips.split(' \\ ').map(s => s.trim()).filter(s => s);
     const tipsHtml = tipsArr.map(t => {
-      let html = t.split(/\\n|\n/).map(line => {
-        let s = esc(line);
-        s = s.replace(/&quot;&quot;(.*?)&quot;&quot;/g, '<em>&ldquo;$1&rdquo;</em>');
-        s = s.replace(/&quot;(.*?)&quot;/g, '<em>$1</em>');
-        return s;
-      }).join('<br>');
+      let html = esc(t);
+      html = html.replace(/\\n/g, '<br>');
+      html = html.replace(/&quot;&quot;(.*?)&quot;&quot;/g, '<em>&ldquo;$1&rdquo;</em>');
+      html = html.replace(/&quot;(.*?)&quot;/g, '<em>$1</em>');
       return `<div class="modal-item gold">${html}</div>`;
     }).join('');
     modal.innerHTML = `<h3 class="gold">💡 Tips</h3>
