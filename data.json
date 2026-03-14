@@ -5648,7 +5648,14 @@
           "Non-Proteinuric",
           "Being considered for transplant"
         ],
-        "tips": "CKD Stage 1: eGFR ≥90 mL/min\nCKD Stage 2: eGFR 60–89 mL/min\nCKD Stage 3a: eGFR 45–59 mL/min\nCKD Stage 3b: eGFR 30–44 mL/min\nCKD Stage 4: eGFR 15–29 mL/min\nCKD Stage 5: eGFR <15 mL/min",
+        "tips": [
+          "CKD Stage 1: eGFR ≥90 mL/min",
+          "CKD Stage 2: eGFR 60–89 mL/min",
+          "CKD Stage 3a: eGFR 45–59 mL/min",
+          "CKD Stage 3b: eGFR 30–44 mL/min",
+          "CKD Stage 4: eGFR 15–29 mL/min",
+          "CKD Stage 5: eGFR <15 mL/min"
+        ],
         "resources": [
           "RYLC Week 2: The CKD History & Examination"
         ],
@@ -6171,7 +6178,7 @@
                 "text": "General immunosupression complications"
               },
               {
-                "type": "plain",
+                "type": "checkbox",
                 "text": "Malignancy (especially skin cancer)",
                 "icons": [
                   {
@@ -6181,11 +6188,11 @@
                 ]
               },
               {
-                "type": "plain",
+                "type": "checkbox",
                 "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
               },
               {
-                "type": "plain",
+                "type": "checkbox",
                 "text": "Cytopenias",
                 "icons": [
                   {
@@ -12550,7 +12557,7 @@
                 "text": "General immunosupression complications"
               },
               {
-                "type": "plain",
+                "type": "checkbox",
                 "text": "Malignancy (especially skin cancer)",
                 "icons": [
                   {
@@ -12560,11 +12567,11 @@
                 ]
               },
               {
-                "type": "plain",
+                "type": "checkbox",
                 "text": "Infections (BK, CMV, PJP, UTI, other major infection)"
               },
               {
-                "type": "plain",
+                "type": "checkbox",
                 "text": "Cytopenias",
                 "icons": [
                   {
