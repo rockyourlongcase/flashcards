@@ -6451,7 +6451,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "bloods"
+                "text": "Bloods"
               },
               {
                 "type": "checkbox",
@@ -7149,9 +7149,7 @@
           "Haemorrhagic",
           "Territory"
         ],
-        "tips": [
-          "If the patient has significant, persistent functional impact (eg. hemiparesis) consider stating this upfront within the heading"
-        ],
+        "tips": "If the patient has significant, persistent functional impact (eg. hemiparesis) consider stating this upfront within the heading",
         "resources": [
           "Neurological History in a Jiffy! >> https://www.youtube.com/watch?v=RMDRNlMxg0M&list=PLKXxI1ykAbeq5uesbvziJd4kt_Sc_spmz&index=12"
         ],
@@ -7164,63 +7162,43 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Weakness"
+                "type": "checkbox",
+                "text": "Motor deficits (weakness, facial droop)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Sensory disturbance"
+                "type": "checkbox",
+                "text": "Sensory deficits"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Facial droop"
+                "type": "checkbox",
+                "text": "Speech and language disturbance (dysarthria, aphasia)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Dysarthria"
+                "type": "checkbox",
+                "text": "Swallowing dysfunction (dysphagia)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Dysphagia"
+                "type": "checkbox",
+                "text": "Visual disturbance (homonymous hemianopia, monocular vision loss, diplopia)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Aphasia"
+                "type": "checkbox",
+                "text": "Cerebellar / brainstem symptoms (vertigo, ataxia)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Homonymous hemianopia"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Monocular vision loss"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Diplopia"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Vertigo"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Ataxia"
-              },
-              {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CT brain"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "MRI brain"
               }
             ]
@@ -7229,27 +7207,27 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Ischaemic"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Lacunar infarct"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cardioembolic"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Haemorrhagic"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Intracerebral"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Subarachnoid"
               }
             ]
@@ -7258,103 +7236,63 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Ischaemic stroke"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Large vessel atherosclerosis"
+                "type": "checkbox",
+                "text": "Large artery disease (large vessel atherosclerosis, arterial dissection)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Atrial fibrillation"
+                "type": "checkbox",
+                "text": "Cardioembolic sources (atrial fibrillation, valvular disease, patent foramen ovale)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Valvular disease"
+                "type": "checkbox",
+                "text": "Inflammatory states (vasculitis)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Patent foramen ovale"
+                "type": "checkbox",
+                "text": "Hypercoagulable states (hypercoagulable states)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Arterial dissection"
+                "type": "checkbox",
+                "text": "Traditional vascular risk factors (hypertension, diabetes mellitus, hyperlipidaemia, smoking, obesity)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Vasculitis"
+                "type": "checkbox",
+                "text": "Established vascular disease (ischaemic heart disease, prior stroke or TIA)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Hypercoagulable states"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Hypertension"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Diabetes mellitus"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Hyperlipidaemia"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Smoking"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Ischaemic heart disease"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Prior stroke or TIA"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Obesity"
-              },
-              {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Haemorrhagic stroke"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Chronic hypertension"
+                "type": "checkbox",
+                "text": "Chronic small vessel disease (chronic hypertension, cerebral amyloid angiopathy)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Cerebral amyloid angiopathy"
+                "type": "checkbox",
+                "text": "Structural vascular lesions (vascular malformations – AVM, aneurysm)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Anticoagulation or antiplatelet therapy"
+                "type": "checkbox",
+                "text": "Antithrombotic / bleeding tendency (anticoagulation or antiplatelet therapy, coagulopathy)"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Vascular malformations (AVM, aneurysm)"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Trauma"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Coagulopathy"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Advanced age"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Excess alcohol use"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Prior intracerebral haemorrhage"
               }
             ]
@@ -7384,103 +7322,103 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Smoking cessation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Diet and exercise modification"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Stroke rehabilitation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Falls prevention"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological management (ischaemic stroke)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Thrombolysis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Antiplatelet therapy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Anticoagulation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Statin therapy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Antihypertensive therapy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Glycaemic control"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological management (haemorrhagic stroke)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Blood pressure optimisation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Reversal of anticoagulation if indicated"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Surgical management (ischaemic stroke)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Carotid endarterectomy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Thrombectomy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Carotid artery stenting"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Surgical management (haemorrhagic stroke)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Haematoma evacuation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Decompressive craniotomy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "External ventricular drain (EVD)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Aneurysm clipping"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Endovascular coiling"
               }
             ]
@@ -7489,7 +7427,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of drug therapy"
               },
               {
@@ -7505,12 +7443,12 @@
                 "text": "Hypotension from antihypertensives"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of disease",
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "This could also be nested under symptoms. \\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
+                    "tip": "This could also be nested under symptoms. \nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
                   }
                 ]
               },
