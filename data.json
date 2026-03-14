@@ -6428,10 +6428,8 @@
       {
         "id": "neuro",
         "name": "General Neurology",
-        "headingModifiers": [],
-        "tips": [
-          "Of course, title with the patient’s diagnosed neurological condition! But this card details what is most important to elucidate in any neurological long case."
-        ],
+        "headingModifiers": null,
+        "tips": "Of course, title with the patient’s diagnosed neurological condition! But this card details what is most important to elucidate in any neurological long case.",
         "resources": [
           "Neurological History in a Jiffy! >> https://www.youtube.com/watch?v=RMDRNlMxg0M&list=PLKXxI1ykAbeq5uesbvziJd4kt_Sc_spmz&index=12"
         ],
@@ -6448,8 +6446,24 @@
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Investigations at diagnosis (bloods, CTB, MRIB, LP, EEG)"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "bloods"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "CTB / MRIB"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "EEG"
+              },
+              {
+                "type": "checkbox-bullet",
+                "text": "LP"
               }
             ]
           },
@@ -6473,19 +6487,43 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Condition-specific management"
               },
               {
                 "type": "checkbox",
-                "text": "eg. Immunosuppression for MS"
+                "text": "Ischaemic stroke - asprin, antiplatelets, anticoagulation, statin"
               },
               {
                 "type": "checkbox",
-                "text": "eg. Anticoagulation and statin for previous stroke"
+                "text": "Parkinson’s disease – dopaminergic therapy"
               },
               {
-                "type": "category",
+                "type": "checkbox",
+                "text": "Multiple sclerosis – disease-modifying therapy"
+              },
+              {
+                "type": "checkbox",
+                "text": "Alzheimer’s disease – acetylcholinesterase inhibitors"
+              },
+              {
+                "type": "checkbox",
+                "text": "Guillain–Baré syndrome – immunotherapy (IVIg / plasma exchange / steroids)"
+              },
+              {
+                "type": "checkbox",
+                "text": "Epilepsy – antiseizure medication"
+              },
+              {
+                "type": "checkbox",
+                "text": "Myasthenia gravis – immunosuppression"
+              },
+              {
+                "type": "checkbox",
+                "text": "Amyotrophic lateral sclerosis – disease-specific therapy (e.g. riluzole)"
+              },
+              {
+                "type": "subheading",
                 "text": "Symptom-specific management (see below)"
               }
             ]
@@ -6599,7 +6637,7 @@
             "sectionIcons": [
               {
                 "type": "info",
-                "tip": "This could also be nested under symptoms.\\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
+                "tip": "This could also be nested under symptoms.\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
               }
             ]
           },
@@ -6700,39 +6738,39 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Optic neuritis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Sensory disturbance"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Weakness"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Diplopia"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "MRI brain"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "MRI spine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Oligoclonal bands"
               }
             ]
@@ -6774,7 +6812,7 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Disease course"
               },
               {
@@ -6815,63 +6853,63 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological management"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Disease modifying treatment"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Injectables"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Interferon beta"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Glatiramer acetate"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Oral agents"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Fingolimod"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Dimethyl fumarate"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Teriflunomide"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Monoclonal antibodies"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Natalizumab"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Ocrelizumab"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Alemtuzumab"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Relapse management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Glucocorticoids (PO, IV) – quantity, frequency, dose for steroid burden"
               }
             ]
@@ -6880,7 +6918,7 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of management"
               },
               {
@@ -6916,22 +6954,8 @@
                 "text": "Malignancy (ocrelizumab, alemtuzumab)"
               },
               {
-                "type": "checkbox",
-                "text": "Hypogammaglobulinaemia (ocrelizumab)"
-              },
-              {
-                "type": "checkbox",
-                "text": "Secondary autoimmune disease – ITP, anti-GBM disease (alemtuzumab)"
-              },
-              {
-                "type": "category",
-                "text": "Complications of disease",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "This could also be nested under symptoms.\\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
-                  }
-                ]
+                "type": "subheading",
+                "text": "Complications of disease"
               },
               {
                 "type": "checkbox",
@@ -7034,6 +7058,12 @@
                     "tip": "State specific management strategies here, eg oral fluids, midodrine, fludocortisone"
                   }
                 ]
+              }
+            ],
+            "sectionIcons": [
+              {
+                "type": "info",
+                "tip": "This could also be nested under symptoms.\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
               }
             ]
           },
