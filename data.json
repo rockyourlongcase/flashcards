@@ -6447,22 +6447,22 @@
               },
               {
                 "type": "bold",
-                "text": "Investigations at diagnosis (bloods, CTB, MRIB, LP, EEG)"
+                "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "bloods"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CTB / MRIB"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "EEG"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "LP"
               }
             ]
@@ -6955,7 +6955,13 @@
               },
               {
                 "type": "subheading",
-                "text": "Complications of disease"
+                "text": "Complications of disease",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "This could also be nested under symptoms.\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -7058,12 +7064,6 @@
                     "tip": "State specific management strategies here, eg oral fluids, midodrine, fludocortisone"
                   }
                 ]
-              }
-            ],
-            "sectionIcons": [
-              {
-                "type": "info",
-                "tip": "This could also be nested under symptoms.\nWe recommend using a 'top-down approach' as described in the YouTube video (see resources)"
               }
             ]
           },
