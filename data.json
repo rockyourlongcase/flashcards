@@ -8411,37 +8411,37 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Dyspnoea (mMRC grade)",
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "mMRC Dyspnoea Grading System\\tGrade 0\\nBreathless only with strenuous exercise\\tGrade 1\\nShort of breath when hurrying on level ground or walking up a slight hill\\tGrade 2\\nWalks slower than people of the same age on level ground due to breathlessness\\nOr has to stop for breath when walking at own pace\\tGrade 3\\nStops for breath after walking about 100 metres or after a few minutes on level ground\\tGrade 4\\nToo breathless to leave the house\\nBreathless when dressing or undressing"
+                    "tip": "mMRC Dyspnoea Grading System\tGrade 0\nBreathless only with strenuous exercise\tGrade 1\nShort of breath when hurrying on level ground or walking up a slight hill\tGrade 2\nWalks slower than people of the same age on level ground due to breathlessness\nOr has to stop for breath when walking at own pace\tGrade 3\nStops for breath after walking about 100 metres or after a few minutes on level ground\tGrade 4\nToo breathless to leave the house\nBreathless when dressing or undressing"
                   }
                 ]
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Infective vs non-infective exacerbations at presentation"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pulmonary function tests"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Chest X-ray"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CT chest"
               }
             ]
@@ -8476,7 +8476,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "mMRC Dyspnoea Grading System\\tGrade 0\\nBreathless only with strenuous exercise\\tGrade 1\\nShort of breath when hurrying on level ground or walking up a slight hill\\tGrade 2\\nWalks slower than people of the same age on level ground due to breathlessness\\nOr has to stop for breath when walking at own pace\\tGrade 3\\nStops for breath after walking about 100 metres or after a few minutes on level ground\\tGrade 4\\nToo breathless to leave the house\\nBreathless when dressing or undressing"
+                    "tip": "mMRC Dyspnoea Grading System\tGrade 0\nBreathless only with strenuous exercise\tGrade 1\nShort of breath when hurrying on level ground or walking up a slight hill\tGrade 2\nWalks slower than people of the same age on level ground due to breathlessness\nOr has to stop for breath when walking at own pace\tGrade 3\nStops for breath after walking about 100 metres or after a few minutes on level ground\tGrade 4\nToo breathless to leave the house\nBreathless when dressing or undressing"
                   }
                 ]
               },
@@ -8485,16 +8485,16 @@
                 "text": "Number of exacerbations"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Infective vs non-infective"
+                "type": "checkbox",
+                "text": "Cause of exacerbations (infective vs non-infective)"
               },
               {
                 "type": "checkbox",
-                "text": "Number of hospital admissions"
+                "text": "Number of ED presentations"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Ward vs ICU"
+                "type": "checkbox",
+                "text": "Number of hospital admissions (ward vs ICU)"
               },
               {
                 "type": "checkbox",
@@ -8510,71 +8510,71 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Smoking cessation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pulmonary rehabilitation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Immunisations"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Nutrition and BMI optimisation"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "SABA / SAMA"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "LABA / LAMA"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Inhaled corticosteroids"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Oral prednisolone (if required)"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Other management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Long-term oxygen therapy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "COPD action plan"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Palliative care input / symptom management"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Surgical management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Lung volume reduction surgery"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Lung transplantation"
               }
             ]
@@ -8583,39 +8583,39 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Steroid-related complications"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Oxygen-related risks (hypercapnia)"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of disease"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Infective and non-infective exacerbations"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cor pulmonale"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pulmonary hypertension"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pneumothoraces"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cachexia"
               }
             ]
@@ -8663,7 +8663,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "mMRC Dyspnoea Grading System\\tGrade 0\\nBreathless only with strenuous exercise\\tGrade 1\\nShort of breath when hurrying on level ground or walking up a slight hill\\tGrade 2\\nWalks slower than people of the same age on level ground due to breathlessness\\nOr has to stop for breath when walking at own pace\\tGrade 3\\nStops for breath after walking about 100 metres or after a few minutes on level ground\\tGrade 4\\nToo breathless to leave the house\\nBreathless when dressing or undressing"
+                    "tip": "mMRC Dyspnoea Grading System\tGrade 0\nBreathless only with strenuous exercise\tGrade 1\nShort of breath when hurrying on level ground or walking up a slight hill\tGrade 2\nWalks slower than people of the same age on level ground due to breathlessness\nOr has to stop for breath when walking at own pace\tGrade 3\nStops for breath after walking about 100 metres or after a few minutes on level ground\tGrade 4\nToo breathless to leave the house\nBreathless when dressing or undressing"
                   }
                 ]
               },
@@ -8733,37 +8733,37 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Dyspnoea (mMRC grade)",
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "mMRC Dyspnoea Grading System\\tGrade 0\\nBreathless only with strenuous exercise\\tGrade 1\\nShort of breath when hurrying on level ground or walking up a slight hill\\tGrade 2\\nWalks slower than people of the same age on level ground due to breathlessness\\nOr has to stop for breath when walking at own pace\\tGrade 3\\nStops for breath after walking about 100 metres or after a few minutes on level ground\\tGrade 4\\nToo breathless to leave the house\\nBreathless when dressing or undressing"
+                    "tip": "mMRC Dyspnoea Grading System\tGrade 0\nBreathless only with strenuous exercise\tGrade 1\nShort of breath when hurrying on level ground or walking up a slight hill\tGrade 2\nWalks slower than people of the same age on level ground due to breathlessness\nOr has to stop for breath when walking at own pace\tGrade 3\nStops for breath after walking about 100 metres or after a few minutes on level ground\tGrade 4\nToo breathless to leave the house\nBreathless when dressing or undressing"
                   }
                 ]
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cough"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pulmonary function tests"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Chest X-ray"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CT chest"
               }
             ]
@@ -8801,7 +8801,7 @@
             "active": true,
             "items": [
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Time since diagnosis"
               },
               {
@@ -8818,7 +8818,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Acute exacerbations"
+                "text": "Number and frequency of exacerbations"
               },
               {
                 "type": "checkbox",
@@ -8834,95 +8834,95 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Drug cessation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Exposure avoidance"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Smoking cessation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pulmonary rehabilitation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Oxygen therapy"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Antifibrotic therapy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pirfenidone"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Nintedanib"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Immunosuppression"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Glucocorticoids"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mycophenolate mofetil"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Azathioprine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cyclophosphamide"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Rituximab"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Tocilizumab"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Vaccinations"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Other management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Multidisciplinary ILD team involvement"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Palliative care input"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Surgical management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Lung transplantation",
                 "icons": [
                   {
@@ -8937,63 +8937,63 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of management"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Antifibrotic therapy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pirfenidone – gastrointestinal upset (nausea, dyspepsia), photosensitivity rash, fatigue, hepatotoxicity"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Nintedanib – diarrhoea, nausea/vomiting, hepatotoxicity, bleeding risk"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Immunosuppression"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Glucocorticoids – weight gain, osteoporosis, hyperglycaemia, infection risk, mood change"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mycophenolate mofetil – gastrointestinal upset, cytopenias, infection risk"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Azathioprine – bone marrow suppression, hepatotoxicity, pancreatitis, infection risk"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cyclophosphamide – myelosuppression, haemorrhagic cystitis, infertility, malignancy risk, infection risk"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Rituximab – infusion reactions, hypogammaglobulinaemia, infection risk, hepatitis B reactivation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Tocilizumab – infection risk, transaminitis, neutropenia, hyperlipidaemia, GI perforation (rare)"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of disease"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Acute exacerbations"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pulmonary hypertension"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cor pulmonale"
               }
             ]
@@ -9178,114 +9178,108 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Physiotherapy and airway clearance techniques"
+                "type": "bold",
+                "text": "Airway clearance techniques"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Deep breathing, coughing, percussion"
+                "type": "checkbox",
+                "text": "Physiotherapy"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Postural drainage, huffing, PEP"
+                "type": "checkbox",
+                "text": "Deep breathing, huffing, percussion, postural drainage"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Regular aerobic exercise"
+                "type": "checkbox",
+                "text": "Exercise"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "bold",
+                "text": "Nutritional support"
+              },
+              {
+                "type": "checkbox",
                 "text": "High-energy diet with fat-soluble vitamin supplementation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Salt supplementation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Parenteral feeding if required"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "bold",
+                "text": "Monitoring"
+              },
+              {
+                "type": "checkbox",
                 "text": "Surveillance sputum cultures"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "bold",
+                "text": "Preventive care"
+              },
+              {
+                "type": "checkbox",
                 "text": "Immunisations"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Inhaled therapies"
+                "type": "bold",
+                "text": "Mucolytic / airway hydration therapies"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Dornase alfa"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypertonic saline"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mannitol"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Bronchodilators"
+                "type": "bold",
+                "text": "Antimicrobial therapy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Long-term azithromycin"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Antimicrobials"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Early eradication of Pseudomonas aeruginosa"
               },
               {
-                "type": "category",
-                "text": "CFTR modulator therapy"
+                "type": "bold",
+                "text": "Bronchodilator therapy"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Lumacaftor"
+                "type": "checkbox",
+                "text": "SABA: salbutamol, terbutaline"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Tezacaftor"
+                "type": "checkbox",
+                "text": "LABA: salmeterol, formoterol"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Elexacaftor"
+                "type": "checkbox",
+                "text": "SAMA: ipratropium"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Ivacaftor"
-              },
-              {
-                "type": "category",
-                "text": "Surgical management"
-              },
-              {
-                "type": "checkbox-bullet",
-                "text": "Lung transplantation",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "But If the patient has had a lung transplant this becomes the heading and CF becomes the aetiology (see Solid Organ Transplant flashcard)"
-                  }
-                ]
+                "type": "checkbox",
+                "text": "LAMA: tiotropium"
               }
             ]
           },
@@ -9293,123 +9287,151 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of management"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Parenteral feeding – line infections, thrombosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Dornase alfa – voice alteration, pharyngitis, rash"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Hypertonic saline – bronchospasm, cough irritation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mannitol – bronchospasm, cough"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Bronchodilators – tremor, tachycardia"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Long-term azithromycin – QT prolongation, hearing disturbance, gastrointestinal upset"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Antimicrobials – nephrotoxicity, ototoxicity, antimicrobial resistance"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CFTR modulators – transaminitis, rash, cataracts (paediatric), drug–drug interactions"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Complications of disease"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "bold",
+                "text": "Respiratory complications"
+              },
+              {
+                "type": "checkbox",
                 "text": "Bronchiectasis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Recurrent lower respiratory tract infections"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Chronic colonisation"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Haemoptysis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pneumothorax"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Allergic bronchopulmonary aspergillosis (ABPA)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "bold",
+                "text": "ENT complications"
+              },
+              {
+                "type": "checkbox",
                 "text": "Chronic sinusitis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Nasal polyps"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "CF-related diabetes"
+                "type": "bold",
+                "text": "Pancreatic and metabolic complications"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Pancreatic exocrine insufficiency"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
+                "text": "CF-related diabetes"
+              },
+              {
+                "type": "bold",
+                "text": "Gastrointestinal complications"
+              },
+              {
+                "type": "checkbox",
                 "text": "Malabsorption and malnutrition"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Distal intestinal obstruction syndrome"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "GORD"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Increased bowel malignancy risk"
+                "type": "bold",
+                "text": "Hepatobiliary complications"
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Biliary cirrhosis"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cholelithiasis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "bold",
+                "text": "Musculoskeletal complications"
+              },
+              {
+                "type": "checkbox",
                 "text": "Osteoporosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
+                "text": "HPOA"
+              },
+              {
+                "type": "checkbox",
                 "text": "CF-related arthropathy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "bold",
+                "text": "Renal complications"
+              },
+              {
+                "type": "checkbox",
                 "text": "Nephrolithiasis / nephrocalcinosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "bold",
+                "text": "Other"
+              },
+              {
+                "type": "checkbox",
                 "text": "Infertility (both males and females)",
                 "icons": [
                   {
@@ -11477,12 +11499,11 @@
         "id": "solid_organ_transplant",
         "name": "Solid Organ Transplant",
         "headingModifiers": [
-          "Lung (Single or Bilateral Sequential), Cardiac (Orthotopic or Heterotopic), Renal (Deceased or Live Donor)"
+          "Lung (Single or Bilateral Sequential)",
+          "Cardiac (Orthotopic or Heterotopic)",
+          "Renal (Deceased or Live Donor)"
         ],
-        "tips": [
-          "Orthotopic Heart Transplant = swap old heart for new heart",
-          "Heterotopic Heart Transplant = deceased heart in situ and 'piggy back' heart added in"
-        ],
+        "tips": "Orthotopic Heart Transplant = swap old heart for new heart \\ Heterotopic Heart Transplant = deceased heart in situ and 'piggy back' heart added in",
         "resources": [
           "RYLC Week 3 & 4: Renal Transplant",
           "RYLC Week 6: Heart and Lung Transplant",
@@ -11495,7 +11516,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "When transplant performed"
+                "text": "Cause of underlying organ failure and date of diagnosis"
               }
             ]
           },
@@ -11504,7 +11525,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Cause of underlying organ failure and date of diagnosis",
+                "text": "None",
                 "icons": [
                   {
                     "type": "info",
@@ -11522,22 +11543,18 @@
             "active": true,
             "items": [
               {
-                "type": "category",
-                "text": "Time of transplant"
+                "type": "subheading",
+                "text": "Immunological coniderations"
               },
               {
-                "type": "subheading",
-                "text": "Immunological coniderations",
+                "type": "bold",
+                "text": "HLA match",
                 "icons": [
                   {
                     "type": "info",
                     "tip": "Don't worry if the patient doesn't know this information"
                   }
                 ]
-              },
-              {
-                "type": "checkbox",
-                "text": "HLA match"
               },
               {
                 "type": "checkbox",
@@ -11552,11 +11569,11 @@
                 "text": "CMV donor/recipient IgG status"
               },
               {
-                "type": "category",
+                "type": "checkbox",
                 "text": "Time since transplant"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Infectious complications (BK, CMV, PJP, UTI, other)"
               },
               {
@@ -11569,17 +11586,17 @@
               },
               {
                 "type": "checkbox",
-                "text": "Cytopenias",
+                "text": "Cytopenias"
+              },
+              {
+                "type": "checkbox",
+                "text": "Anatomical complications",
                 "icons": [
                   {
                     "type": "info",
                     "tip": "May be drug-related (MMF, AZA, mTORi, Valcyte, Bactrim) or infection-related (CMV, parvovirus)"
                   }
                 ]
-              },
-              {
-                "type": "checkbox",
-                "text": "Anatomical complications"
               },
               {
                 "type": "checkbox",
@@ -11595,8 +11612,8 @@
             "active": true,
             "items": [
               {
-                "type": "category",
-                "text": "Pharmacological",
+                "type": "subheading",
+                "text": "Immunosupression",
                 "icons": [
                   {
                     "type": "info",
@@ -11605,57 +11622,53 @@
                 ]
               },
               {
-                "type": "subheading",
-                "text": "Immunosupression"
-              },
-              {
-                "type": "italic",
+                "type": "bold",
                 "text": "Their current immunosupressive regimen includes"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "italic",
                 "text": "Prednisolone"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Tacrolimus"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cyclosporine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mycophenolate"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Azathioprine"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "mTOR inhibitors (everolimus, sirolimus)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Other (anti-thymocyte globulin, basiliximab)"
               },
               {
-                "type": "checkbox-bold",
-                "text": "Antimicrobials",
+                "type": "checkbox",
+                "text": "Antimicrobials"
+              },
+              {
+                "type": "checkbox",
+                "text": "Trimethoprim-sulfamethoxazole",
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "If a transplant patient is on an antimicrobial, know the reason. Is it routine prophylaxis? Prior infection? Or increased immunosuppression for rejection?"
+                    "tip": "If a transplant patient is on an antimicrobial know the reason. Is it routine prophylaxis prior infection or increased immunosuppression for rejection?"
                   }
                 ]
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Trimethoprim-sulfamethoxazole"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Valganciclovir"
               }
             ]
@@ -11664,20 +11677,20 @@
             "active": true,
             "items": [
               {
-                "type": "category",
-                "text": "Complications of management"
-              },
-              {
                 "type": "subheading",
                 "text": "General immunosuppression complications"
               },
               {
-                "type": "italic",
+                "type": "bold",
                 "text": "In regard to complications of overall immunosuppression…"
               },
               {
+                "type": "italic",
+                "text": "Skin cancers"
+              },
+              {
                 "type": "checkbox",
-                "text": "Skin cancers",
+                "text": "Other malignancies",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11687,7 +11700,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Other malignancies",
+                "text": "Infections",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11698,16 +11711,6 @@
               {
                 "type": "checkbox",
                 "text": "Hypertension",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "Can be related to CNis, mTORi +/- steroids"
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
-                "text": "Infections",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11736,20 +11739,30 @@
                 ]
               },
               {
-                "type": "subheading",
-                "text": "Calcineurin inhibitor toxicity"
+                "type": "checkbox",
+                "text": "Calcineurin inhibitor toxicity",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Can be related to CNis, mTORi +/- steroids"
+                  }
+                ]
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Nephrotoxicity"
               },
               {
                 "type": "checkbox",
-                "text": "Neurotoxicity"
+                "text": "Hypertension"
               },
               {
                 "type": "checkbox",
-                "text": "Hypomagnesaemia",
+                "text": "Hypomagnesaemia"
+              },
+              {
+                "type": "checkbox",
+                "text": "Hyperkalaemia",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11759,17 +11772,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Hyperkalaemia"
-              },
-              {
-                "type": "checkbox",
-                "text": "Hirsuitism",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "Relates more to cyclosporine"
-                  }
-                ]
+                "text": "Hirsuitism"
               },
               {
                 "type": "checkbox",
@@ -11777,7 +11780,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "Relates more to tacrolimus"
+                    "tip": "Relates more to cyclosporine"
                   }
                 ]
               },
@@ -11787,16 +11790,22 @@
                 "icons": [
                   {
                     "type": "info",
+                    "tip": "Relates more to tacrolimus"
+                  }
+                ]
+              },
+              {
+                "type": "checkbox",
+                "text": "Antimetabolite toxicity",
+                "icons": [
+                  {
+                    "type": "info",
                     "tip": "Relates more to cyclosporine"
                   }
                 ]
               },
               {
-                "type": "subheading",
-                "text": "Antimetabolite toxicity"
-              },
-              {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Myelosuppression"
               },
               {
@@ -11804,11 +11813,11 @@
                 "text": "Hepatitis"
               },
               {
-                "type": "subheading",
+                "type": "checkbox",
                 "text": "Corticosteroid toxicity"
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Mood disturbance"
               },
               {
@@ -11825,7 +11834,11 @@
               },
               {
                 "type": "checkbox",
-                "text": "GORD",
+                "text": "GORD"
+              },
+              {
+                "type": "checkbox",
+                "text": "Diabetes",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11835,7 +11848,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Diabetes",
+                "text": "Osteoporosis or avascular necrosis",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11845,7 +11858,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Osteoporosis or avascular necrosis",
+                "text": "Proximal myopathy",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11855,14 +11868,10 @@
               },
               {
                 "type": "checkbox",
-                "text": "Proximal myopathy"
-              },
-              {
-                "type": "subheading",
                 "text": "mTOR inhibitor toxicity"
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Impaired wound healing"
               },
               {
@@ -11878,8 +11887,12 @@
                 "text": "Myelosuppression"
               },
               {
-                "type": "category",
-                "text": "Complications of graft dysfunction",
+                "type": "checkbox",
+                "text": "Complications of graft dysfunction"
+              },
+              {
+                "type": "subheading",
+                "text": "For a renal transplant",
                 "icons": [
                   {
                     "type": "info",
@@ -11888,8 +11901,8 @@
                 ]
               },
               {
-                "type": "plain",
-                "text": "For a renal transplant",
+                "type": "checkbox",
+                "text": "Anaemia",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11898,20 +11911,20 @@
                 ]
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Anaemia"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Fluid overload"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CKD-MBD"
               },
               {
-                "type": "plain",
-                "text": "For a heart transplant",
+                "type": "checkbox",
+                "text": "For a heart transplant"
+              },
+              {
+                "type": "checkbox",
+                "text": "Arrythmia",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11920,16 +11933,16 @@
                 ]
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Arrythmia"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cardiac failure"
               },
               {
-                "type": "plain",
-                "text": "For a lung transplant",
+                "type": "checkbox",
+                "text": "For a lung transplant"
+              },
+              {
+                "type": "checkbox",
+                "text": "Hypoxia",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11938,16 +11951,16 @@
                 ]
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Hypoxia"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Dypsnoea"
               },
               {
-                "type": "plain",
-                "text": "For a pancreas transplant",
+                "type": "checkbox",
+                "text": "For a pancreas transplant"
+              },
+              {
+                "type": "checkbox",
+                "text": "Exocrine dysfunction",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11956,11 +11969,7 @@
                 ]
               },
               {
-                "type": "checkbox-bullet",
-                "text": "Exocrine dysfunction"
-              },
-              {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Endocrine dysfunction"
               }
             ]
@@ -11969,11 +11978,7 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
-                "text": "Organ function parameters"
-              },
-              {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Kidney – eGFR"
               },
               {
@@ -11982,13 +11987,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Heart – ejection fraction or NYHA class",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "NYHA Functional Classification\\tClass I\\nNo limitation of physical activity\\nOrdinary physical activity does not cause symptoms\\tClass II\\nSlight limitation of physical activity\\nComfortable at rest\\nOrdinary activity causes symptoms (dyspnoea, fatigue, palpitations)\\tClass III\\nMarked limitation of physical activity\\nComfortable at rest\\nLess-than-ordinary activity causes symptoms\\tClass IV\\nUnable to carry out any physical activity without symptoms\\nSymptoms may be present even at rest\\nDiscomfort increases with any physical activity"
-                  }
-                ]
+                "text": "Heart – ejection fraction or NYHA class"
               },
               {
                 "type": "checkbox",
@@ -11996,7 +11995,7 @@
                 "icons": [
                   {
                     "type": "info",
-                    "tip": "Pancreas has no direct measure of graft function. Lipase checks for inflammation while worsening glycaemic control or need for Creon suggests dysfunction."
+                    "tip": "New York Heart Association \\n Class I – No symptoms \\n Class II – Symptoms with ordinary activity \\n Class III – Symptoms with minimal activity \\ Class IV – Symptoms at rest"
                   }
                 ]
               }
@@ -12006,7 +12005,7 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Pharmacological adherence"
               },
               {
@@ -12022,12 +12021,18 @@
                 "text": "Adherence strategies (dosette box, timers)"
               },
               {
-                "type": "subheading",
+                "type": "checkbox",
                 "text": "Non-pharmacological adherence"
               },
               {
                 "type": "checkbox",
-                "text": "Understanding of illness and insight"
+                "text": "Understanding of illness and insight",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Pancreas has no direct measure of graft function. Lipase checks for inflammation while worsening glycaemic control or need for Creon suggests dysfunction."
+                  }
+                ]
               }
             ]
           },
@@ -12072,11 +12077,11 @@
                 "text": "Follow up – by whom and when"
               },
               {
-                "type": "subheading",
+                "type": "checkbox",
                 "text": "If severe/declining transplant organ dysfunction:"
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Plans for re-transplant"
               },
               {
