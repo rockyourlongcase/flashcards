@@ -10704,27 +10704,27 @@
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "B symptoms"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Rash"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Sicca"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Mouth ulcers"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Arthralgias"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Cardiopulmonary symptoms"
               },
               {
@@ -10732,23 +10732,23 @@
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "ANA, ENA, dsDNA, C3, C4, ESR, CRP, Anti-phospholipid antibodies"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Haemoproteinuria"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Synovitis on imaging"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Skin biopsy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Renal biopsy"
               }
             ]
@@ -11485,19 +11485,8 @@
             ]
           },
           "aetiology": {
-            "active": true,
-            "items": [
-              {
-                "type": "checkbox",
-                "text": "None",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "Avoid a long drawn out chronological history of time of organ failure diagnosis to transplant"
-                  }
-                ]
-              }
-            ]
+            "active": false,
+            "items": []
           },
           "riskFactors": {
             "active": false,
@@ -11508,17 +11497,21 @@
             "items": [
               {
                 "type": "subheading",
-                "text": "Immunological coniderations"
+                "text": "Time of transplant"
               },
               {
                 "type": "bold",
-                "text": "HLA match",
+                "text": "Immunological coniderations",
                 "icons": [
                   {
                     "type": "info",
                     "tip": "Don't worry if the patient doesn't know this information"
                   }
                 ]
+              },
+              {
+                "type": "checkbox",
+                "text": "HLA match"
               },
               {
                 "type": "checkbox",
@@ -11533,24 +11526,16 @@
                 "text": "CMV donor/recipient IgG status"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Time since transplant"
               },
               {
-                "type": "subheading",
+                "type": "checkbox",
                 "text": "Infectious complications (BK, CMV, PJP, UTI, other)"
               },
               {
                 "type": "checkbox",
                 "text": "Rejection episodes and management"
-              },
-              {
-                "type": "checkbox",
-                "text": "Malignancy (especially skin cancer)"
-              },
-              {
-                "type": "checkbox",
-                "text": "Cytopenias"
               },
               {
                 "type": "checkbox",
@@ -11566,6 +11551,12 @@
                 "type": "checkbox",
                 "text": "Changes in immunosuppression and reasons"
               }
+            ],
+            "sectionIcons": [
+              {
+                "type": "info",
+                "tip": "Avoid a long drawn out chronological history of time of organ failure diagnosis to transplant"
+              }
             ]
           },
           "now": {
@@ -11577,6 +11568,10 @@
             "items": [
               {
                 "type": "subheading",
+                "text": "Pharmacological"
+              },
+              {
+                "type": "bold",
                 "text": "Immunosupression",
                 "icons": [
                   {
@@ -11586,11 +11581,11 @@
                 ]
               },
               {
-                "type": "bold",
+                "type": "italic",
                 "text": "Their current immunosupressive regimen includes"
               },
               {
-                "type": "italic",
+                "type": "plain",
                 "text": "Prednisolone"
               },
               {
@@ -11618,7 +11613,7 @@
                 "text": "Other (anti-thymocyte globulin, basiliximab)"
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Antimicrobials"
               },
               {
@@ -11642,19 +11637,19 @@
             "items": [
               {
                 "type": "subheading",
-                "text": "General immunosuppression complications"
+                "text": "Complications of management"
               },
               {
                 "type": "bold",
-                "text": "In regard to complications of overall immunosuppression…"
+                "text": "General immunosuppression complications"
               },
               {
                 "type": "italic",
-                "text": "Skin cancers"
+                "text": "In regard to complications of overall immunosuppression…"
               },
               {
                 "type": "checkbox",
-                "text": "Other malignancies",
+                "text": "Skin cancers",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11664,7 +11659,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Infections",
+                "text": "Other malignancies",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11674,13 +11669,17 @@
               },
               {
                 "type": "checkbox",
-                "text": "Hypertension",
+                "text": "Infections",
                 "icons": [
                   {
                     "type": "synthesis",
                     "tip": "Synthesise vaccination status and well as any antimicrobial prophylaxis"
                   }
                 ]
+              },
+              {
+                "type": "checkbox",
+                "text": "Hypertension"
               },
               {
                 "type": "checkbox",
@@ -11703,7 +11702,7 @@
                 ]
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Calcineurin inhibitor toxicity",
                 "icons": [
                   {
@@ -11713,7 +11712,7 @@
                 ]
               },
               {
-                "type": "bold",
+                "type": "checkbox",
                 "text": "Nephrotoxicity"
               },
               {
@@ -11722,17 +11721,35 @@
               },
               {
                 "type": "checkbox",
-                "text": "Hypomagnesaemia"
+                "text": "Hyperlipidaemia"
               },
               {
                 "type": "checkbox",
-                "text": "Hyperkalaemia",
+                "text": "Hyperglycaemia"
+              },
+              {
+                "type": "checkbox",
+                "text": "Neurotoxicity",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Relates more to tacrolimus > cyclosporine"
+                  }
+                ]
+              },
+              {
+                "type": "checkbox",
+                "text": "Hypomagnesaemia",
                 "icons": [
                   {
                     "type": "synthesis",
                     "tip": "Package magnesium replacement"
                   }
                 ]
+              },
+              {
+                "type": "checkbox",
+                "text": "Hyperkalaemia"
               },
               {
                 "type": "checkbox",
@@ -11759,7 +11776,7 @@
                 ]
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Antimetabolite toxicity",
                 "icons": [
                   {
@@ -11769,7 +11786,7 @@
                 ]
               },
               {
-                "type": "bold",
+                "type": "checkbox",
                 "text": "Myelosuppression"
               },
               {
@@ -11777,11 +11794,11 @@
                 "text": "Hepatitis"
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Corticosteroid toxicity"
               },
               {
-                "type": "bold",
+                "type": "checkbox",
                 "text": "Mood disturbance"
               },
               {
@@ -11798,11 +11815,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "GORD"
-              },
-              {
-                "type": "checkbox",
-                "text": "Diabetes",
+                "text": "GORD",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11812,7 +11825,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Osteoporosis or avascular necrosis",
+                "text": "Diabetes",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11822,7 +11835,7 @@
               },
               {
                 "type": "checkbox",
-                "text": "Proximal myopathy",
+                "text": "Osteoporosis or avascular necrosis",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11832,10 +11845,14 @@
               },
               {
                 "type": "checkbox",
-                "text": "mTOR inhibitor toxicity"
+                "text": "Proximal myopathy"
               },
               {
                 "type": "bold",
+                "text": "mTOR inhibitor toxicity"
+              },
+              {
+                "type": "checkbox",
                 "text": "Impaired wound healing"
               },
               {
@@ -11851,11 +11868,11 @@
                 "text": "Myelosuppression"
               },
               {
-                "type": "checkbox",
+                "type": "subheading",
                 "text": "Complications of graft dysfunction"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "For a renal transplant",
                 "icons": [
                   {
@@ -11883,12 +11900,8 @@
                 "text": "CKD-MBD"
               },
               {
-                "type": "checkbox",
-                "text": "For a heart transplant"
-              },
-              {
-                "type": "checkbox",
-                "text": "Arrythmia",
+                "type": "bold",
+                "text": "For a heart transplant",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11898,15 +11911,15 @@
               },
               {
                 "type": "checkbox",
+                "text": "Arrythmia"
+              },
+              {
+                "type": "checkbox",
                 "text": "Cardiac failure"
               },
               {
-                "type": "checkbox",
-                "text": "For a lung transplant"
-              },
-              {
-                "type": "checkbox",
-                "text": "Hypoxia",
+                "type": "bold",
+                "text": "For a lung transplant",
                 "icons": [
                   {
                     "type": "synthesis",
@@ -11916,21 +11929,25 @@
               },
               {
                 "type": "checkbox",
+                "text": "Hypoxia"
+              },
+              {
+                "type": "checkbox",
                 "text": "Dypsnoea"
               },
               {
                 "type": "checkbox",
-                "text": "For a pancreas transplant"
-              },
-              {
-                "type": "checkbox",
-                "text": "Exocrine dysfunction",
+                "text": "For a pancreas transplant",
                 "icons": [
                   {
                     "type": "synthesis",
                     "tip": "Is there creon or diabetes medications on the medication list?"
                   }
                 ]
+              },
+              {
+                "type": "checkbox",
+                "text": "Exocrine dysfunction"
               },
               {
                 "type": "checkbox",
@@ -11941,6 +11958,10 @@
           "function": {
             "active": true,
             "items": [
+              {
+                "type": "bold",
+                "text": "Organ function parameters"
+              },
               {
                 "type": "bold",
                 "text": "Kidney – eGFR"
@@ -11970,7 +11991,13 @@
             "items": [
               {
                 "type": "bold",
-                "text": "Pharmacological adherence"
+                "text": "Pharmacological adherence",
+                "icons": [
+                  {
+                    "type": "info",
+                    "tip": "Pancreas has no direct measure of graft function. Lipase checks for inflammation while worsening glycaemic control or need for Creon suggests dysfunction."
+                  }
+                ]
               },
               {
                 "type": "checkbox",
@@ -11985,18 +12012,16 @@
                 "text": "Adherence strategies (dosette box, timers)"
               },
               {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "Non-pharmacological adherence"
               },
               {
                 "type": "checkbox",
-                "text": "Understanding of illness and insight",
-                "icons": [
-                  {
-                    "type": "info",
-                    "tip": "Pancreas has no direct measure of graft function. Lipase checks for inflammation while worsening glycaemic control or need for Creon suggests dysfunction."
-                  }
-                ]
+                "text": "Understanding of illness and insight"
+              },
+              {
+                "type": "checkbox",
+                "text": "Symptoms of graft dysfunction"
               }
             ]
           },
@@ -12005,7 +12030,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Symptoms of graft dysfunction"
+                "text": "Immunosuppressant drug levels"
               }
             ]
           },
@@ -12014,7 +12039,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Immunosuppressant drug levels",
+                "text": "Impact of illness",
                 "icons": [
                   {
                     "type": "info",
@@ -12029,7 +12054,7 @@
             "items": [
               {
                 "type": "checkbox",
-                "text": "Impact of illness"
+                "text": "Follow up – by whom and when"
               }
             ]
           },
@@ -12037,15 +12062,11 @@
             "active": true,
             "items": [
               {
-                "type": "checkbox",
-                "text": "Follow up – by whom and when"
-              },
-              {
-                "type": "checkbox",
+                "type": "bold",
                 "text": "If severe/declining transplant organ dysfunction:"
               },
               {
-                "type": "bold",
+                "type": "checkbox",
                 "text": "Plans for re-transplant"
               },
               {
@@ -12800,11 +12821,11 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Intrinsic risk factors"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Sensory"
               },
               {
@@ -12824,7 +12845,7 @@
                 "text": "Pain"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Motor"
               },
               {
@@ -12836,7 +12857,7 @@
                 "text": "Ataxia"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Neurological"
               },
               {
@@ -12856,7 +12877,7 @@
                 "text": "Seizure disorder"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Exercise tolerance"
               },
               {
@@ -12868,7 +12889,7 @@
                 "text": "Cardiorespiratory limitation"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Extrinsic risk factors"
               },
               {
@@ -13094,64 +13115,63 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Non-pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Exercise, stretching, hydrotherapy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Podiatry, physiotherapy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Braces or orthoses"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Gait aids"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Psychology or hypnosis"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Pharmacological"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Simple analgesia"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Immunosuppression"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Opioids"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Procedural"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Local injections (eg. Steroid)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Radiofrequency ablation"
               },
               {
-                "type": "checkbox",
-                "text": "Non-prescribed therapies",
-                "bold": true
+                "type": "subheading",
+                "text": "Non-prescribed therapies"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CBD"
               }
             ]
@@ -13306,11 +13326,11 @@
             "active": true,
             "items": [
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Risk factors"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Biological factors"
               },
               {
@@ -13330,7 +13350,7 @@
                 "text": "Medications"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Psychological factors"
               },
               {
@@ -13338,7 +13358,7 @@
                 "text": "Other mental health conditions"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Social factors"
               },
               {
@@ -13354,7 +13374,7 @@
                 "text": "Caregiving burden"
               },
               {
-                "type": "category",
+                "type": "subheading",
                 "text": "Protective factors"
               },
               {
