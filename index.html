@@ -785,7 +785,9 @@ function renderTooltip() {
   const label = t.type === 'synthesis' ? '🔗 Synthesis' : t.type === 'info' ? '💡 Tip' : '📚 Course';
   const labelClass = t.type === 'course' ? 'course' : 'synthesis';
   
-  let contentHtml = esc(t.content);
+  // Normalise real tab/newline to escaped forms before esc()
+  const normContent = t.content.replace(/\t/g, '\\t').replace(/\n/g, '\\n');
+  let contentHtml = esc(normContent);
   // Handle grading scales: \t separates grades, \n is line break within grade
   if (contentHtml.includes('\\t')) {
     const parts = contentHtml.split('\\t');
