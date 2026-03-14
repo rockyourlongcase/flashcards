@@ -7609,39 +7609,39 @@
                 "text": "When diagnosed"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Symptoms at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Number of seizures"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Focal onset"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Generalised onset"
               },
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Investigations at diagnosis"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "EEG"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "LP"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "CT brain"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "MRI brain"
               }
             ]
@@ -7650,19 +7650,19 @@
             "active": true,
             "items": [
               {
-                "type": "subheading",
+                "type": "bold",
                 "text": "Epilepsy syndromes (if relevant)"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Juvenile myoclonic epilepsy"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Lennox–Gastaut syndrome"
               },
               {
-                "type": "checkbox-bullet",
+                "type": "checkbox",
                 "text": "Childhood absence epilepsy"
               }
             ]
